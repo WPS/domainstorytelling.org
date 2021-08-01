@@ -1,323 +1,808 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
   <title>Domain Storytelling</title>
-  <meta name="Description" content="Learn domain language. Talk about requirements. Tell domain stories.">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.6">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #379fad; -webkit-text-stroke: #379fad; min-height: 17.0px}
-    p.p5 {margin: 0.0px 0.0px 22.5px 0.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.3px; font: 11.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea; min-height: 13.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.3px; font: 11.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea; background-color: #000000; min-height: 13.0px}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.8px; font: 16.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 23.4px; font: 18.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea; background-color: #000000}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.2px; font: 14.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea; min-height: 16.0px}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 18.2px; font: 14.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 30.0px; font: 12.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea; min-height: 14.0px}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p16 {margin: 0.0px 0.0px 22.5px 0.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p17 {margin: 0.0px 0.0px 22.5px 0.0px; text-align: center; line-height: 13.5px; font: 9.0px 'Open Sans'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p19 {margin: 0.0px 0.0px 22.5px 0.0px; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p22 {margin: 0.0px 0.0px 22.5px 0.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7); min-height: 17.0px}
-    p.p23 {margin: 0.0px 192.0px 72.0px 192.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7); min-height: 17.0px}
-    p.p26 {margin: 0.0px 240.0px 72.0px 240.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7); min-height: 17.0px}
-    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7); background-color: #ffffff}
-    p.p32 {margin: 0.0px 192.0px 72.0px 192.0px; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7); min-height: 17.0px}
-    p.p34 {margin: 0.0px 0.0px 22.5px 0.0px; line-height: 13.5px; font: 9.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p35 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 15.4px; font: 9.6px 'Open Sans'; color: #379fad; -webkit-text-stroke: #379fad}
-    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 13.1px 'Roboto Slab'; color: #eaeaea; -webkit-text-stroke: #eaeaea}
-    li.li24 {margin: 0.0px 0.0px 9.0px 0.0px; line-height: 19.2px; font: 12.0px 'Open Sans'; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    span.s1 {font-kerning: none}
-    span.s2 {background-color: #1a1a1a; -webkit-text-stroke: 0px #000000}
-    span.s3 {font-kerning: none; background-color: #1a1a1a}
-    span.s4 {font-kerning: none; background-color: #ffffff}
-    span.s5 {font-kerning: none; text-shadow: 0.0px 0.0px 2.0px rgba(128, 128, 128, 0.5)}
-    span.s6 {font-kerning: none; background-color: #000000; text-shadow: 0.0px 0.0px 2.0px rgba(128, 128, 128, 0.5)}
-    span.s7 {font: 12.0px 'Open Sans'; font-kerning: none; color: #379fad; background-color: #ffffff; -webkit-text-stroke: 0px #379fad}
-    span.s8 {font-kerning: none; color: #379fad; -webkit-text-stroke: 0px #379fad}
-    span.s9 {font-kerning: none; background-color: #379fad}
-    span.s10 {font-kerning: none; color: rgba(255, 255, 255, 0.7); -webkit-text-stroke: 0px rgba(255, 255, 255, 0.7)}
-    span.s11 {font: 9.0px 'Open Sans'; font-kerning: none; color: rgba(255, 255, 255, 0.7); background-color: #379fad; -webkit-text-stroke: 0px rgba(255, 255, 255, 0.7)}
-    span.s12 {font: 12.0px 'Open Sans'; font-kerning: none; color: rgba(255, 255, 255, 0.7); background-color: #379fad; -webkit-text-stroke: 0px rgba(255, 255, 255, 0.7)}
-    span.s13 {font-kerning: none; background-color: #e6e6e6}
-    span.s14 {background-color: #e6e6e6; -webkit-text-stroke: 0px #000000}
-    span.s15 {font-kerning: none; color: #d90011; background-color: #ffffff; -webkit-text-stroke: 0px #d90011}
-    span.s16 {font: 9.0px 'Open Sans'; font-kerning: none; background-color: #ffffff}
-    span.s17 {font-kerning: none; color: #379fad; background-color: #ffffff; -webkit-text-stroke: 0px #379fad}
-    span.s18 {font: 12.0px 'Open Sans'; font-kerning: none; color: #379fad; -webkit-text-stroke: 0px #379fad}
-    span.s19 {font: 12.0px 'Roboto Slab'; font-kerning: none; background-color: #ffffff}
-    span.s20 {font: 9.0px 'Roboto Slab'; font-kerning: none; background-color: #ffffff}
-    span.s21 {font-kerning: none; color: #379fad; background-color: #e6e6e6; -webkit-text-stroke: 0px #379fad}
-    span.s22 {font: 9.6px 'Open Sans'; font-kerning: none; color: #379fad; -webkit-text-stroke: 0px #379fad}
-    span.s23 {font-kerning: none; color: #878787; background-color: #0e0e0e; -webkit-text-stroke: 0px #878787}
-    ul.ul1 {list-style-type: disc}
-  </style>
+  <meta name="description" content="Learn domain language. Talk about requirements. Tell domain stories.">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="Domain%20Storytelling-Dateien/css.css" rel="stylesheet">
+  <link href="Domain%20Storytelling-Dateien/css_002.css" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="Domain%20Storytelling-Dateien/normalize.css">
+  <link rel="stylesheet" href="Domain%20Storytelling-Dateien/skeleton.css">
+  <link rel="stylesheet" href="Domain%20Storytelling-Dateien/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="https://domainstorytelling.org/images/favicon.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script type="text/javascript" async="" src="Domain%20Storytelling-Dateien/analytics.js"></script><script async="" src="Domain%20Storytelling-Dateien/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113573407-2', { 'anonymize_ip': true });
+  </script>
+
 </head>
 <body>
-<h3 style="margin: 0.0px 0.0px 18.0px 0.0px; line-height: 35.1px; font: 27.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s1">Learn domain language. <br>
-Talk about requirements. <br>
-<b>Tell domain stories.</b></span></h3>
-<p class="p2"><span class="s1"><a href="https://leanpub.com/domainstorytelling"></a></span><br></p>
-<ul class="ul1">
-  <li class="li3"><span class="s2"></span><span class="s3">Domain Storytelling</span></li>
-  <li class="li3"><span class="s2"></span><span class="s3">Explained</span><span class="s1"><br>
-</span><span class="s3">Domain Storytelling &amp;</span></li>
-  <li class="li3"><span class="s2"></span><span class="s3">Domain-Driven Design</span><span class="s1"><br>
-</span><span class="s3">Domain Storytelling &amp;</span></li>
-  <li class="li3"><span class="s2"></span><span class="s3">Requirements</span><span class="s1"><br>
-</span></li>
-</ul>
-<h1 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 45.0px; font: 37.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s1"><img src="file:///domainstorytelling.png" alt="domainstorytelling.png"></span></h1>
-<p class="p5"><span class="s4">The best way to learn a language is to listen to other people speak that language. Try to repeat what you hear and mind their feedback. Gradually, you will progress from individual words to phrases and to complete sentences. The more you speak, the faster you will learn.</span></p>
-<p class="p5"><span class="s4">With Domain Storytelling you can employ the same principle when learning a new domain language. Let domain experts tell their domain stories. While listening, you record the domain stories using a pictographic language. The domain experts can see immediately if you understand their story correctly. After very few stories, you are able to talk about the people, tasks, tools, work items, and events in that domain.<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s1"><br>
-</span></p>
-<p class="p5"><span class="s4">The best way to explain Domain Storytelling is to see it in action. </span><span class="s1"><br>
-</span><span class="s4">Watch this live modeling session (hosted by the Virtual Domain-Driven Design Meetup):<span class="Apple-converted-space"> </span></span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p7"><span class="s5"></span><br></p>
-<p class="p6"><span class="s5"></span><br></p>
-<p class="p8"><span class="s6"><a href="https://www.youtube.com/channel/UCob_jOzzpxBp-di-x0vLlwA?feature=emb_ch_name_ex">Virtual Domain-Driven Design<span class="s5"></span></a></span></p>
-<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.6px; font: 12.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea"><span class="s6">1810 Abonnenten</span></h3>
-<p class="p10"><span class="s5"><a href="https://www.youtube.com/watch?v=d9k9Szkdprk">An Introduction to Domain Storytelling</a></span></p>
-<p class="p11"><span class="s5"></span><br></p>
-<p class="p6"><span class="s5"></span><br></p>
-<p class="p12"><span class="s6">Später ansehen</span></p>
-<p class="p6"><span class="s5"></span><br></p>
-<p class="p12"><span class="s6">Teilen</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p13"><span class="s5"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p14"><span class="s4"> </span></p>
-<p class="p14"><span class="s4"> </span></p>
-<p class="p5"><span class="s4">To learn how to use Domain Storytelling yourself, </span><span class="s1"><br>
-<a href="https://leanpub.com/domainstorytelling/read_sample"><span class="s7">read this practical guide for free</span></a></span><span class="s4"> or get the full book, available at Leanpub:</span></p>
-<p class="p14"><span class="s8"><a href="https://leanpub.com/domainstorytelling"><img src="file:///domainstorytelling-book.jpg" alt="domainstorytelling-book.jpg"></a></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s4">If you are in a hurry, read right on! This website sums up the practical guide in a few paragraphs.</span></p>
-<p class="p15"><span class="s1"><object data="file:///slack-icon.svg">slack-icon.svg</object></span></p>
-<p class="p16"><span class="s9">We are building a community on Slack! Join our channel #domain-storytelling at <a href="https://ddd-cqrs-es.slack.com/"><span class="s10">https://ddd-cqrs-es.slack.com</span></a><span class="Apple-converted-space"> </span></span></p>
-<p class="p17"><span class="s9">  To get an invitation, register yourself here:</span><span class="s1"><br>
-<a href="https://j.mp/ddd-es-cqrs"><span class="s11">Register now!</span></a></span><span class="s9"><span class="Apple-converted-space"> </span></span></p>
-<p class="p15"><span class="s1"><object data="file:///twitter-icon.svg">twitter-icon.svg</object></span></p>
-<p class="p16"><span class="s9">Stay up to date by following </span><span class="s1"><br>
-<br>
-<a href="https://twitter.com/hofstef"><span class="s12">@hofstef</span></a></span><span class="s9"> and <a href="https://twitter.com/hschwentner"><span class="s10">@hschwentner</span></a></span></p>
-<p class="p15"><span class="s1"><object data="file:///github-icon.svg">github-icon.svg</object></span></p>
-<p class="p16"><span class="s9">Find and share resources on GitHub:</span><span class="s1"><br>
-<br>
-<a href="https://github.com/hofstef/awesome-domain-storytelling"><span class="s12">Awesome Domain Storytelling</span></a></span><span class="s9"><span class="Apple-converted-space"> </span></span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s1">Your first Domain Story</span></h2>
-<p class="p19"><span class="s1">Imagine you are a software developer who was tasked to develop an app for a cinema. The app should have an online reservation feature. Since you have no clue where to start, you decide to interview a cashier. He works at the ticket counter and takes reservations by phone and in person. The picture shows a graphical recording of the cashier's Domain Story. To read the story, just follow the numbers:<span class="Apple-converted-space"> </span></span></p>
-<p class="p20"><span class="s1">The customer asks the cashier for a reservation.</span></p>
-<p class="p20"><span class="s1">The cashier looks up the screen plan in the ticket system to find available seats.</span></p>
-<p class="p20"><span class="s1">... (you get the idea)</span></p>
-<p class="p20"><span class="s1"><img src="file:///dst_egpm.png" alt="dst_egpm.png"><span class="Apple-converted-space"> </span></span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">The pictographic language</span></h2>
-<p class="p5"><span class="s13">To record Domain Stories, we need a vocabulary and pictograms that represent the vocabulary:</span></p>
-<p class="p14"><span class="s1"><img src="file:///icon_actor.png" alt="icon_actor.png"></span></p>
-<p class="p5"><span class="s13">Domain Stories are told from an actor's perspective. Actors may be a person, a group, or a software system. Hence, we use different pictograms.</span></p>
-<p class="p14"><span class="s1"><img src="file:///icon_work_object.png" alt="icon_work_object.png"></span></p>
-<p class="p5"><span class="s13">Actors create, work with, and exchange work objects and information about work objects such as documents and messages. The pictograms represent the work object’s medium.</span></p>
-<p class="p14"><span class="s1"><img src="file:///icon_arrows.png" alt="icon_arrows.png"></span></p>
-<p class="p5"><span class="s13">The actor's activities are depicted as arrows.</span></p>
-<p class="p14"><span class="s1"><img src="file:///icon_annotation.png" alt="icon_annotation.png"></span></p>
-<p class="p5"><span class="s13">Textual annotations are useful to document assumptions, variations and exceptions.</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s13">To add a specific meaning to a pictogram, we name it with a term from the domain language:</span><span class="s1"><br>
-</span><span class="s13">An actor cashier, a work object screen plan, an activity confirms etc.<span class="Apple-converted-space"> </span></span></p>
-<p class="p22"><span class="s1"></span><br></p>
-<p class="p23"><span class="s1"></span><br></p>
-<p class="p5"><span class="s13">In the examples on this website, we use about a dozen of Google's Material icons that represent typical office work. Feel free to compile your own set of pictograms that fits to your domain but keep in mind:<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s13">1. Using many different icons will water down your pictographic language.</span><span class="s1"><br>
-</span><span class="s13">2. The icons add meaning to the story and make it “tangible”.<span class="Apple-converted-space"> </span></span></p>
-<p class="p23"><span class="s1"></span><br></p>
-<h3 style="margin: 0.0px 0.0px 18.0px 0.0px; line-height: 35.1px; font: 27.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">Now we can build a sentence...</span></h3>
-<ul class="ul1">
-  <li class="li24"><span class="s14"></span><span class="s13">Every sentence starts with an actor who initiates an activity.</span></li>
-  <li class="li24"><span class="s14"></span><span class="s13">Next, you need a work object or a piece of information that the actor does something with. Choose a pictogram that represents the medium of that work object (e.g. a paper icon, an email icon or a bubble for verbal information).</span></li>
-  <li class="li24"><span class="s14"></span><span class="s13">Connect the actor and the work object with an arrow. Name the arrow according to the activity (e.g. creates, edits, sends).</span></li>
-  <li class="li24"><span class="s14"></span><span class="s13">If the activity involves another actor, draw another arrow from the work object to that actor. Often, a preposition (e.g. to, with) makes a good name for the arrow.</span></li>
-</ul>
-<h5 style="margin: 0.0px 0.0px 4.5px 0.0px; line-height: 27.0px; font: 18.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">So the basic syntax is: subject - predicate - object.</span></h5>
-<p class="p19"><span class="s13">Keep in mind that anyone should be able to read the graphical Domain Story out loud.</span></p>
-<h3 style="margin: 0.0px 0.0px 18.0px 0.0px; line-height: 35.1px; font: 27.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">...and tell a story</span></h3>
-<p class="p19"><span class="s13">By numbering the arrows, we express the sequence of activities. Every actor should appear only once in a Domain Story. However, if you use the same work object in several sentences, you have to draw it several times (maybe with different pictograms).<span class="Apple-converted-space"> </span></span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Feeling lost?</span></h2>
-<p class="p5"><span class="s4">Most business process modeling approaches show what can </span><span class="s15">possibly</span><span class="s4"> happen in a process:</span></p>
-<p class="p14"><span class="s1"><img src="file:///control_flow.png" alt="control_flow.png"></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p26"><span class="s1"></span><br></p>
-<p class="p5"><span class="s4">While there is value in such "algorithmic" descriptions, for many purposes you would be better suited with some examples of what actually happens.</span></p>
-<p class="p5"><span class="s4">To paraphrase requirements engineering expert Peter Hruschka: </span><span class="s1"><br>
-</span><span class="s4">“Sometimes three good examples are more helpful to understand the requirements than a bad abstraction.” </span><span class="s16">translated from</span><span class="s4"> </span><span class="s16">[2]</span></p>
-<p class="p5"><span class="s4">Domain Storytelling helps you to find meaningful examples of what actually happens in a business process. Maybe you noticed that the visual language does not contain any symbols for cases, exceptions and parallelism. </span><span class="s1"><br>
-</span><span class="s4">Instead, the context of a Domain Story is defined with assumptions: </span><span class="s1"><br>
-</span><span class="s4">“Let’s assume the customer calls. How do you take her reservation?”</span></p>
-<p class="p5"><span class="s4">While you record the story, additional assumptions might be necessary: </span><span class="s1"><br>
-</span><span class="s4">“Assuming that there are enough seats available, what do you do next?” </span><span class="s1"><br>
-</span><span class="s4">Important alternatives and error cases deserve their own Domain Story. </span><span class="s1"><br>
-</span><span class="s4">Usually, very few Domain Stories are sufficient to understand a business process. After recording Domain Stories for a few processes, you will become fluent in the domain language.<span class="Apple-converted-space"> </span></span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s9">“You can learn more from a good example than from a bad abstraction.”</span></h2>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Domain Storytelling Workshops</span></h2>
-<p class="p5"><span class="s4">Domain Stories are developed in workshops. Participants include domain experts (often from several departments), IT experts and a moderator. The moderator communicates the purpose of the workshop. All participants contribute to the story. The moderator keeps the participant’s story going by asking questions like:</span></p>
-<p class="p5"><span class="s4">What happens next? </span><span class="s1"><br>
-</span><span class="s4">Where do you get this information from? </span><span class="s1"><br>
-</span><span class="s4">How do you determine what to do next?<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s4">The moderator helps to record the Domain Stories graphically. The story needs to be visible for all participants (e.g. on a whiteboard or projected on a screen). The participants see what gets recorded and give feedback immediately. </span><span class="s1"><br>
-</span><span class="s4">Once the story is finished, the moderator checks if all participants agree upon the recorded Domain Story. Objections, important variations, edge cases and so on are not dismissed but written down and may trigger another Domain Story.<span class="Apple-converted-space"> </span></span></p>
-<p class="p23"><span class="s1"></span><br></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 30.4px; font: 22.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Modeling is a thinking tool.</span><span class="s1"><br>
-</span><span class="s4">The act of modeling is more important than the actual model.</span></h4>
-<p class="p23"><span class="s1"></span><br></p>
-<p class="p5"><span class="s4">Do not think of Domain Stories as documentation. Use them to dive into </span><span class="s17">Domain Driven Design</span><span class="s4">, or </span><span class="s17">to uncover requirements</span><span class="s4"> for software development. Inviting the right people to the workshops is important because the primary goal is to learn and communicate. A picture of a Domain Story serves as an aid to memory for those present at the workshop, but it is not a replacement for participating.</span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">Tools</span></h2>
-<p class="p5"><span class="s13">Often a whiteboard and some sticky notes are all you need.<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s1"><img src="file:///sticky_notes.png" alt="sticky_notes.png"></span></p>
-<p class="p5"><span class="s13">But since drawing the icons can be tedious, we have developed a whiteboard kit to speed up the recording process. </span><span class="s1"><br>
-</span><span class="s13">You can <a href="https://domainstorytelling.org/images/DST_Whiteboard-Kit.pdf"><span class="s18">download this template</span></a> and make your own kit.</span></p>
-<p class="p5"><span class="s1"><img src="file:///whiteboard_kit.jpg" alt="whiteboard_kit.jpg"></span></p>
-<p class="p5"><span class="s13">Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flipcharts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like PowerPoint, Visio, yEd or other general purpose drawing tools. However, such tools have limitations. The Domain Storytelling community came up with a modeling tool that is specifically designed for Domain Stories: The Domain Story Modeler, made by <a href="https://www.wps.de/en"><span class="s18">WPS – Workplace Solutions GmbH</span></a>. It is open source and runs in your browser. <a href="https://www.wps.de/modeler"><span class="s18">Try it online!</span></a> Or download <a href="https://github.com/WPS/domain-story-modeler/releases"><span class="s18">the latest release from GitHub</span></a>. Read the documentation and give feedback <a href="https://github.com/WPS/domain-story-modeler"><span class="s18">on Github</span></a>.</span></p>
-<p class="p5"><span class="s1"><img src="file:///cinema_06.png" alt="cinema_06.png"></span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Case Study: Cinema</span></h2>
-<p class="p5"><span class="s4">Let's pick up the example we used earlier, but this time we add a little bit more context: Imagine a chain of cinemas has asked us to develop an app that allows their customers to make reservations and buy electronic tickets. To familiarize ourselves with the domain, we set up a Domain Storytelling workshop. We visit one of the cinemas and invite an employee who works at the ticket counter, the local cinema manager, and an administrator who manages the existing ticket system.<span class="Apple-converted-space"> </span></span></p>
-<p class="p23"><span class="s1"></span><br></p>
-<p class="p5"><span class="s4">First, we talk about the use cases that might be relevant for the app and collect the information in a use case diagram that we draw on a flip chart:</span></p>
-<p class="p14"><span class="s1"><img src="file:///cinema_01.png" alt="cinema_01.png"></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p23"><span class="s1"></span><br></p>
-<p class="p5"><span class="s4">Then, we want to learn how the use cases are handled today. We ask out Domain Experts to pick an important use case and explain it to us in detail. They decide to start with the ticket reservation use case because it takes up a lot of the employee's time:</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“What happens when someone wants to make a reservation?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p30"><span class="s1">“That depends. Does the customer call or come to the counter in person?”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p30"><span class="s1">“So there are two ways of making a reservation?”</span></p>
-<p class="p29"><span class="s4">Cinema Manager:</span></p>
-<p class="p30"><span class="s1">“Yes, but with the new app we will introduce a third option.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p30"><span class="s1">“Let's stick to the present. Which way is more important?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“We take more reservations by phone, but taking a reservation at the ticket counter is more time consuming for the cashier.”</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s4">We write "Reservation at ticket counter" on the whiteboard which we use to record the Domain Story.</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p30"><span class="s1">“When you work at the ticket counter, you are the cashier?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p30"><span class="s1">“That's right."</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p30"><span class="s1">“OK. A customer has arrived at the ticket counter. You are the cashier. What happens next?”</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s4">Step by step, we record the Domain Story on the whiteboard:</span></p>
-<p class="p14"><span class="s1"><img src="file:///cinema_02.png" alt="cinema_02.png"></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p23"><span class="s1"></span><br></p>
-<p class="p5"><span class="s4">After step three, the employee hesitates.</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“The customers who come to the ticket counter in person are often quite difficult. They know the cinema very well and prefer certain seats or won't buy tickets for certain theaters.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“Let's assume the best case scenario: Your customer is happy with the seats that you offer. We will deal with more challenging customers later.”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“When the customer accepts the seats, I mark the offered seats as reserved in the screen plan.”</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s4">The employee continues with his story until the reservation number is generated.</span></p>
-<p class="p5"><span class="s1"><img src="file:///cinema_03.png" alt="cinema_03.png"></span></p>
-<p class="p29"><span class="s4">Administrator:</span></p>
-<p class="p20"><span class="s4">“In step 5, the system saves the reservation to the database. What happens if the seats are not available any more by the time you click the reservation button?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“I don't know. I have been working here for three years, but that never happened to me.”</span></p>
-<p class="p29"><span class="s4">Manager:</span></p>
-<p class="p20"><span class="s4">“I am sure that we do not sell the same seat twice for the same show. There have never been any complaints.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“Still, it would be interesting to know how the ticket system reacts.”</span></p>
-<p class="p29"><span class="s4">Administrator:</span></p>
-<p class="p20"><span class="s4">“I will check the documentation when I am back in the office.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“Back to your 'challenging' customers. What would be different if such a customer wants to make a reservation?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“In step 1, the customer would request certain seats.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“If these seats are available, the story does not change, does it?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“You are right. But if they are not available, I give them other options.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“How do you do that?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“The easiest way is to turn my display to the customer so that he can see the available seats in the screen plan.”</span></p>
-<p class="p29"><span class="s4">Administrator:</span></p>
-<p class="p20"><span class="s4">“But the screen plan is tiny! And the display stand doesn't rotate! Do you really work like that?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“Sadly, yes.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“Let's make an annotation to our Domain Story.</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s4">We write: "3) If customer wants to choose herself, cashier turns display to customer so she can see the screen plan. Problems: size of screen plan, displays do not rotate.”</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“Is that okay?”</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s4">Employee, manager and administrator all nod their heads.</span></p>
-<p class="p29"><span class="s4">Us:</span></p>
-<p class="p20"><span class="s4">“Is there anything else we need to know about making reservations at the ticket counter?”</span></p>
-<p class="p29"><span class="s4">Employee:</span></p>
-<p class="p20"><span class="s4">“I think we covered everything.”</span></p>
-<p class="p5"><span class="s1"><br>
-</span><span class="s4">Manager and administrator nod their heads in agreement. This is our Domain Story:</span></p>
-<p class="p5"><span class="s1"><img src="file:///cinema_04.png" alt="cinema_04.png"></span></p>
-<p class="p5"><span class="s4">We revisit the use case diagram. We have just learned that the ticket system is an actor in the reservation process and that reservations can be made at the ticket counter and by phone. Hence, we update the use case diagram accordingly.</span></p>
-<p class="p5"><span class="s1"><img src="file:///cinema_05.png" alt="cinema_05.png"></span></p>
-<p class="p5"><span class="s4">We captured the relevant variations of the ticket reservation use case in one Domain Story. There is no need for an additional ticket reservation Domain Story. Hence, we continue with the next use case.</span></p>
-<p class="p5"><span class="s4">It will take more than one workshop to gather enough knowledge about the domain. We could run another workshop with someone from marketing and someone who is in charge of the screen plans. Or maybe some of the cinemas have a special focus (e.g. festivals, art movies) and work differently. As a rule of thumb, 3-5 workshops should produce enough knowledge so that we can communicate with the domain experts about their needs, requirements and problems.</span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">A short history of Domain Storytelling</span></h2>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 30.4px; font: 22.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">1996</span></h4>
-<p class="p19"><span class="s13">At Hamburg University, <a href="https://swa.informatik.uni-hamburg.de/files/veroeffentlichungen/finalIris96.pdf"><span class="s18">cooperation pictures</span></a> are created as a requirements engineering method. Cooperating actors and their work objects are visualized with pictograms.</span></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 30.4px; font: 22.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">2003</span></h4>
-<p class="p19"><span class="s13">A University spin-off (now <a href="https://www.wps.de/"><span class="s18">WPS – Workplace Solutions</span></a> Ltd.) adapts cooperation pictures to visualize workflows. The method is used in dozens of projects under the name exemplary business process modeling.</span></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 30.4px; font: 22.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">2011</span></h4>
-<p class="p19"><span class="s13">Based on the <a href="http://www.adoxx.org/"><span class="s18">adoxx.org</span></a> modeling toolkit, WPS releases a free tool for enterprise modeling. Cooperation pictures are augmented with a glossary, use cases, org-charts, process landscapes, and IT landscapes. The <a href="http://austria.omilab.org/psm/content/egpm"><span class="s18">current version</span></a> is from 2016 (German only).</span></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 30.4px; font: 22.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">2016</span></h4>
-<p class="p19"><span class="s13">DDD enthusiasts at WPS boil down the approach and add a catchy name to it: Domain Storytelling.</span></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Domain-Driven Design with Domain Storytelling</span></h2>
-<p class="p19"><span class="s4">Since Eric Evans </span><span class="s16">[1]</span><span class="s4"> coined the term Domain-Driven Design (DDD), an ever growing DDD community builds software that reflects its domain. If you are new to DDD, we recommend <a href="https://leanpub.com/theanatomyofdomain-drivendesign"><span class="s8">this concise introduction</span></a> by Scott Millett.<span class="Apple-converted-space"> </span></span></p>
-<h5 style="margin: 0.0px 0.0px 18.0px 0.0px; line-height: 27.0px; font: 18.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">“Domain-Driven Design is a language and domain-centric approach to software design for complex problem domains.” </span><span class="s19">– Scott Millet </span><span class="s20">[3]</span></h5>
-<p class="p19"><span class="s4">DDD consists of patterns, principles and practices. For some of them Domain Storytelling is of particular use.</span></p>
-<p class="p20"><span class="s1"><img src="file:///ddd_img.jpg" alt="ddd_img.jpg"></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p32"><span class="s1"></span><br></p>
-<h3 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 35.1px; font: 27.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Get familiar with your domain</span></h3>
-<p class="p5"><span class="s4">Domain Storytelling is a knowledge crunching technique. The people who participate in a Domain Storytelling workshop will get new insights into the domain. The resulting Domain Stories express their shared understanding. Other ways to build domain knowledge include scenarios </span><span class="s16">[4]</span><span class="s4"> and scenario exploring</span><span class="s16">[1]</span><span class="s4">. Domain Stories help you to come up with scenarios and to visualize them.</span></p>
-<p class="p5"><span class="s4">When you approach a domain, we recommend to start broad. Invite people from several departments to create coarse-grained Domain Stories. Do not limit yourself by existing organizational boundaries (or perceived bounded contexts, if you already familiar with DDD) and record Domain Stories that bridge departments. See </span><span class="s17">Domain Storytelling Explained</span><span class="s4"> for guidelines and examples of Domain Stories that provide an overview of a domain.<span class="Apple-converted-space"> </span></span></p>
-<h3 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 35.1px; font: 27.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Strategic Design</span></h3>
-<p class="p5"><span class="s4">If you want to develop software, you need more than just an understanding of a domain. You need rich domain models that express deep knowledge. But the more details you add, the more ambiguous and complex your models will get. In DDD, we make our models manageable by partitioning the domain into bounded contexts. Every bounded context has its own set of models and ultimately its own, unambiguous ubiquitous language.<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s4">Finding good context boundaries is hard. Domain Stories can help because they show how people work together within and across subdomains – and how unsuitable boundaries prevent people from working together.</span></p>
-<h3 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 35.1px; font: 27.0px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s4">Putting it all together</span></h3>
-<p class="p5"><span class="s4">Watch this talk to see how Domain Storytelling helps you to practice DDD:</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p7"><span class="s5"></span><br></p>
-<p class="p6"><span class="s5"></span><br></p>
-<p class="p8"><span class="s6"><a href="https://www.youtube.com/channel/UCJCpnslPdb_Dl8DKokXC3HA?feature=emb_ch_name_ex">KanDDDinsky<span class="s5"></span></a></span></p>
-<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.6px; font: 12.0px Roboto; color: #eaeaea; -webkit-text-stroke: #eaeaea"><span class="s6">1370 Abonnenten</span></h3>
-<p class="p10"><span class="s5"><a href="https://www.youtube.com/watch?v=lZYo2lKacYo">How Domain Storytelling reveils the secrets of your domain - Henning Schwentner, Stefan Hofer</a></span></p>
-<p class="p11"><span class="s5"></span><br></p>
-<p class="p6"><span class="s5"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p13"><span class="s5"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p32"><span class="s1"></span><br></p>
-<h2 style="margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; line-height: 39.4px; font: 31.5px 'Roboto Slab'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s13">Domain Storytelling and Requirements</span></h2>
-<p class="p5"><span class="s13">The people involved in requirements elicitation have to learn and to communicate continuously. If you have read </span><span class="s21">Domain Storytelling Explained</span><span class="s13">, you saw how Domain Storytelling helps to learn domain language and to reach a shared understanding. If you are a product owner, domain expert, business analyst, or developer who has to deal with requirements, you can use Domain Storytelling...<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s13">1. to identify weaknesses in IT-support and cooperation. </span><span class="s1"><br>
-</span><span class="s13">2. to visualize how the domain will change because of the software being developed. </span><span class="s1"><br>
-</span><span class="s13">3. as a starting point for writing down requirements.<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s13">Domain Stories help to initially fill a product backlog with epics and user stories. The user stories can usually be derived directly from the domain stories. For example, earlierer we recorded a Domain Story about making ticket reservations. We have learned that when a customer reserves tickets on site, the cashier opens the screen plan for the show and offers seats. From that, we can derive a high-level user story (without acceptance criteria): “As a cashier, I want to determine the free seats for a show so that I can offer these seats to my customers.”</span></p>
-<p class="p34"><span class="s4">References: </span><span class="s1"><br>
-</span><span class="s4">[1] Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison Wesley, 2003 – [2] Peter Hruschka: Business Analysis und Requirements Engineering, Hanser, 2014 – [3] Scott Millett: The Anatomy of Domain-Driven Design, leanpub.com, 2017 – [4] Vaughn Vernon: Domain-Driven Design Distilled, Addison Wesley, 2016<span class="Apple-converted-space"> </span></span></p>
-<p class="p35"><span class="s1"><a href="http://creativecommons.org/licenses/by/4.0/"><img src="file:///88x31.png" alt="88x31.png"><span class="s22"></span></a></span></p>
-<p class="p35"><span class="s23">Domain Storytelling Website by <a href="https://twitter.com/hofstef"><span class="s8">Stefan Hofer</span></a> is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/"><span class="s8">Creative Commons Attribution 4.0 International License</span></a><span class="Apple-converted-space"> </span></span></p>
-<p class="p35"><span class="s23">Imprint: <a href="https://www.wps.de/impressum/"><span class="s8">WPS – Workplace Solutions GmbH</span></a> | <a href="https://www.wps.de/en/privacy/"><span class="s8">Data Protection / Privacy Policy</span></a><span class="Apple-converted-space"> </span></span></p>
-</body>
-</html>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h3>Learn domain language.
+          <br>Talk about requirements.
+          <br><strong>Tell domain stories.</strong></h3>
+        </div>
+        <div class="one-half column">
+          <a href="https://leanpub.com/domainstorytelling" target="_blank"><div class="werbebanner"></div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <nav class="nav-primary container">
+      <a href="#" id="menu-icon"></a>
+      <ul>
+        <li><a href="#dst-explained">Domain Storytelling<br>Explained</a></li>
+        <li><a href="#dst-ddd">Domain Storytelling &amp;<br>Domain-Driven Design</a></li>
+        <li><a href="#dst-requirements">Domain Storytelling &amp;<br>Requirements</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Intro -->
+  <div class="section bg-white" id="dst-explained">
+  	<div class="container">
+    	<div class="row">
+        	<div class="column">
+        		<h1><img src="Domain%20Storytelling-Dateien/domainstorytelling.png" alt="Domain Storytelling" style="max-width: 400px;"></h1>
+		        <p>The best way to learn a language is to listen to other 
+people speak that language. Try to repeat what you hear and mind their 
+feedback. Gradually, you will progress from individual words to phrases 
+and to complete sentences. The more you speak, the faster you will 
+learn.</p>
+		        <p>With <strong>Domain Storytelling</strong> you can employ 
+the same principle when learning a new domain language. Let domain 
+experts tell their domain stories. While listening, you record the 
+domain stories using a pictographic language. The domain experts can see
+ immediately if you understand their story correctly. After very few 
+stories, you are able to talk about the people, tasks, tools, work 
+items, and events in that domain.
+		        </p>
+            <p><br></p>
+            <p>
+              <strong>The best way to explain Domain Storytelling is to see it in action. <br>Watch this live modeling session (hosted by the Virtual Domain-Driven Design Meetup):</strong>
+            </p>
+            <div class="video-container-wrapper">
+              <div class="video-container">
+                <iframe src="Domain%20Storytelling-Dateien/d9k9Szkdprk.html" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+              </div>
+            </div>
+              <div>&nbsp;</div>
+              <div>&nbsp;</div>
+            <div>
+              <p><strong>To learn how to use Domain Storytelling yourself, <br><a href="https://leanpub.com/domainstorytelling/read_sample" target="_blank">read this practical guide for free</a> or get the full book, available at Leanpub:</strong></p>
+              <div class="teaser-box">
+                <a href="https://leanpub.com/domainstorytelling" target="_blank" style="border-bottom: none !important;"><img class="teaser-image-book" src="Domain%20Storytelling-Dateien/domainstorytelling-book.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+      	</div>
+      </div>
+  </div>
+  <div class="section bg-white">
+    <p>If you are in a hurry, read right on! This website sums up the practical guide in a few paragraphs.</p>
+  </div>
+
+<!-- END: Intro -->
+
+<!-- Learn more -->
+  <div class="section learn_more">
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+          <div><img src="Domain%20Storytelling-Dateien/slack-icon.svg" alt="" class="icon"></div>
+          <p>We are building a community on <strong>Slack</strong>! Join our channel #domain-storytelling at <a href="https://ddd-cqrs-es.slack.com/" target="_blank">https://ddd-cqrs-es.slack.com</a>
+          </p>
+
+          <p class="small-text">&nbsp;
+          To get an invitation, register yourself here:<br><a href="https://j.mp/ddd-es-cqrs" target="_blank">Register now!</a>
+          </p>
+        </div>
+        <div class="four columns">
+          <div><img src="Domain%20Storytelling-Dateien/twitter-icon.svg" alt="" class="icon"></div>
+          <p>Stay up to date by following
+          <br><br><a href="https://twitter.com/hofstef" target="_blank">@hofstef</a> and <a href="https://twitter.com/hschwentner" target="_blank">@hschwentner</a></p>
+        </div>
+        <div class="four columns">
+          <div><img src="Domain%20Storytelling-Dateien/github-icon.svg" alt="" class="icon"></div>
+          <p>
+            Find and share resources on GitHub:<br><br>
+            <a href="https://github.com/hofstef/awesome-domain-storytelling" target="_blank">Awesome Domain Storytelling</a>
+          </p>
+        </div>
+	    </div>
+    </div>
+  </div>
+  <!-- END: Learn more -->
+
+<!-- First DS -->
+  <div class="section bg-whDSTe align-left">
+    <div class="container">
+    	<div class="row">
+	    	<h2>Your first Domain Story</h2>
+    	</div>
+    	<div class="row">
+        	<div class="five columns">
+            <p>Imagine you are a software developer who was tasked to 
+develop an app for a cinema. The app should have an online reservation 
+feature. Since you have no clue where to start, you decide to interview a
+ cashier. He works at the ticket counter and takes reservations by phone
+ and in person. The picture shows a graphical recording of the cashier's
+ Domain Story. To read the story, just follow the numbers:
+            </p>
+	          <p class="icon_numbers">
+		          <span>The customer asks the cashier for a reservation.</span>
+		          <span>The cashier looks up the screen plan in the ticket system to find available seats.</span>
+		          <span>... (you get the idea)</span>
+	          </p>
+        	</div>
+        	<div class="seven columns">
+            <div class="row">
+              <div class="column">
+                <img src="Domain%20Storytelling-Dateien/dst_egpm.png">
+              </div>
+            </div>
+        	</div>
+        </div>
+    </div>
+  </div>
+ <!-- END: First DS -->
+
+
+  <!-- Pictographic language -->
+  <div class="section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h2>The pictographic language</h2>
+          <p>To record Domain Stories, we need a vocabulary and pictograms that represent the vocabulary:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <span class="icon"><img src="Domain%20Storytelling-Dateien/icon_actor.png"></span>
+          <p>Domain Stories are told from an <strong>actor</strong>'s perspective. Actors may be a person, a group, or a software system. Hence, we use different pictograms.</p>
+        </div>
+        <div class="three columns">
+          <span class="icon"><img src="Domain%20Storytelling-Dateien/icon_work_object.png"></span>
+          <p>Actors create, work with, and exchange <strong>work objects</strong> and <strong>information about work objects</strong> such as documents and messages. The pictograms represent the work object’s medium.</p>
+        </div>
+        <div class="three columns">
+          <span class="icon"><img src="Domain%20Storytelling-Dateien/icon_arrows.png"></span>
+          <p>The actor's <strong>activities</strong> are depicted as arrows.</p>
+        </div>
+        <div class="three columns">
+          <span class="icon"><img src="Domain%20Storytelling-Dateien/icon_annotation.png"></span>
+          <p>Textual <strong>annotations</strong> are useful to document assumptions, variations and exceptions.</p>
+        </div>
+      </div>
+
+	    <div class="row">
+        <div class="column">
+          <p><br>To add a specific meaning to a pictogram, we name it with a term from the domain language:<br>
+          An actor <strong>cashier</strong>, a work object <strong>screen plan</strong>, an activity <strong>confirms</strong> etc. </p>
+          <p>
+        </p></div>
+      </div>
+
+      <hr>
+
+      <div class="row align-center">
+        <div class="column">
+          <p>In the examples on this website, we use about a dozen of 
+Google's Material icons that represent typical office work. Feel free to
+ compile your own set of pictograms that fits to your domain but keep in
+ mind:
+          </p>
+          <p>1. Using many different icons will water down your pictographic language.<br>
+            2. The icons add meaning to the story and make it “tangible”.
+          </p>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container">
+      <div class="row align-left">
+        <div class="eight columns">
+          <h3>Now we can build a sentence...</h3>
+              <ul>
+                <li>Every sentence starts with an <strong>actor</strong> who initiates an <strong>activity</strong>.</li>
+                <li>Next, you need a <strong>work object</strong> or a piece of information that the <strong>actor</strong>
+ does something with. Choose a pictogram that represents the medium of 
+that work object (e.g. a paper icon, an email icon or a bubble for 
+verbal information).</li>
+                <li>Connect the <strong>actor</strong> and the <strong>work object</strong> with an <strong>arrow</strong>. Name the <strong>arrow</strong> according to the <strong>activity</strong> (e.g. creates, edits, sends).</li> <li>If the <strong>activity</strong> involves another <strong>actor</strong>, draw another <strong>arrow</strong> from the <strong>work object</strong> to that <strong>actor</strong>. Often, a preposition (e.g. to, with) makes a good name for the <strong>arrow</strong>.</li>
+              </ul>
+              <h5 class="m-1">So the basic syntax is: subject - predicate - object.</h5>
+              <p>Keep in mind that anyone should be able to read the graphical Domain Story out loud.</p>
+        </div>
+        <div class="four columns">
+          <h3>...and tell a story</h3>
+              <p>
+                By numbering the arrows, we express the sequence of 
+activities.
+                Every actor should appear only once in a Domain Story. 
+However, if you use the same work object in several sentences, you have 
+to draw it several times (maybe with different pictograms).
+              </p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: pictographic language -->
+
+<!-- Ifs, ands, buts -->
+  <div class="section bg-white">
+    <div class="container">
+    	<div class="row">
+	        <div class="column">
+        		<h2>Feeling lost?</h2>
+                <p>Most business process modeling approaches show what can <em class="warning">possibly</em> happen in a process:</p>
+                <img src="Domain%20Storytelling-Dateien/control_flow.png" style="max-width: 600px;">
+          </div>
+        </div>
+      </div>
+
+    <hr>
+
+      <div class="container">
+            <div class="row">
+              <div class="eight offset-by-two columns">
+                <p>While there is value in such "algorithmic" 
+descriptions, for many purposes you would be better suited with some 
+examples of what <em>actually</em> happens.</p>
+                <p>To paraphrase requirements engineering expert Peter Hruschka:
+                <br><em>“Sometimes three good examples are more helpful to understand the requirements than a bad abstraction.”</em> <span class="small-text">translated from</span> <sup>[2]</sup></p>
+                <p><strong>Domain Storytelling</strong> helps you to 
+find meaningful examples of what actually happens in a business process.
+ Maybe you noticed that the visual language does not contain any symbols
+ for cases, exceptions and parallelism. <br>Instead, the context of a Domain Story is defined with assumptions:
+                <br><em>“Let’s assume the customer calls. How do you take her reservation?”</em></p>
+                <p>While you record the story, additional assumptions might be necessary:
+                <br><em>“Assuming that there are enough seats available, what do you do next?”</em>
+                <br>Important alternatives and error cases deserve their own Domain Story.
+                <br>Usually, very few Domain Stories are sufficient to 
+understand a business process. After recording Domain Stories for a few 
+processes, you will become fluent in the domain language.
+                </p>
+        	    </div>
+            </div>
+      	  </div>
+        </div>
+      
+  
+ <!-- END: ifs, ands, buts -->
+
+  <div class="section quote">
+    <div class="container">
+      <div class="row">
+        <h2>“You can learn more from a good example than from a bad abstraction.”</h2>
+      </div>
+    </div>
+  </div>
+
+
+ <!-- DST Workshops -->
+  <div class="section bg-white">
+  	<div class="container">
+  		<div class="row">
+        	<h2>Domain Storytelling Workshops</h2>
+      </div>
+      <div class="row">
+        <div class="five offset-by-one columns">
+    		  <p>Domain Stories are developed in workshops. Participants 
+include domain experts (often from several departments), IT experts and a
+ moderator. The moderator communicates the purpose of the workshop. All 
+participants contribute to the story. The moderator keeps the 
+participant’s story going by asking questions like:</p>
+	    		<p>
+	    			<strong>What happens next?
+	    			<br>Where do you get this information from?
+	    			<br>How do you determine what to do next?</strong>
+	    		</p>
+	    	</div>
+
+	      <div class="five columns">
+	    	  <p>The moderator helps to record the Domain Stories graphically.
+ The story needs to be visible for all participants (e.g. on a 
+whiteboard or projected on a screen). The participants see what gets 
+recorded and give feedback immediately.
+    		  <br>Once the story is finished, the moderator checks if all 
+participants agree upon the recorded Domain Story.  Objections, 
+important variations, edge cases and so on are not dismissed but written
+ down and may trigger another Domain Story.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="ten offset-by-one columns">
+        <h4>Modeling is a thinking tool.<br>The act of modeling is more important than the actual model.</h4>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="ten offset-by-one columns">
+       <p>Do not think of Domain Stories as documentation. Use them to dive into <a href="#dst-ddd">Domain Driven Design</a>, or <a href="#dst-requirements">to uncover requirements</a>
+ for software development. Inviting the right people to the workshops is
+ important because the primary goal is to learn and communicate. A 
+picture of a Domain Story serves as an aid to memory for those present 
+at the workshop, but it is not a replacement for participating.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END: DST Workshops -->
+
+<!-- Tools -->
+<div class="section bg-grey" id="dst-tools">
+  <div class="container">
+    <div class="row">
+      <div class="eight offset-by-two columns">
+        <h2>Tools</h2>
+        <p>Often a whiteboard and some sticky notes are all you need.
+        </p>
+        <p><img src="Domain%20Storytelling-Dateien/sticky_notes.png" alt="Sticky Notes"></p>
+        <p>But since drawing the icons can be tedious, we have developed a <strong>whiteboard kit</strong> to speed up the recording process.
+        <br>You can <a href="https://domainstorytelling.org/images/DST_Whiteboard-Kit.pdf" target="_blank">download this template</a> and make your own kit.</p>
+      </div>
+    </div>
+    <div class="row">
+      <p><img src="Domain%20Storytelling-Dateien/whiteboard_kit.jpg" alt="Whiteboard Kit"></p>
+    </div>
+    <div class="row">
+      <div class="eight offset-by-two columns">
+        <p>Often, you want to model several Domain Stories in one 
+workshop. But modeling space on whiteboards, flipcharts and walls is 
+limited. Digital modeling tools are an alternative. Use a projector to 
+share the computer screen so that everyone can see how the Domain Story 
+evolves. You can visualize Domain Stories with tools like PowerPoint, 
+Visio, yEd or other general purpose drawing tools. However, such tools 
+have limitations. The Domain Storytelling community came up with a 
+modeling tool that is specifically designed for Domain Stories: The 
+Domain Story Modeler, made by <a href="https://www.wps.de/en" target="_blank">WPS – Workplace Solutions GmbH</a>. It is open source and runs in your browser. <a href="https://www.wps.de/modeler" target="_blank">Try it online!</a> Or download <a href="https://github.com/WPS/domain-story-modeler/releases" target="_blank">the latest release from GitHub</a>. Read the documentation and give feedback <a href="https://github.com/WPS/domain-story-modeler" target="_blank">on Github</a>.</p>
+      </div>
+    </div>
+    <div class="row">
+      <p><img src="Domain%20Storytelling-Dateien/cinema_06.png" alt="Whiteboard Kit"></p>
+    </div>
+  </div>
+</div>
+<!-- END: Tools -->
+
+<!-- Case Study -->
+  <div class="section bg-white">
+    <div class="container">
+      <div class="row">
+        <h2>Case Study: Cinema</h2>
+        <p>Let's pick up the example we used earlier, but this time we 
+add a little bit more context: Imagine a chain of cinemas has asked us 
+to develop an app that allows their customers to make reservations and 
+buy electronic tickets. To familiarize ourselves with the domain, we set
+ up a Domain Storytelling workshop. We visit one of the cinemas and 
+invite an employee who works at the ticket counter, the local cinema 
+manager, and an administrator who manages the existing ticket system.
+        </p>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="six offset-by-three columns">
+          <p>First, we talk about the use cases that might be relevant 
+for the app and collect the information in a use case diagram that we 
+draw on a flip chart:</p>
+          <img src="Domain%20Storytelling-Dateien/cinema_01.png" alt="Case Study: Cinema">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <p>Then, we want to learn how the use cases are handled today.
+ We ask out Domain Experts to pick an important use case and explain it 
+to us in detail. They decide to start with the ticket reservation use 
+case because it takes up a lot of the employee's time:</p>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span>
+            <span class="conversation__message">“What happens when someone wants to make a reservation?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span>“That depends. Does the customer call or come to the counter in person?”
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span>“So there are two ways of making a reservation?”
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Cinema Manager:</span>“Yes, but with the new app we will introduce a third option.”
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span>“Let's stick to the present. Which way is more important?”
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“We take more reservations by phone, but taking a reservation at the ticket counter is more time consuming for the cashier.”</span>
+          </div>
+          <p><br>We write "Reservation at ticket counter" on the whiteboard which we use to record the Domain Story.</p>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span>“When you work at the ticket counter, you are the cashier?”
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span>“That's right."
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span>“OK. A customer has arrived at the ticket counter. You are the cashier. What happens next?”
+          </div>
+          <p><br>Step by step, we record the Domain Story on the whiteboard:</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="eight offset-by-two columns">
+          <img src="Domain%20Storytelling-Dateien/cinema_02.png" alt="Case Study: Cinema">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <p>After step three, the employee hesitates.</p>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“The
+ customers who come to the ticket counter in person are often quite 
+difficult. They know the cinema very well and prefer certain seats or 
+won't buy tickets for certain theaters.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“Let's 
+assume the best case scenario: Your customer is happy with the seats 
+that you offer. We will deal with more challenging customers later.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“When the customer accepts the seats, I mark the offered seats as reserved in the screen plan.”</span>
+          </div>
+          <p><br>The employee continues with his story until the reservation number is generated.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="eight offset-by-two columns">
+          <p><img src="Domain%20Storytelling-Dateien/cinema_03.png" alt="Case Study: Cinema"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <div class="conversation">
+            <span class="conversation__speaker">Administrator:</span> <span>“In
+ step 5, the system saves the reservation to the database. What happens 
+if the seats are not available any more by the time you click the 
+reservation button?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“I don't know. I have been working here for three years, but that never happened to me.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Manager:</span> <span>“I am sure that we do not sell the same seat twice for the same show. There have never been any complaints.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“Still, it would be interesting to know how the ticket system reacts.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Administrator:</span> <span>“I will check the documentation when I am back in the office.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“Back to your 'challenging' customers. What would be different if such a customer wants to make a reservation?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“In step 1, the customer would request certain seats.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“If these seats are available, the story does not change, does it?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“You are right. But if they are not available, I give them other options.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“How do you do that?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“The easiest way is to turn my display to the customer so that he can see the available seats in the screen plan.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Administrator:</span> <span>“But the screen plan is tiny! And the display stand doesn't rotate! Do you really work like that?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“Sadly, yes.”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“Let's make an annotation to our Domain Story.</span>
+          </div>
+          <p><br>We write: "3) If customer wants to choose herself, 
+cashier turns display to customer so she can see the screen plan. 
+Problems: size of screen plan, displays do not rotate.”</p>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“Is that okay?”</span>
+          </div>
+          <p><br>Employee, manager and administrator all nod their heads.</p>
+          <div class="conversation">
+            <span class="conversation__speaker">Us:</span> <span>“Is there anything else we need to know about making reservations at the ticket counter?”</span>
+          </div>
+          <div class="conversation">
+            <span class="conversation__speaker">Employee:</span> <span>“I think we covered everything.”</span>
+          </div>
+          <p><br>Manager and administrator nod their heads in agreement. This is our Domain Story:</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="eight offset-by-two columns">
+          <p><img src="Domain%20Storytelling-Dateien/cinema_04.png" alt="Case Study: Cinema"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <p>We revisit the use case diagram. We have just learned that 
+the ticket system is an actor in the reservation process and that 
+reservations can be made at the ticket counter and by phone. Hence, we 
+update the use case diagram accordingly.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="six offset-by-three columns">
+          <p><img src="Domain%20Storytelling-Dateien/cinema_05.png" alt="Case Study: Cinema"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <p>We captured the relevant variations of the ticket 
+reservation use case in one Domain Story. There is no need for an 
+additional ticket reservation Domain Story. Hence, we continue with the 
+next use case.</p>
+          <p>It will take more than one workshop to gather enough 
+knowledge about the domain. We could run another workshop with someone 
+from marketing and someone who is in charge of the screen plans. Or 
+maybe some of the cinemas have a special focus (e.g. festivals, art 
+movies) and work differently. As a rule of thumb, 3-5 workshops should 
+produce enough knowledge so that we can communicate with the domain 
+experts about their needs, requirements and problems.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END: Case Study -->
+
+<!-- History of DST -->
+  <div class="section bg-grey">
+    <div class="container">
+      <div class="row">
+        <h2>A short history of Domain Storytelling</h2>
+      </div>
+      <div class="row">
+        <div class="one offset-by-two column">
+          <h4>1996</h4>
+        </div>
+        <div class="seven columns align-left">
+          <p>At Hamburg University, <a href="https://swa.informatik.uni-hamburg.de/files/veroeffentlichungen/finalIris96.pdf" target="_blank">cooperation pictures</a> are created as a requirements engineering method. Cooperating actors and their work objects are visualized with pictograms.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one offset-by-two column">
+          <h4>2003</h4>
+        </div>
+        <div class="seven columns align-left">
+          <p>A University spin-off (now <a href="https://www.wps.de/" target="_blank">WPS – Workplace Solutions</a>
+ Ltd.) adapts cooperation pictures to visualize workflows. The method is
+ used in dozens of projects under the name exemplary business process 
+modeling.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one offset-by-two column">
+          <h4>2011</h4>
+        </div>
+        <div class="seven columns align-left">
+          <p>Based on the <a href="http://www.adoxx.org/" target="_blank">adoxx.org</a>
+ modeling toolkit, WPS releases a free tool for enterprise modeling. 
+Cooperation pictures are augmented with a glossary, use cases, 
+org-charts, process landscapes, and IT landscapes. The <a href="http://austria.omilab.org/psm/content/egpm" target="_blank">current version</a> is from 2016 (German only).</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one offset-by-two column">
+          <h4>2016</h4>
+        </div>
+        <div class="seven columns align-left">
+          <p>DDD enthusiasts at WPS boil down the approach and add a catchy name to it: <strong>Domain Storytelling</strong>.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!-- END: History of DST -->
+
+ <!-- DDD -->
+  <div class="section bg-white align-left" id="dst-ddd">
+    <div class="container">
+      <div class="row">
+        <h2>Domain-Driven Design with Domain Storytelling</h2>
+      </div>
+	    <div class="row">
+	    	<div class=" seven columns">
+          <p>Since Eric Evans <sup>[1]</sup> coined the term <strong>Domain-Driven Design (DDD)</strong>, an ever growing DDD community builds software that reflects its domain. If you are new to DDD, we recommend <a href="https://leanpub.com/theanatomyofdomain-drivendesign" target="_blank">this concise introduction</a> by Scott Millett.
+          </p>
+          <h5>“Domain-Driven Design is a language and domain-centric approach to software design for complex problem domains.” <span class="medium-text">– Scott Millet <sup>[3]</sup></span></h5>
+          <p>DDD consists of patterns, principles and practices. For some of them Domain Storytelling is of particular use.</p>
+        </div>
+        <div class="five columns">
+	    		<img src="Domain%20Storytelling-Dateien/ddd_img.jpg">
+	    	</div>
+	    </div>
+
+      <hr>
+
+      <div class="row align-center">
+        <h3>Get familiar with your domain</h3>
+        <div class="ten offset-by-one columns">
+          <p>Domain Storytelling is a <strong>knowledge crunching</strong>
+ technique. The people who participate in a Domain Storytelling workshop
+ will get new insights into the domain. The resulting Domain Stories 
+express their shared understanding. Other ways to build domain knowledge
+ include scenarios <sup>[4]</sup> and scenario exploring<sup>[1]</sup>. Domain Stories help you to come up with scenarios and to visualize them.</p>
+          <p>When you approach a domain, we recommend to start broad. 
+Invite people from several departments to create coarse-grained Domain 
+Stories. Do not limit yourself by existing organizational boundaries (or
+ perceived bounded contexts, if you already familiar with DDD) and 
+record Domain Stories that bridge departments. See <a href="#dst-explained">Domain Storytelling Explained</a> for guidelines and examples of Domain Stories that provide an overview of a domain.
+          </p>
+        </div>
+      </div>
+
+	    <div class="row align-center">
+        <h3>Strategic Design</h3>
+        <div class="ten offset-by-one columns">
+          <p>If you want to develop software, you need more than just an
+ understanding of a domain. You need rich domain models that express 
+deep knowledge. But the more details you add, the more ambiguous and 
+complex your models will get. In DDD, we make our models manageable by 
+partitioning the domain into bounded contexts. Every bounded context has
+ its own set of models and ultimately its own, unambiguous ubiquitous 
+language.
+          </p>
+          <p>Finding good context boundaries is hard. Domain Stories can
+ help because they show how people work together within and across 
+subdomains – and how unsuitable boundaries prevent people from working 
+together.</p>
+        </div>
+      </div>
+
+
+      <div class="row align-center">
+        <div class="six offset-by-three columns">
+          <h3>Putting it all together</h3>
+          <p>Watch this talk to see how Domain Storytelling helps you to practice DDD:</p>
+          <iframe src="Domain%20Storytelling-Dateien/lZYo2lKacYo.html" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="315px" frameborder="0"></iframe>
+        </div>
+      </div>
+      <!--hr />
+
+      <div class="row align-center">
+	    	<h2>There's more to come!</h2>
+        <h4>Expect an update to this section after <a href="https://dddeurope.com/2018/" target="_blank">DDD Europe 2018</a>.</h4>
+      </div-->
+
+      <hr>
+
+    </div>
+  </div>
+ <!-- END: DDD -->
+
+ <!-- Rewuirements -->
+  <div class="section bg-grey" id="dst-requirements">
+    <div class="container">
+      <div class="row">
+        <h2>Domain Storytelling and Requirements</h2>
+        <div class="ten offset-by-one columns">
+          <p>The people involved in requirements elicitation have to learn and to communicate continuously. If you have read <a href="#dst-explained">Domain Storytelling Explained</a>,
+ you saw how Domain Storytelling helps to learn domain language and to 
+reach a shared understanding. If you are a product owner, domain expert,
+ business analyst, or developer who has to deal with requirements, you 
+can use Domain Storytelling...
+          </p>
+          <p>1. to identify weaknesses in IT-support and cooperation.
+            <br>2. to visualize how the domain will change because of the software being developed.
+            <br>3. as a starting point for writing down requirements.
+          </p>
+          <p>Domain Stories help to initially fill a product backlog 
+with epics and user stories. The user stories can usually be derived 
+directly from the domain stories. For example, earlierer we recorded a 
+Domain Story about making ticket reservations. We have learned that when
+ a customer reserves tickets on site, the cashier opens the screen plan 
+for the show and offers seats.
+From that, we can derive a high-level user story (without acceptance 
+criteria): “As a cashier, I want to determine the free seats for a show 
+so that I can offer these seats to my customers.”</p>
+        </div>
+      </div>
+
+      <!--hr />
+
+      <div class="row">
+        <h2>There's more to come!</h2>
+        <h4>Expect an update to this section in spring 2018.</h4>
+      </div-->
+    </div>
+  </div>
+  <div class="section bg-white align-left">
+    <div class="offset-by-one columns">
+      <p class="small-text">References:
+        <br>[1] Eric Evans: Domain-Driven Design: Tackling Complexity in
+ the Heart of Software, Addison Wesley, 2003 – [2] Peter Hruschka: 
+Business Analysis und Requirements Engineering, Hanser, 2014  – [3] 
+Scott Millett: The Anatomy of Domain-Driven Design, leanpub.com, 2017 – 
+[4] Vaughn Vernon: Domain-Driven Design Distilled, Addison Wesley, 2016
+      </p>
+    </div>
+  </div>
+ <!-- END: Requirements -->
+
+
+
+  <!-- Footer -->
+  <div class="section footer">
+    <div class="container">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0; width: 5em;" src="Domain%20Storytelling-Dateien/88x31.png"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Domain Storytelling Website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/hofstef" property="cc:attributionName" rel="cc:attributionURL">Stefan Hofer</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
+  </div>
+    <div class="container">
+        Imprint: <a href="https://www.wps.de/impressum/" target="_blank">WPS – Workplace Solutions GmbH</a> | <a href="https://www.wps.de/en/privacy/" target="_blank">Data Protection / Privacy Policy</a>
+    </div>
+  </div>
+  <!-- END: Footer -->
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+</body></html>
