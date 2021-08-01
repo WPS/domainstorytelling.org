@@ -1,14 +1,4 @@
-<div class="section hero">
-
-<div class="container">
-
-<div class="row">
-
-<div class="one-half column">
-
 # Learn domain language. Talk about requirements. **Tell domain stories.**
-
-</div>
 
 <div class="one-half column">
 
@@ -20,11 +10,6 @@
 
 </div>
 
-</div>
-
-</div>
-
-</div>
 
 <div class="header">
 
