@@ -6,7 +6,7 @@
 
 <div class="one-half column">
 
-### Learn domain language. Talk about requirements. **Tell domain stories.**
+# Learn domain language. Talk about requirements. **Tell domain stories.**
 
 </div>
 
