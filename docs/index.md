@@ -1,19 +1,6 @@
 # Learn domain language. Talk about requirements. **Tell domain stories.**
 
-<div class="one-half column">
-
 [](https://leanpub.com/domainstorytelling)
-
-<div class="werbebanner">
-
-</div>
-
-</div>
-
-
-<div class="header">
-
-<a href="#" id="menu-icon"></a>
 
 -   [Domain Storytelling  
     Explained](#dst-explained)
@@ -22,23 +9,11 @@
 -   [Domain Storytelling &  
     Requirements](#dst-requirements)
 
-</div>
-
-<div id="dst-explained" class="section bg-white">
-
-<div class="container">
-
-<div class="row">
-
-<div class="column">
-
-# <img src="resources/domainstorytelling.png" style="max-width: 400px;" alt="Domain Storytelling" />
+<img src="resources/domainstorytelling.png" style="max-width: 400px;" alt="Domain Storytelling" />
 
 The best way to learn a language is to listen to other people speak that language. Try to repeat what you hear and mind their feedback. Gradually, you will progress from individual words to phrases and to complete sentences. The more you speak, the faster you will learn.
 
 With **Domain Storytelling** you can employ the same principle when learning a new domain language. Let domain experts tell their domain stories. While listening, you record the domain stories using a pictographic language. The domain experts can see immediately if you understand their story correctly. After very few stories, you are able to talk about the people, tasks, tools, work items, and events in that domain.
-
-  
 
 **The best way to explain Domain Storytelling is to see it in action.  
 Watch this live modeling session (hosted by the Virtual Domain-Driven Design Meetup):**
