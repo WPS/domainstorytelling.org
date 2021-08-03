@@ -1,5 +1,7 @@
 # The First Book About Domain Storytelling
-
+With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Addison-Wesley, 2022), Stefan Hofer and Henning Schwentner have written the first book about this modeling method.
+## Examples from the Book
+The *Alphorn Auto Leasing* and *Metropolis Movie Theater* examples are available as files for [*Egon.io - The Domain Story Modeler*](https://egon.io/), an open source modeling tool. You can find the files and instructions on [https://github.com/WPS/egon.io-examples](https://github.com/WPS/egon.io-examples) and import them into Egon.io.
 ## Bibliography
 This is the full bibliography of the book, with clickable links:
 
