@@ -1,0 +1,480 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html{
+  overflow-x: hidden;
+}
+body{
+  font-size: 1.6em; /* 16px */
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, .7);
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto Slab", Helvetica, Verdana, Arial, sans-serif;
+  color: #111;
+}
+.m-1{
+  margin-bottom: .25em;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+a:not(.button):hover{
+  border-bottom: 1px solid #2895a1;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+}
+ul{
+  list-style: disc;
+  padding-left: 1em;
+}
+.button {
+  border-radius: 100px;
+  border-color: #888;
+  transition: all .3s ease;
+}
+.button:hover{
+  border-color: #ddd;
+  background: #ddd;
+}
+.button.button-primary{
+  border-color: #42aebb;
+  background-color: #42aebb;
+}
+.button.button-primary:hover{
+  border-color: #2895a1;
+  background-color: #2895a1;
+}
+.button.button-secondary{
+  color: #444;
+  border-color: #ddd;
+  background-color: #ddd;
+}
+.button.button-secondary:hover{
+  border-color: #bbb;
+  background-color: #bbb;
+}
+.column.center{
+  float: none;
+  margin: 0 auto;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* ratio 16x9 */
+  height: 0;
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+}
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.warning{
+  color: #e30613;
+}
+.caption{
+  font-size: 1rem;
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header {
+  width: 100%;
+  z-index: 999;
+  background-color: #222;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: #222 url(../images/icon_nav.png) center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  border-radius: 3px;
+}
+a:hover#menu-icon {
+  background-color: #444;
+  border-radius: 4px 4px 0 0;
+
+}
+.nav-primary ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.nav-primary li {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.nav-primary a {
+  font-size: 1.75rem;
+  color: #eee;
+  font-family: "Roboto Slab", Helvetica, Verdana, Arial, sans-serif;
+  margin: 1em 0;
+  transition: all .2s linear;
+}
+.nav-primary a:hover {
+  border-bottom: none;
+  color: #bbb;
+}
+
+#dst-explained .row{
+    height: 500px;
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+a[id="dst-explained"]:target ~ #dst-explained .row {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+
+.bg-white {
+  background: #fff;
+}
+.bg-grey {
+  background: #ebebeb;
+}
+
+.align-left{
+  text-align: left;
+}
+.align-center{
+  text-align: center;
+}
+.small-text{
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+.medium-text {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+}
+
+hr{
+  width: 40%;
+  margin: 5rem auto 8rem;
+  border-top: 1px solid #dbdbdb;
+}
+.bg-grey hr{
+  border-top: 1px solid #fff;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero{
+  background-image: url('../images/header_dst_mobile.jpg');
+  background-size: cover;
+  background-position: center top;
+  color: #fff;
+  padding: 6rem 0 11rem;
+}
+.hero h3{
+  font-weight: 100;
+}
+
+
+/* Learn more
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section.learn_more{
+  color: #fff;
+  padding: 6rem 0 4rem;
+  background: #42aebb;
+}
+.learn_more a{
+  color: rgba(255, 255, 255, .7);
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
+}
+.learn_more a.big{
+  font-size: 1.3em;
+}
+.learn_more a:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+
+/* First DST
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+p.icon_numbers span{
+  display: block;
+  padding: 0 0 0 2.5em;
+  margin-bottom: .75em;
+}
+p.icon_numbers span:before{
+  content: " ";
+  position: absolute;
+  left: 1em;
+  width: 2em;
+  height: 2em;
+  background-image: url(../images/number_one.png);
+  background-size: contain;
+}
+p.icon_numbers span:nth-child(2):before{
+  background-image: url(../images/number_two.png);
+}
+p.icon_numbers span:nth-child(3):before{
+  background-image: url(../images/number_three.png);
+}
+
+
+/* Quote
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.quote{
+  color: #fff;
+  background: #42aebb;
+}
+.quote h1,
+.quote h2,
+.quote h3{
+  color: #fff;
+}
+.quote em{
+  display: block;
+  position: relative;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-style: normal;
+}
+.quote em:before{
+  content: '“';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40rem;
+  line-height: 1em;
+  font-style: normal;
+  width: 100%;
+  opacity: .1;
+}
+.quote span{
+  display: block;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+/* Case Study
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.conversation {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.conversation__speaker {
+  font-weight: 700;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  font-size: .8em;
+  color: #999;
+  background: #111;
+}
+.section.footer{
+  padding: 2rem 0 1.5rem;
+}
+
+/* Bigger than 400 */
+@media (min-width: 400px) {
+  p.icon_numbers span:before{
+    left: 0;
+  }
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  h2{
+    font-size: 3rem;
+  }
+  .section {
+    padding: 10rem 0 9rem;
+  }
+  .hero {
+    background-image: url('../images/header_dst.jpg');
+    text-align: left;
+    padding: 8rem 0 7rem;
+  }
+  .quote em:before{
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40rem;
+    line-height: 1em;
+    font-style: normal;
+    width: 100%;
+    opacity: .2;
+  }
+  .quote em:before{
+    content: '“';
+    top: -.25em;
+    left: -.1em;
+    text-align: left;
+  }
+  .conversation {
+    flex-direction: row;
+  }
+  .conversation__speaker {
+    flex-basis: 150px;
+    flex-shrink: 0;
+    text-align: right;
+    margin-right: 1em;
+  }
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) and (max-width: 749px) {
+
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  h2{
+    font-size: 4.2rem;
+  }
+  .quote .container{
+    width: 60%;
+  }
+  .quote em:before{
+    left: -.25em;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section{
+    padding: 10rem 0 10rem;
+  }
+  .hero {
+    padding: 12rem 0 12rem;
+  }
+  .quote .container{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width : 640px) {
+
+  .header {
+    position: fixed;
+    background: none;
+  }
+
+  #menu-icon {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    margin: 0;
+  }
+
+  .nav-primary ul {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    padding: 0 1em;
+    background: #222;
+    right: 0;
+    top: 60px;
+  }
+
+  .nav-primary li {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav-primary li:last-child {
+    border-bottom: none;
+  }
+
+  .nav-primary a {
+    font-size: 1.5rem;
+  }
+
+  #menu-icon:hover + ul {
+    visibility: visible;
+  }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container-wrapper {
+max-width: 60%;
+width: 600px;
+left: 0;
+right:0;
+margin:auto;
+}
+
+.teaser-box {
+  height: 14.2rem;
+}
+
+.teaser-image-book {
+  height: 30rem;
+  transition: 0.4s;
+  width: auto;
+}
+
+.teaser-image-book:hover {
+  height: 30.5rem;
+  box-shadow: 0.1rem 0.1rem 0.4rem 0.15rem rgba(0,0,0,0.3);
+  transition: 0.4s;
+  width: auto;
+}
+
+.werbebanner {
+  display: block !important;
+  background-image: url(../images/buchbanner.svg) !important;
+  background-repeat: no-repeat !important;
+  padding: 10rem !important;
+  width: 50% !important;
+  transition: 0.5s;
+}
+.werbebanner:hover {
+  background-image: url(../images/buchbanner2.svg) !important;
+  transition: 0.5s;
+}
+
+.icon {
+  width: 3rem;
+  padding: 0 0 3rem;
+}
