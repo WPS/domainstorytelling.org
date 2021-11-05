@@ -1,2 +1,0 @@
-RewriteEngine on
-RedirectMatch 301 ^ https://domainstorytelling.org/
