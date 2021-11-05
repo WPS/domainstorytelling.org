@@ -1,2 +1,48 @@
-theme: jekyll-theme-slate
-show_downloads: false
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en"
+title                    : "Domain Storytelling"
+title_separator          : "-"
+subtitle                 : "Spark a fire. Tell a story. Paint a picture" # site tagline that appears below site title in masthead
+name                     : "Stefan Hofer, Henning Schwentner"
+description              : "A collaborative, visual, and agile way to build domain-driven software"
+url                      : "https://domainstorytelling.org/" 
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "WPS/domainstorytelling.org" # GitHub username/repo-name
+teaser                   : /images/header_dst.jpg # path of fallback teaser image, e.g. "/images/500x300.png"
+logo                     : /images/logo/square/dst_logo_transparent.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
+
+include:
+  - _pages
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+#Klingt interessant, läuft aber wohl nicht auf GHP: jekyll_picture_tag
+
+footer:
+  links:
+    - label: "Imprint"
+      url: "https://www.wps.de/impressum/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/WPS/domainstorytelling.org"
