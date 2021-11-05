@@ -1,11 +1,11 @@
 main:
   - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+    url: /quick-start-guide/
   - title: "Domain-Driven Design"
-    url: /docs/domain-driven-design/
+    url: /domain-driven-design/
   - title: "Requirements"
-    url: /docs/requirements/
+    url: /requirements/
   - title: "Training"
-    url: /docs/training/
+    url: /training/
   - title: "Book"
-    url: /docs/book/
+    url: /book/
