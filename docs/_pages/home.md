@@ -1,11 +1,24 @@
 ---
 title: "Domain Storytelling"
 layout: splash
-#permalink: /
+permalink: /home
 header: 
   overlay_color: "#f59542"
 #  overlay_filter: rgba(245, 149, 66, 0.6)
   overlay_image: /images/home/sunflower-1.jpeg
+
+read_more:
+  - title: "Book"
+    excerpt: "![](/images/DomainStorytelling-Cover.jpg)<br> The first book about Domain Storytelling!"
+    url: "/book"
+    btn_label: "more..."
+    btn_class: "btn--primary"
+
+  - title: "Domain-Driven Design"
+    excerpt: "![](/images/ddd_img.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt."
+    url: "/book"
+    btn_label: "more..."
+    btn_class: "btn--primary"
 ---
 
 ## Build Better Business Software by Telling and Visualizing Stories
@@ -38,8 +51,7 @@ The best way to explain Domain Storytelling is to see it in action:
 
 {% include video id="d9k9Szkdprk" provider="youtube" %}
 
-Read the [book](/book).
-![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}
+{% include feature_row id="read_more" %}
 
 Find and share resources on GitHub: [https://github.com/hofstef/awesome-domain-storytelling](Awesome Domain Storytelling)
 

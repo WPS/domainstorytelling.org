@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /book
 title: The First Book About Domain Storytelling
 header:
   overlay_image: /images/home/sunflower-1.jpeg
