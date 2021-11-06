@@ -11,7 +11,7 @@ header:
 
 Imagine you are a software developer who was tasked to develop an app for a cinema. The app should have an online reservation feature. Since you have no clue where to start, you decide to interview a cashier. He works at the ticket counter and takes reservations by phone and in person. The picture shows a graphical recording of the cashier's Domain Story. To read the story, just follow the numbers:
 
-![A domain story showing the process of buying movie tickets](/images/dst_egpm.png)
+![A domain story showing the process of buying movie tickets](/images/quick-start-guide/dst_egpm.png)
 
 1. The customer asks the cashier for a reservation.
 2. The cashier looks up the screen plan in the ticket system to find available seats.
@@ -21,10 +21,10 @@ Imagine you are a software developer who was tasked to develop an app for a cine
 
 To record Domain Stories, we need a vocabulary and pictograms that represent the vocabulary:
 
-| ![Actor](/images/icon_actor.png) | Domain Stories are told from an *actor*'s perspective. Actors may be a person, a group, or a software system. Hence, we use different pictograms.
-| ![Work object](/images/icon_work_object.png) | Actors create, work with, and exchange *work objects* and *information about work objects* such as documents and messages. The pictograms represent the work object’s medium.
-| ![Arrows](/images/icon_arrows.png) | The actor's *activities* are depicted as arrows.
-| ![Annotations](/images/icon_annotation.png) | Textual *annotations* are useful to document assumptions, variations and exceptions.
+| ![Actor](/images/quick-start-guide/icon_actor.png) | Domain Stories are told from an *actor*'s perspective. Actors may be a person, a group, or a software system. Hence, we use different pictograms.
+| ![Work object](/images/quick-start-guide/icon_work_object.png) | Actors create, work with, and exchange *work objects* and *information about work objects* such as documents and messages. The pictograms represent the work object’s medium.
+| ![Arrows](/images/quick-start-guide/icon_arrows.png) | The actor's *activities* are depicted as arrows.
+| ![Annotations](/images/quick-start-guide/icon_annotation.png) | Textual *annotations* are useful to document assumptions, variations and exceptions.
 
 To add a specific meaning to a pictogram, we name it with a term from the domain language: An actor *cashier*, a work object *screen plan*, an activity *confirms* etc.
 
@@ -37,7 +37,7 @@ In the examples on this website, we use about a dozen of Google's Material icons
 - Connect the *actor* and the *work object* with an *arrow*. Name the *arrow* according to the *activity* (e.g. creates, edits, sends).
 - If the *activity* involves another *actor*, draw another *arrow* from the *work object* to that *actor*. Often, a preposition (e.g. to, with) makes a good name for the *arrow*.
 
-So the basic syntax is: *subject* - *predicate* - *object*. Keep in mind that anyone should be able to read the graphical Domain Story out loud.
+So the basic syntax is: *subject* – *predicate* – *object*. Keep in mind that anyone should be able to read the graphical Domain Story out loud.
 
 ### …and tell a story
 
@@ -47,7 +47,7 @@ By numbering the arrows, we express the sequence of activities. Every actor shou
 
 Most business process modeling approaches show what can *possibly* happen in a process:
 
-![BPMN diagram](/images/control_flow.png)
+![BPMN diagram](/images/quick-start-guide/control_flow.png)
 
 While there is value in such "algorithmic" descriptions, for many purposes you would be better suited with some examples of what *actually* happens. To paraphrase requirements engineering expert Peter Hruschka:
 
@@ -77,12 +77,12 @@ Do not think of Domain Stories as documentation. Use them to dive into <a href="
 
 Often a whiteboard and some sticky notes are all you need.
 
-![Modeling with sticky notes](/images/sticky_notes.png)
+![Modeling with sticky notes](/images/quick-start-guide/sticky_notes.png)
 
 But since drawing the icons can be tedious, we have developed a *whiteboard kit* to speed up the recording process. You can <a href="images/DST_Whiteboard-Kit.pdf" target="_blank">download this template</a> and make your own kit.
 
-![Modeling with the Whiteboard Kit](/images/whiteboard_kit.jpg)
+![Modeling with the Whiteboard Kit](/images/quick-start-guide/whiteboard_kit.jpg)
 
 Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like PowerPoint, Visio, yEd or other general purpose drawing tools. However, such tools have limitations. The Domain Storytelling community came up with a modeling tool that is specifically designed for Domain Stories: The Domain Story Modeler, made by [WPS – Workplace Solutions GmbH](https://www.wps.de/en). It is open source and runs in your browser. <a href="https://www.wps.de/modeler" target="_blank">Try it online!</a> Or download <a href="https://github.com/WPS/domain-story-modeler/releases" target="_blank">the latest release from GitHub</a>. Read the documentation and give feedback <a href="https://github.com/WPS/domain-story-modeler" target="_blank">on Github</a>.
 
-![Modeling with Egon.io](/images/cinema_06.png)
+![Modeling with Egon.io](/images/quick-start-guide/cinema_06.png)

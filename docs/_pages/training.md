@@ -9,7 +9,7 @@ header:
 
 Are you interested in learning how to apply Domain Storytelling in your organization?
 
-![A training schedule](/images/schedule.png){: .align-right width="40%"}
+![A training schedule](/images/training/schedule.png){: .align-right width="40%"}
 
 Our training covers:
 
