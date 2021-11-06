@@ -31,7 +31,7 @@ external_links:
     excerpt: "![](/images/home/feature-row-egon-height-500px.png)<br> Our web-based, open source modeling tool. <br> [Visit Egon.io](http://egon.io)"
 
   - title: "More Resources"
-    excerpt: "![](feature-row-resources-height-500px.jpg)<br> A curated list of articles, videos, podcasts, and other ressources. Open a pull request to contribute. <br> [Visit Awesome Domain Storytelling on Github](https://github.com/hofstef/awesome-domain-storytelling)"
+    excerpt: "![](/images/home/feature-row-resources-height-500px.jpg)<br> A curated list of articles, videos, podcasts, and other ressources. Open a pull request to contribute. <br> [Visit Awesome Domain Storytelling on Github](https://github.com/hofstef/awesome-domain-storytelling)"
 
   - title: "Visual Collaboration Tools"
     excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read intros to Domain Storytelling and other modelling tools. A book written by a community of practitioners. <br> [Visit Leanpub](https://leanpub.com/visualcollaborationtools)"
