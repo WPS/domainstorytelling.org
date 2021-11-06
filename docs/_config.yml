@@ -9,7 +9,7 @@ locale                   : "en"
 title                    : "Domain Storytelling"
 title_separator          : "-"
 subtitle                 : "Spark a fire. Tell a story. Paint a picture" # site tagline that appears below site title in masthead
-name                     : "Stefan Hofer, Henning Schwentner"
+name                     : "Stefan Hofer and Henning Schwentner with ❤️ from WPS – Workplace Solutions"
 description              : "A collaborative, visual, and agile way to build domain-driven software"
 url                      : "https://domainstorytelling.org/" 
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -36,8 +36,12 @@ plugins:
 
 footer:
   links:
-    - label: "Imprint"
-      url: "https://www.wps.de/impressum/"
-    - label: "GitHub"
+    - label: "Improve this page"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/WPS/domainstorytelling.org"
+    - label: "Licensed CC-BY-4.0"
+      icon: "fab fa-creative-commons"
+      url: "http://creativecommons.org/licenses/by/4.0/"
+    - label: "Imprint"
+      icon: "fas fa-balance-scale"
+      url: "https://www.wps.de/impressum/"
