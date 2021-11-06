@@ -28,22 +28,13 @@ read_more:
 
 external_links:
   - title: "Egon.io"
-    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> Our web-based, open source modeling tool."
-    url: ""
-    btn_label: "Visit egon.io"
-    btn_class: "btn--primary"
+    excerpt: "![]()<br> Our web-based, open source modeling tool. <br> [https://egon.io](Visit Egon.io)"
 
-  - title: "Awesome Domain Storytelling"
-    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> A curated list of articles, videos, and other ressources."
-    url: ""
-    btn_label: "Visit Github"
-    btn_class: "btn--primary"
+  - title: "More ressources"
+    excerpt: "![]()<br> A curated list of articles, videos, and other ressources. <br> [https://github.com/hofstef/awesome-domain-storytelling](Visit Awesome Domain Storytelling on Github)"
 
   - title: "Visual Collaboration Tools"
-    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read and intro to Domain Storytelling and other modelling tools."
-    url: ""
-    btn_label: "Visit Leanpub"
-    btn_class: "btn--primary"
+    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read and intro to Domain Storytelling and other modelling tools. <br> [https://leanpub.com/visualcollaborationtools/](Visit Leanpub)"
 ---
 
 
