@@ -9,14 +9,20 @@ header:
 
 read_more:
   - title: "Book"
-    excerpt: "![](/images/DomainStorytelling-Cover.jpg)<br> The first book about Domain Storytelling!"
+    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> The first book about Domain Storytelling!"
     url: "/book"
     btn_label: "more..."
     btn_class: "btn--primary"
 
   - title: "Domain-Driven Design"
-    excerpt: "![](/images/ddd_img.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt."
+    excerpt: "![](/images/home/feature-row-ddd-height-500px.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt."
     url: "/book"
+    btn_label: "more..."
+    btn_class: "btn--primary"
+
+  - title: "Requirements"
+    excerpt: "![](/images/home/feature-row-requirements-height-500px.jpg)<br> Have meaningful conversations about business processes and requirements."
+    url: "/reqirements"
     btn_label: "more..."
     btn_class: "btn--primary"
 ---
@@ -55,6 +61,4 @@ The best way to explain Domain Storytelling is to see it in action:
 
 Find and share resources on GitHub: [https://github.com/hofstef/awesome-domain-storytelling](Awesome Domain Storytelling)
 
-Link 1, 2, 3, Egon.io, ViscoToolsBuch
-
-DDD
+Egon.io, ViscoToolsBuch
