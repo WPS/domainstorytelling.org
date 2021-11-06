@@ -15,13 +15,13 @@ read_more:
     btn_class: "btn--primary"
 
   - title: "Domain-Driven Design"
-    excerpt: "![](/images/home/feature-row-ddd-height-500px.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt."
-    url: "/book"
+    excerpt: "![](/images/home/feature-row-ddd-height-500px.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt, on strategic and tactical level."
+    url: "/domain-driven-design"
     btn_label: "more..."
     btn_class: "btn--primary"
 
   - title: "Requirements"
-    excerpt: "![](/images/home/feature-row-requirements-height-500px.jpg)<br> Have meaningful conversations about business processes and requirements."
+    excerpt: "![](/images/home/feature-row-requirements-height-500px.jpg)<br> Have meaningful conversations about business processes and requirements. "
     url: "/reqirements"
     btn_label: "more..."
     btn_class: "btn--primary"
