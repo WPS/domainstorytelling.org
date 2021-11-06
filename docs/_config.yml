@@ -45,3 +45,6 @@ footer:
     - label: "Imprint"
       icon: "fas fa-balance-scale"
       url: "https://www.wps.de/impressum/"
+    - label: "Contact"
+      icon: "fas fa-handshake"
+      url: "/contact"
