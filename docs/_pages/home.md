@@ -25,7 +25,27 @@ read_more:
     url: "/reqirements"
     btn_label: "more..."
     btn_class: "btn--primary"
+
+external_links:
+  - title: "Egon.io"
+    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> Our web-based, open source modeling tool."
+    url: "https://egon.io"
+    btn_label: "Visit egon.io"
+    btn_class: "btn--primary"
+
+- title: "Awesome Domain Storytelling"
+    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> A curated list of articles, videos, and other ressources."
+    url: "https://github.com/hofstef/awesome-domain-storytelling"
+    btn_label: "Visit Github"
+    btn_class: "btn--primary"
+
+  - title: "Visual Collaboration Tools"
+    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read and intro to Domain Storytelling and other modelling tools."
+    url: "https://leanpub.com/visualcollaborationtools/"
+    btn_label: "Visit Leanpub"
+    btn_class: "btn--primary"
 ---
+
 
 ## Build Better Business Software by Telling and Visualizing Stories
 
@@ -58,6 +78,8 @@ The best way to explain Domain Storytelling is to see it in action:
 {% include video id="d9k9Szkdprk" provider="youtube" %}
 
 {% include feature_row id="read_more" %}
+
+{% include feature_row id="external_links" %}
 
 Find and share resources on GitHub: [https://github.com/hofstef/awesome-domain-storytelling](Awesome Domain Storytelling)
 
