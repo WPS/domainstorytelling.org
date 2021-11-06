@@ -9,7 +9,7 @@ header:
 
 read_more:
   - title: "Book"
-    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> The first book about Domain Storytelling!"
+    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> The first book about Domain Storytelling! Vaughn Vernon selected it for his *Signature Series*."
     url: "/book"
     btn_label: "more..."
     btn_class: "btn--primary"
@@ -31,10 +31,10 @@ external_links:
     excerpt: "![]()<br> Our web-based, open source modeling tool. <br> [https://egon.io](Visit Egon.io)"
 
   - title: "More ressources"
-    excerpt: "![]()<br> A curated list of articles, videos, and other ressources. <br> [https://github.com/hofstef/awesome-domain-storytelling](Visit Awesome Domain Storytelling on Github)"
+    excerpt: "![]()<br> A curated list of articles, videos, podcasts, and other ressources. Open a pull request to contribute. <br> [https://github.com/hofstef/awesome-domain-storytelling](Visit Awesome Domain Storytelling on Github)"
 
   - title: "Visual Collaboration Tools"
-    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read and intro to Domain Storytelling and other modelling tools. <br> [https://leanpub.com/visualcollaborationtools/](Visit Leanpub)"
+    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read intros to Domain Storytelling and other modelling tools. A book written by a community of practitioners. <br> [https://leanpub.com/visualcollaborationtools/](Visit Leanpub)"
 ---
 
 
@@ -71,7 +71,3 @@ The best way to explain Domain Storytelling is to see it in action:
 {% include feature_row id="read_more" %}
 
 {% include feature_row id="external_links" %}
-
-Find and share resources on GitHub: [https://github.com/hofstef/awesome-domain-storytelling](Awesome Domain Storytelling)
-
-Egon.io, ViscoToolsBuch
