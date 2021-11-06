@@ -4,7 +4,7 @@ title: "Contact"
 layout: splash
 header: 
   overlay_color: "#f59542"
-  overlay_image: /images/home/sunflower-3.jpeg
+  overlay_image: /images/home/sunflower-5.jpeg
 ---
 
 ![Profile photo of Stefan](/images/contact/StefanHofer_571.jpg){: .align-right width="20%"}
