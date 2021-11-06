@@ -1,6 +1,6 @@
 ---
-layout: single
 permalink: /book
+layout: single
 title: The First Book About Domain Storytelling
 header:
   overlay_image: /images/home/sunflower-1.jpeg

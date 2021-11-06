@@ -1,7 +1,7 @@
 ---
+permalink: /requirements
 title: "Requirements"
 layout: splash
-#permalink: /
 header: 
   overlay_color: "#f59542"
   overlay_image: /images/home/sunflower-3.jpeg

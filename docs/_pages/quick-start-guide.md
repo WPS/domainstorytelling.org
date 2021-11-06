@@ -1,7 +1,7 @@
 ---
-title: "Quick-start Guide"
+permalink: /quick-start-guide
+title: "Quick-Start Guide"
 layout: splash
-#permalink: /
 header: 
   overlay_color: "#f59542"
   overlay_image: /images/home/sunflower-3.jpeg

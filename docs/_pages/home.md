@@ -1,7 +1,7 @@
 ---
+permalink: /home
 title: "Domain Storytelling"
 layout: splash
-permalink: /home
 header: 
   overlay_color: "#f59542"
 #  overlay_filter: rgba(245, 149, 66, 0.6)

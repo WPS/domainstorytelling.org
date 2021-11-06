@@ -1,4 +1,5 @@
 ---
+permalink: /domain-driven-design
 title: "Domain-Driven Design with Domain Storytelling"
 layout: splash
 header: 
@@ -14,7 +15,7 @@ DDD consists of patterns, principles and practices. For some of them Domain Stor
 
 ## Get familiar with your domain
 
-Domain Storytelling is a *knowledge crunching* technique. The people who participate in a Domain Storytelling workshop will get new insights into the domain. The resulting Domain Stories express their shared understanding. 
+Domain Storytelling is a *knowledge crunching* technique. The people who participate in a Domain Storytelling workshop will get new insights into the domain. The resulting Domain Stories express their shared understanding.
 
 When you approach a domain, we recommend to start coarse-grained. Invite people from several departments to create coarse-grained Domain Stories. Do not limit yourself by existing organizational boundaries (or perceived bounded contexts, if you already familiar with DDD) and visualize Domain Stories that span over several departments.
 
