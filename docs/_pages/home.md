@@ -1,7 +1,7 @@
 ---
-permalink: /home
 title: "Domain Storytelling"
 layout: splash
+permalink: /home
 header: 
   overlay_color: "#f59542"
 #  overlay_filter: rgba(245, 149, 66, 0.6)
@@ -28,13 +28,13 @@ read_more:
 
 external_links:
   - title: "Egon.io"
-    excerpt: "![]()<br> Our web-based, open source modeling tool. <br> [https://egon.io](Visit Egon.io)"
+    excerpt: "![]()<br> Our web-based, open source modeling tool. <br> [Visit Egon.io](https://egon.io)"
 
   - title: "More ressources"
-    excerpt: "![]()<br> A curated list of articles, videos, podcasts, and other ressources. Open a pull request to contribute. <br> [https://github.com/hofstef/awesome-domain-storytelling](Visit Awesome Domain Storytelling on Github)"
+    excerpt: "![]()<br> A curated list of articles, videos, podcasts, and other ressources. Open a pull request to contribute. <br> [Visit Awesome Domain Storytelling on Github](https://github.com/hofstef/awesome-domain-storytelling)"
 
   - title: "Visual Collaboration Tools"
-    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read intros to Domain Storytelling and other modelling tools. A book written by a community of practitioners. <br> [https://leanpub.com/visualcollaborationtools/](Visit Leanpub)"
+    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read intros to Domain Storytelling and other modelling tools. A book written by a community of practitioners. <br> [Visit Leanpub](https://leanpub.com/visualcollaborationtools)"
 ---
 
 
