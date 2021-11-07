@@ -3,7 +3,7 @@ permalink: /book
 layout: single
 title: The First Book About Domain Storytelling
 header:
-  overlay_image: /images/home/sunflower-1.jpeg
+  overlay_image: /images/home/sunflower-7.jpeg
 ---
 
 ![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}

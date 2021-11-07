@@ -4,7 +4,7 @@ title: "Requirements"
 layout: splash
 header: 
   overlay_color: "#f59542"
-  overlay_image: /images/home/sunflower-3.jpeg
+  overlay_image: /images/home/sunflower-2.jpeg
 ---
 
 The people involved in requirements elicitation have to learn and to communicate continuously. If you have read the "Quick-start Guide", you saw how Domain Storytelling helps to learn domain language and to reach a shared understanding. If you are a product owner, domain expert, business analyst, or developer who has to deal with requirements, you can use Domain Storytelling...
