@@ -48,3 +48,6 @@ footer:
     - label: "Contact"
       icon: "fas fa-handshake"
       url: "/contact"
+
+atom_feed:
+  hide: true
