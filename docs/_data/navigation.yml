@@ -1,5 +1,5 @@
 main:
-  - title: "Quick-Start Guide"
+  - title: "Quick Start"
     url: /quick-start-guide
   - title: "DDD"
     url: /domain-driven-design
