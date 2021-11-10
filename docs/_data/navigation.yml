@@ -1,7 +1,7 @@
 main:
   - title: "Quick-Start Guide"
     url: /quick-start-guide
-  - title: "Domain-Driven Design"
+  - title: "DDD"
     url: /domain-driven-design
   - title: "Requirements"
     url: /requirements
