@@ -4,7 +4,7 @@ title: "Quick-Start Guide"
 layout: splash
 header: 
   overlay_color: "#f59542"
-  overlay_image: /images/home/sunflower-3.jpeg
+  overlay_image: /images/home/sunflower-8.jpeg
 ---
 
 ## Your First Domain Story
