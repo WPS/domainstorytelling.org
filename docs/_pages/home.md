@@ -22,7 +22,7 @@ read_more:
 
   - title: "Requirements"
     excerpt: "![](/images/home/feature-row-requirements-height-500px.jpg)<br> Have meaningful conversations about business processes and requirements. "
-    url: "/reqirements"
+    url: "/requirements"
     btn_label: "more..."
     btn_class: "btn--primary"
 
