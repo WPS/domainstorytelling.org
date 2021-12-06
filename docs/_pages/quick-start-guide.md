@@ -79,7 +79,7 @@ Often a whiteboard and some sticky notes are all you need.
 
 ![Modeling with sticky notes](/images/quick-start-guide/sticky_notes.png)
 
-But since drawing the icons can be tedious, we have developed a *whiteboard kit* to speed up the recording process. You can <a href="images/DST_Whiteboard-Kit.pdf" target="_blank">download this template</a> and make your own kit.
+But since drawing the icons can be tedious, we have developed a *whiteboard kit* to speed up the recording process. You can <a href="/images/quick-start-guide/DST_Whiteboard-Kit.pdf" target="_blank">download this template</a> and make your own kit.
 
 ![Modeling with the Whiteboard Kit](/images/quick-start-guide/whiteboard_kit.jpg)
 
