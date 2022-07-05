@@ -8,7 +8,7 @@ header:
 
 ![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}
 
-With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Boston: Addison-Wesley, 2022), [Stefan Hofer](https://twitter.com/hofstef) and [Henning Schwentner](https://hschwentner.io) have written the first book about this modeling method. It features a foreword by [Nick Tune](https://ntcoding.co.uk).
+With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Boston: Addison-Wesley, 2022), [Stefan Hofer](https://twitter.com/hofstef) and [Henning Schwentner](https://hschwentner.io) have written the first book about this modeling method. It features a foreword by [Nick Tune](https://ntcoding.co.uk) and is part of the Addison-Wesley Signature Series of [Vaughn Vernon](https://vaughnvernon.com).
 
 We introduce you to the method’s easy pictographic language, scenario-based modeling techniques, workshop format, and relationship to other modeling methods. Using step-by-step case studies, we guide you through solving many common problems.
 
