@@ -8,19 +8,24 @@ header:
 
 ![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}
 
-This is the full bibliography of the book, with clickable links:
+This is the full bibliography of the book, with clickable links:[^disclaimer]
+
+[^disclaimer]: When you use the links on this site, we will earn a small share from the bookstore.
   
 **[Adzic 2011]**  
 Gojko Adzic. *Specification by Example*. Shelter Island, NY: Manning, 2011.
+[<i class="fab fa-amazon"></i>](https://www.amazon.com/-/de/dp/1617290084?keywords=specification+by+example&qid=1657018182&sprefix=specification+by+exampl%2Caps%2C178&sr=8-2&linkCode=ll1&tag=hschwentner-20&linkId=39c997097db23b5fd0099f7c047ca3c7&language=en_US&ref_=as_li_ss_tl)
   
 **[Baas-Schwegler/Rosa 2020]**  
 Kenny Baas-Schwegler and João Rosa (eds.). *Visual Collaboration Tools*. Self-published, Leanpub, last updated August 7, 2020. <https://leanpub.com/visualcollaborationtools>.
   
 **[Beck 2000]**  
 Kent Beck. *Extreme Programming Explained: Embrace Change*. Reading, MA: Addison-Wesley, 2000.
-  
+[<i class="fab fa-amazon"></i>](https://www.amazon.com/-/de/dp/0201616416?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3V7QRWOHKLIID&keywords=kent+beck&qid=1657018281&sprefix=kent+beck%2Caps%2C217&sr=8-7&linkCode=ll1&tag=hschwentner-20&linkId=cf53f2fe5182e14010f2608c352df7d9&language=en_US&ref_=as_li_ss_tl)
+
 **[Beck/Andres 2005]**  
 Kent Beck and Cynthia Andres. *Extreme Programming Explained: Embrace Change*. 2nd ed. Boston: Addison-Wesley, 2005.
+[<i class="fab fa-amazon"></i>](https://www.amazon.com/-/de/dp/0321278658?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp=&crid=3V7QRWOHKLIID&amp=&keywords=kent+beck&amp=&qid=1657018281&amp=&sprefix=kent+beck%2Caps%2C217&amp=&sr=8-2&currency=USD&linkCode=ll1&tag=hschwentner-20&linkId=e92e7147218c2dc9beaead64bed79644&language=en_US&ref_=as_li_ss_tl)
 
 **[Beck/Cunningham 1989]**  
 Kent Beck and Ward Cunningham. “A laboratory for teaching object oriented thinking.” OOPSLA, 1989. <http://www.inf.ufpr.br/andrey/ci221/docs/beckCunningham89.pdf>.
