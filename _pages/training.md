@@ -18,7 +18,7 @@ Our training covers:
 - Preparing and moderating workshops.
 - Combining Domain Stories with other modeling methods like EventStorming and User Story Mapping.
 
-We offer [open training courses in cooperation with DDD Europe](https://dddeurope.academy/domain-storytelling-stefan-hofer-henning-schwentner/).
+We offer open training courses in cooperation with [DDD Europe (online and on-site)](https://dddeurope.academy/domain-storytelling-stefan-hofer-henning-schwentner/) and [kalele.io (remote)](https://kalele.io/training/domain-storytelling/).
 
 For in-house trainings tailored to your specific needs, [you can book us here](https://www.wps.de/en/trainings/domain-storytelling/).
 
