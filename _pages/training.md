@@ -16,10 +16,9 @@ Our training covers:
 - Different purposes you can use Domain Storytelling for.
 - Choosing the right scope for your purpose.
 - Preparing and moderating workshops.
-- Combining Domain Stories with other modeling methods like EventStorming and User Story Mapping.
+- Combining Domain Stories with other modeling methods like EventStorming, User Story Mapping, and Example Mapping.
+- Tips for using modeling tools.
 
 We offer open training courses in cooperation with [DDD Europe (online and on-site)](https://dddeurope.academy/domain-storytelling-stefan-hofer-henning-schwentner/) and [kalele.io (remote)](https://kalele.io/training/domain-storytelling/).
 
 For in-house trainings tailored to your specific needs, [you can book us here](https://www.wps.de/en/trainings/domain-storytelling/).
-
-Please note: Currently, all trainings are online. We will offer on-site trainings after the pandemic is under control.
