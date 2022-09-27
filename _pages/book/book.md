@@ -12,9 +12,9 @@ With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domai
 
 We introduce you to the method’s easy pictographic language, scenario-based modeling techniques, workshop format, and relationship to other modeling methods. Using step-by-step case studies, we guide you through solving many common problems.
 
-Grab your copy at various bookstores:[^disclaimer]
+## Buy now[^disclaimer]
 
-[^disclaimer]: When you use the links on this site, we will earn a small share from the bookstore.
+[^disclaimer]: When you use the links on this site, we will earn a share from the bookstore.
 
 [<i class="fas fa-book"></i> Informit](https://click.linksynergy.com/deeplink?id=Lbec0D6YaKE&mid=24808&murl=https%3A%2F%2Fwww.informit.com%2Fstore%2Fdomain-storytelling-a-collaborative-visual-and-agile-9780137458912){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon US](https://www.amazon.com/gp/product/0137458916/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0137458916&linkCode=as2&tag=hschwentner-20&linkId=729e88a7bfb67a51b739a78e9fa02c2e){: .btn .btn--primary .btn--large}
@@ -26,4 +26,8 @@ The *Alphorn Auto Leasing* and *Metropolis Movie Theater* examples are available
 
 ## Bibliography
 
-The full [bibliography](book-bibliography) of the book, with clickable links.
+The full [bibliography](/book/bibliography) of the book, with clickable links.
+
+## Errata
+
+[Errata](/book/errata) found after printing.

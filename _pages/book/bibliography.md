@@ -1,5 +1,5 @@
 ---
-permalink: /book-bibliography
+permalink: /book/bibliography
 layout: single
 title: The First Book About Domain Storytelling—Bibliography
 header:
