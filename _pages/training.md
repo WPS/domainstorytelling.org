@@ -4,12 +4,12 @@ title: "Training"
 layout: splash
 header: 
   overlay_color: "#f59542"
-  overlay_image: /images/home/sunflower-4.jpeg
+  overlay_image: /assets/images/home/sunflower-4.jpeg
 ---
 
 Are you interested in learning how to apply Domain Storytelling in your organization?
 
-![A training schedule](/images/training/schedule.png){: .align-right width="40%"}
+![A training schedule](/assets/images/training/schedule.png){: .align-right width="40%"}
 
 Our training covers:
 

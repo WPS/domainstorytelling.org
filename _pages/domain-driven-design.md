@@ -4,7 +4,7 @@ title: "Domain-Driven Design with Domain Storytelling"
 layout: splash
 header: 
   overlay_color: "#f59542"
-  overlay_image: /images/domain-driven-design/kandinsky.jpg
+  overlay_image: /assets/images/domain-driven-design/kandinsky.jpg
 ---
 
 Since Eric Evans coined the term *Domain-Driven Design (DDD)*, an ever growing DDD community builds software that reflects its domain. If you are new to DDD, we recommend <a href="https://leanpub.com/theanatomyofdomain-drivendesign" target="_blank">this concise introduction</a> by Scott Millett.

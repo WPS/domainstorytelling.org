@@ -5,42 +5,42 @@ layout: splash
 header: 
   overlay_color: "#f59542"
 #  overlay_filter: rgba(245, 149, 66, 0.6)
-  overlay_image: /images/home/sunflower-1.jpeg
+  overlay_image: /assets/images/home/sunflower-1.jpeg
 
 read_more:
   - title: "Book"
-    excerpt: "![](/images/home/feature-row-book-height-500px.jpg)<br> The first book about Domain Storytelling! Vaughn Vernon selected it for his *Signature Series*."
+    excerpt: "![](/assets/images/home/feature-row-book-height-500px.jpg)<br> The first book about Domain Storytelling! Vaughn Vernon selected it for his *Signature Series*."
     url: "/book"
     btn_label: "more..."
     btn_class: "btn--primary"
 
   - title: "Domain-Driven Design"
-    excerpt: "![](/images/home/feature-row-ddd-height-500px.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt, on strategic and tactical level."
+    excerpt: "![](/assets/images/home/feature-row-ddd-height-500px.jpg)<br> Domain Storytelling is a valuable tool in every DDD practitioner's tool belt, on strategic and tactical level."
     url: "/domain-driven-design"
     btn_label: "more..."
     btn_class: "btn--primary"
 
   - title: "Requirements"
-    excerpt: "![](/images/home/feature-row-requirements-height-500px.jpg)<br> Have meaningful conversations about business processes and requirements. "
+    excerpt: "![](/assets/images/home/feature-row-requirements-height-500px.jpg)<br> Have meaningful conversations about business processes and requirements. "
     url: "/requirements"
     btn_label: "more..."
     btn_class: "btn--primary"
 
 external_links:
   - title: "Egon.io"
-    excerpt: "![](/images/home/feature-row-egon-height-500px.png)<br> Our web-based, open source modeling tool. <br> [Visit Egon.io](http://egon.io)"
+    excerpt: "![](/assets/images/home/feature-row-egon-height-500px.png)<br> Our web-based, open source modeling tool. <br> [Visit Egon.io](http://egon.io)"
 
   - title: "More Resources"
-    excerpt: "![](/images/home/feature-row-resources-height-500px.jpg)<br> A curated list of articles, videos, podcasts, and other resources. Open a pull request to contribute. <br> [Visit Awesome Domain Storytelling on Github](https://github.com/hofstef/awesome-domain-storytelling)"
+    excerpt: "![](/assets/images/home/feature-row-resources-height-500px.jpg)<br> A curated list of articles, videos, podcasts, and other resources. Open a pull request to contribute. <br> [Visit Awesome Domain Storytelling on Github](https://github.com/hofstef/awesome-domain-storytelling)"
 
   - title: "Visual Collaboration Tools"
-    excerpt: "![](/images/home/feature-row-vico-height-500px.png)<br> Read intros to Domain Storytelling and other modelling tools. A book written by a community of practitioners. <br> [Visit Leanpub](https://leanpub.com/visualcollaborationtools)"
+    excerpt: "![](/assets/images/home/feature-row-vico-height-500px.png)<br> Read intros to Domain Storytelling and other modelling tools. A book written by a community of practitioners. <br> [Visit Leanpub](https://leanpub.com/visualcollaborationtools)"
 ---
 
 
 ## Build Better Business Software by Telling and Visualizing Stories
 
-![A domain story showing the process of going to the movies](/images/home/metropolis-1-animated.gif){: .align-right width="50%"}
+![A domain story showing the process of going to the movies](/assets/images/home/metropolis-1-animated.gif){: .align-right width="50%"}
 
 Storytelling is at the heart of human communication—why not use it to overcome costly misunderstandings when designing software? By telling and visualizing stories, domain experts and team members make business processes and domain knowledge tangible. Domain Storytelling enables everyone to understand the relevant people, activities, and work items.
 
