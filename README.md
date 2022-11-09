@@ -6,10 +6,16 @@ The website for Domain Storytelling [![CC BY 4.0][cc-by-shield]][cc-by]
 
 ### Setup environment
 
-Install Docker Desktop:
+Install Docker Desktop on Windows:
+
+```pwsh
+\$ winget install -e --id Docker.DockerDesktop
+```
+
+Install Docker Desktop on macOS:
 
 ```fish
-brew install --cask docker
+\$ brew install --cask docker
 ```
 
 ### Day-to-day Development
@@ -17,7 +23,7 @@ brew install --cask docker
 To run a server locally:
 
 ```fish
-docker compose up
+\$ docker compose up
 ```
 
 ## License
