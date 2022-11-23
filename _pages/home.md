@@ -28,7 +28,7 @@ read_more:
 
 external_links:
   - title: "Egon.io"
-    excerpt: "![](/assets/images/home/feature-row-egon-height-500px.png)<br> Our web-based, open source modeling tool. <br> [Visit Egon.io](http://egon.io)"
+    excerpt: "![](/assets/images/home/feature-row-egon-height-500px.png)<br> Our web-based, open source modeling tool. <br> [Visit Egon.io](https://egon.io)"
 
   - title: "More Resources"
     excerpt: "![](/assets/images/home/feature-row-resources-height-500px.jpg)<br> A curated list of articles, videos, podcasts, and other resources. Open a pull request to contribute. <br> [Visit Awesome Domain Storytelling on Github](https://github.com/hofstef/awesome-domain-storytelling)"
