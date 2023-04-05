@@ -29,3 +29,9 @@ Page 112. In Figure 8.5 “risk assesment” should be “risk assessment” i
 Page 189. In Figure 13.6 “risk assesment” should be “risk assessment” in both sentence 03 and sentence 04.
 
 Page 190. In Figure 13.7 “risk assesment” should be “risk assessment” in both sentence 03 and sentence 05.
+
+#### Bibliography
+
+Page 221. The entry [Beck/Cunningham 1989] should be in title case: “A Laboratory for Teaching Object-Oriented Thinking” instead of “A laboratory for teaching object oriented thinking.”
+
+Page 223. [Floyd 1992] should be moved before [Foote/Yoder 1997].
