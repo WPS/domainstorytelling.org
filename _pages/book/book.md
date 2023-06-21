@@ -6,11 +6,11 @@ header:
   overlay_image: /assets/images/home/sunflower-7.jpeg
 ---
 
-![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}
+[![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}](#buy-now)
 
 With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Boston: Addison-Wesley, 2022), [Stefan Hofer](https://twitter.com/hofstef) and [Henning Schwentner](https://hschwentner.io) have written the first book about this modeling method. It features a foreword by [Nick Tune](https://ntcoding.co.uk) and is part of the Addison-Wesley Signature Series of [Vaughn Vernon](https://vaughnvernon.com). Stefan and Henning also have translated the book into a German edition.
 
-![German Cover of book *Domain Storytelling*](https://dpunkt.de/wp-content/uploads/2023/02/13983.jpg){: .align-right width="20%"}
+[![German Cover of book *Domain Storytelling*](https://dpunkt.de/wp-content/uploads/2023/02/13983.jpg){: .align-right width="20%"}](#buy-now)
 
 We introduce you to the method’s easy pictographic language, scenario-based modeling techniques, workshop format, and relationship to other modeling methods. Using step-by-step case studies, we guide you through solving many common problems.
 
