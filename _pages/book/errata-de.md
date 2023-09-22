@@ -1,5 +1,5 @@
 ---
-permalink: /book/errata
+permalink: /book/errata-de
 layout: single
 title: Das Buch über Domain Storytelling – Errata
 header:
