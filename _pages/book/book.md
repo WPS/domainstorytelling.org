@@ -39,4 +39,4 @@ The full [bibliography](/book/bibliography) of the book, with clickable links.
 
 ## Errata
 
-[Errata](/book/errata) found after printing.
+Errata found after printing: [in English edition](/book/errata), [in German edition](/book/errata-de).
