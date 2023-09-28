@@ -16,6 +16,14 @@ header:
 
 Page 42. In Figure 3.4 the annotation “mention reviews” should be “and mentions language” like in Figure 1.10.
 
+#### Chapter 5, “Modeling Tools”
+
+Page 59. The first sentences in the bullet list should be set in bold like on the page before. That is “Sticky notes just for work objects:” and “Sticky notes for actors, work objects, and sequence numbers:”.
+
+#### Chapter 6, “The Workshop Format”
+
+Page 67. In the opening domain story in sentence 3 it should be “tell” instead of “tells.”
+
 #### Chapter 8, “Case Study—Alphorn Auto Leasing Inc.”
 
 Page 106. To the bullet list of the group of people add the entry: “Amin, an accountant” to complete the list.
