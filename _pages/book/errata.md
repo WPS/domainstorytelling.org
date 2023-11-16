@@ -16,6 +16,8 @@ header:
 
 Page 42. In Figure 3.4 the annotation “mention reviews” should be “and mentions language” like in Figure 1.10.
 
+Page 44. In the sentence starting “Hence, the ellipsis contains…” the word “ellipsis” should be “ellipse.” (Thanks to [Karel Vervaeke](https://github.com/karel1980))
+
 #### Chapter 5, “Modeling Tools”
 
 Page 59. The first sentences in the bullet list should be set in bold like on the page before. That is “Sticky notes just for work objects:” and “Sticky notes for actors, work objects, and sequence numbers:”.
