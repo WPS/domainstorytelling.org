@@ -16,7 +16,7 @@ header:
 
 Page 42. In Figure 3.4 the annotation “mention reviews” should be “and mentions language” like in Figure 1.10.
 
-Page 44. "ellipsis" should have been "ellipses".
+Page 44. In the sentence starting “Hence, the ellipsis contains…” the word “ellipsis” should be “ellipse.” (Thanks to [Karel Vervaeke](https://github.com/karel1980))
 
 #### Chapter 5, “Modeling Tools”
 
