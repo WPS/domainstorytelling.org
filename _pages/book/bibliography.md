@@ -94,7 +94,7 @@ Domain Storytelling Website. <https://domainstorytelling.org>.
 *Egon.io—the Domain Story Modeler*. <https://egon.io>.
 
 **[Egon.io Sources]**  
-*Egon.io—the Domain Story Modeler, Source Code*. <https://github.com/WPS/domain-story-modeler>.
+*Egon.io—the Domain Story Modeler, Source Code*. <https://github.com/WPS/egon.io>.
 
 **[Evans 2004]**  
 Eric Evans. *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Boston: Addison-Wesley, 2004.
