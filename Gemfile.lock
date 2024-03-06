@@ -127,7 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.3.3)
   jekyll-include-cache
   jemoji (~> 0.13.0)
   minimal-mistakes-jekyll (~> 4.24)
