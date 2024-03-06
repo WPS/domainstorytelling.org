@@ -71,7 +71,7 @@ Once the story is finished, the moderator checks if all participants agree upon 
 
 > Modeling is a thinking tool.The act of modeling is more important than the actual model.
 
-Do not think of Domain Stories as documentation. Use them to dive into [Domain Driven Design](./domain-driven-design.md), or [to uncover requirements](./requirements.md) for software development. Inviting the right people to the workshops is important because the primary goal is to learn and communicate. A picture of a Domain Story serves as an aid to memory for those present at the workshop, but it is not a replacement for participating.
+Do not think of Domain Stories as documentation. Use them to dive into [Domain Driven Design](./domain-driven-design), or [to uncover requirements](requirements) for software development. Inviting the right people to the workshops is important because the primary goal is to learn and communicate. A picture of a Domain Story serves as an aid to memory for those present at the workshop, but it is not a replacement for participating.
 
 ## Tools
 
