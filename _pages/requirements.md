@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/home/sunflower-2.jpeg
 ---
 
-The people involved in requirements elicitation have to learn and to communicate continuously. If you have read the "Quick-start Guide", you saw how Domain Storytelling helps to learn domain language and to reach a shared understanding. If you are a product owner, domain expert, business analyst, or developer who has to deal with requirements, you can use Domain Storytelling...
+The people involved in requirements elicitation have to learn and to communicate continuously. If you have read the [Quick-start Guide](/quick-start-guide), you saw how Domain Storytelling helps to learn domain language and to reach a shared understanding. If you are a product owner, domain expert, business analyst, or developer who has to deal with requirements, you can use Domain Storytelling...
 
 1. to identify weaknesses in IT-support and cooperation.
 2. to visualize how the domain will change because of the software being developed.
