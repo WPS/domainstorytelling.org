@@ -14,11 +14,11 @@ header:
 
 #### Kapitel 11: »Mit Anforderungen arbeiten«
 
-Seite 150: Die Domain Story Alphorn 6 (Abb. 11-5) beschribt als vierte Aktivität "Kunde lehnt Vertrag ab und gibt ihn zurück an Verkäufer". In dieser Aktivität soll der Kunde jedoch den Vertrag unterschreiben und an den Verkäufer zurückgeben.
+Seite 150: Die Domain Story Alphorn 6 (Abb. 11-5) beschreibt als vierte Aktivität "Kunde lehnt Vertrag ab und gibt ihn zurück an Verkäufer". In dieser Aktivität soll der Kunde jedoch den Vertrag unterschreiben und an den Verkäufer zurückgeben.
 
 #### Kapitel 12: »Modellieren in Code«
 
-Seite 160: Abb. 12-3 enthält den gleichen Fehler wie Abb. 11-5 (siehe Errata zu Kapitel 11, Seite 150)
+Seite 160: Abb. 12-3 enthält den gleichen Fehler wie Abb. 11-5 (siehe Errata zu Kapitel 11, Seite 150).
 
 #### Kapitel 13: »Organisatorische Veränderungen unterstützen«
 
