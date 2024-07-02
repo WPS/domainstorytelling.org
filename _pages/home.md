@@ -44,16 +44,20 @@ external_links:
 
 Storytelling is at the heart of human communication—why not use it to overcome costly misunderstandings when designing software? By telling and visualizing stories, domain experts and team members make business processes and domain knowledge tangible. Domain Storytelling enables everyone to understand the relevant people, activities, and work items.
 
-Domain Storytelling is a technique to transform domain knowledge into effective business software. It ***brings together domain experts and development teams***. The domain experts can see immediately whether we understand their story correctly.
+Domain Storytelling is a technique to transform domain knowledge into effective business software. It ***brings together domain experts and development teams***. The domain experts can see immediately whether you understand their story correctly.
 
 ## Purposes
 
 Domain Storytelling is a versatile tool that helps you to:
 
+- Understanding a domain
+- Establishing a shared language between domain experts and IT experts
 - Fully align all project participants and stakeholders, both technical and business-focused
 - Draw clear boundaries to organize your domain, software, and teams
+- Designing viable, software-supported business processes
 - Transform domain knowledge into requirements, embedded naturally into an agile process
 - Gain better visibility into your IT landscape so you can consolidate or optimize it
+
 
 ## Learn More
 
