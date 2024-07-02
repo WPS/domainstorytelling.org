@@ -9,11 +9,14 @@ header:
 
 ![Profile photo of Stefan](/assets/images/contact/StefanHofer_571.jpg){: .align-right width="20%"}
 
-**Stefan Hofer** is bad at drawing. However, he thinks he can build up domain knowledge by drawing domain stories. Stefan studied software engineering in Austria and earned a PhD in computer science. Since 2005, he has been working for [WPS – Workplace Solutions](https://www.wps.de) in Hamburg, Germany. His job there is to help teams develop software that does the right job the right way. He maintains domainstorytelling.org.
+**Stefan Hofer** is bad at drawing. However, he thinks he can build up domain knowledge by drawing domain stories. Stefan studied software engineering in Austria and earned a PhD in computer science. Since 2005, he has been working for [WPS – Workplace Solutions](https://www.wps.de) in Hamburg, Germany. His job there is to help teams develop software that does the right job the right way.
 
-<i class="fab fa-fw fa-twitter" title="Twitter"></i>
-[@hofstef](https://twitter.com/hofstef)  
-<i class="fas fa-envelope" title="Email"></i> [stefan@domainstorytelling.org](mailto:stefan@domainstorytelling.org)
+<i class="fa-brands fa-mastodon" title="Mastodon"></i>
+[@hofstef@social.wps.de](https://social.wps.de/@hofstef)  
+<i class="fa-brands fa-linkedin" title="LinkedIn"></i>
+[hofstef](https://www.linkedin.com/in/hofstef/)  
+<i class="fas fa-envelope" title="Email"></i>
+[stefan@domainstorytelling.org](mailto:stefan@domainstorytelling.org)
 
 ![Profile photo of Henning](/assets/images/contact/HenningSchwentner251.jpg){: .align-right width="20%"}
 
@@ -23,5 +26,7 @@ header:
 [hschwentner.io](https://hschwentner.io)  
 <i class="fab fa-fw fa-twitter" title="Twitter"></i>
 [@hschwentner](https://twitter.com/hschwentner)  
+<i class="fa-brands fa-mastodon" title="Mastodon"></i>
+[@hschwentner@social.wps.de](https://social.wps.de/@hschwentner)  
 <i class="fas fa-envelope" title="Email"></i>
 [henning@domainstorytelling.org](mailto:henning@domainstorytelling.org)
