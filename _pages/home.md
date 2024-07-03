@@ -50,8 +50,8 @@ Domain Storytelling is a technique to transform domain knowledge into effective 
 
 Domain Storytelling is a versatile tool that helps you to:
 
-- Understanding a domain
-- Establishing a shared language between domain experts and IT experts
+- Understand a domain
+- Establish a shared language between domain experts and IT experts
 - Fully align all project participants and stakeholders, both technical and business-focused
 - Draw clear boundaries to organize your domain, software, and teams
 - Designing viable, software-supported business processes
