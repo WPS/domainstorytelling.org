@@ -12,13 +12,109 @@ header:
 
 # Your First Domain Story
 
-Imagine you are a software developer who was tasked to develop an app for a cinema. The app should have an online reservation feature. Since you have no clue where to start, you decide to interview a cashier. He works at the ticket counter and takes reservations by phone and in person. The picture shows a graphical recording of the cashier's Domain Story. To read the story, just follow the numbers:
+Matthew runs a small movie theater for arthouse films—called Metropolis—that enjoys an excellent reputation among cineastes. Local craft beer and organic snacks round off the cinema experience. One day Matthew meets his school friend Anna. When he learns that Anna has been developing apps for almost ten years, he gets an idea.
 
-![A domain story showing the process of buying movie tickets](/assets/images/quick-start-guide/dst_egpm.png)
+**Movie theater manager Matthew:** “My customers like the old-fashioned charm of my cinema. But they do not like my old-fashioned box office. Today's moviegoers are not used to buying tickets in person at the box office anymore. Customers have been asking me to sell tickets online. Can you develop an app for me?”
 
-1. The customer asks the cashier for a reservation.
-2. The cashier looks up the screen plan in the ticket system to find available seats.
-3. ... (you get the idea)
+**App developer Anna:** “You run just one cinema, and there's only a handful of movies per week, two or three shows a day. Sounds easy.”
+
+**Matthew:** “Great! But one small thing: We also show international movies in foreign languages in our program. Also, in addition to the online sales through the app, I still need the box office for less tech-savvy moviegoers. And I'd like users of the app to be able to sign up for a yearly subscription.”
+
+**Anna:** “Subscriptions? Online and offline sales? Shows in foreign languages? That's more complicated than I thought….”
+
+The next day they meet again in Matthew's office. They are standing in front of a whiteboard, and Anna is holding a marker in her hand.
+
+**App developer Anna:** “Yesterday you said that the app essentially has three use cases: One: selling standard tickets; two: selling special tickets for foreign-language movies; and three: signing up for a yearly subscription.”
+
+**Movie theater manager Matthew:** “Uh, yes, that's right.”
+
+**Anna:** “I would like to understand how Metropolis operates today. That will help me to develop an app that meets your requirements. Could you please explain to me how you sell tickets at the box office?”
+
+**Matthew:** “Sure. You sell the tickets and mark the seat in the seating plan and…”
+
+**Anna:** “Wait a minute. Who sells the tickets?”
+
+**Matthew:** “I have two students working for me. But sometimes I do it myself.”
+
+**Anna:** “Okay, but what role do you or the students have then?”
+
+**Matthew:** “Cashier.”
+
+Anna draws a stick figure on the whiteboard and writes “cashier” underneath.
+
+![The first actor](/assets/images/quick-start-guide/01fig01-first-actor.svg)
+
+**Anna:** “Who buys the tickets?”
+
+**Matthew:** “A moviegoer. One without a subscription.”
+
+Anna draws a second stick figure and calls it “moviegoer.” Next to it, she writes down that the moviegoer has no subscription.
+
+![The second actor and the first annotation](/assets/images/quick-start-guide/01fig02-second-actor-gray.svg)
+
+**Anna:** “What does a moviegoer have to do to buy a ticket?”
+
+**Matthew:** “They tell the cashier which show they want to see.”
+
+**Anna:** “I will draw a speech bubble as an icon for the show here, because the two of them talk to each other.”
+
+Anna continues drawing and numbers the arrow.
+
+![The first activity](/assets/images/quick-start-guide/01fig03-first-activity-gray.svg)
+
+**Anna:** “And then?”
+
+**Matthew:** “Usually the cashier suggests the best seat available.”
+
+**Anna:** “Ah, so the moviegoer picks a seat in advance! How does the cashier suggest seats?”
+
+**Matthew:** “I take the seating plan for the show and search for available seats. In the seating plan, I can see which seats have already been sold and which are still available.”
+
+Anna draws and explains the icons.
+
+**Anna:** “Here, I'm using a film icon instead of the speech bubble to symbolize the show.”
+
+**Matthew:** “The seating plan is a grid. Can you draw a grid?”
+
+![The second activity](/assets/images/quick-start-guide/01fig04-second-activity-gray.svg)
+
+Then, Anna reads back what she has understood.
+
+**Anna:** “Second, the cashier gets the seating plan for the show. Third, they search for available seats. Is that ok?”
+
+![The third activity](/assets/images/quick-start-guide/01fig05-third-activity-gray.svg)
+
+Matthew nods in agreement.
+
+**Anna:** “And now the cashier suggests the available seats to the moviegoer?”
+
+**Matthew:** “Exactly.”
+
+**Anna:** “I will move the annotation ‘does not have a subscription’ up a bit to get enough space for that fourth sentence.”
+
+![The fourth activity](/assets/images/quick-start-guide/01fig06-fourth-activity-gray.svg)
+
+Within a few minutes, the whiteboard is filled with a story about a moviegoer who buys tickets from a cashier at the box office. Icons and arrows are rearranged during the session. Finally, Anna retells the story from the beginning.
+
+![The whole story](/assets/images/quick-start-guide/01fig07-whole-story.svg)
+
+**Matthew:** “Yes, that's right. But I forgot about the international movies.”
+
+**Anna:** “You mean the shows in a foreign language? I thought you sell special tickets for those.”
+
+**Matthew:** “No, no! We usually show the movies in English. When it is a foreign movie, we also show it in its original language. We don't sell extra tickets; you only have to point out to the moviegoers which language the movie will be shown in.”
+
+**Anna:** “When does the cashier do that?”
+
+**Matthew:** “Here.”
+
+Matthew points to the arrow with the number 4. Anna amends the sentence “Cashier suggests available seats to moviegoer” with a comment “and mentions language”.
+
+![Adding another annotation](/assets/images/quick-start-guide/01fig08-another-annotation-gray.svg)
+
+**Anna:** “It seems we are finished with our little ‘Going to the movies’ story. Of course, we have looked only at the best possible outcome; I call this the ‘happy path.’ I will ask you about other cases later.”
+
+After a few more Metropolis domain stories, Anna has gained a good insight into the cinema domain. She knows terms like “seating plan,” “show,” “cashier,” “to search for available seats,” and “to mark seats.” She has an initial understanding of the most important processes. With this knowledge about the purpose of the app and its context, she can think about how the app will work and how the processes will change.
 
 # The Pictographic Language
 

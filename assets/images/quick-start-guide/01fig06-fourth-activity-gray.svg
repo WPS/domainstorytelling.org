@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
+   sodipodi:docname="05a.svg"
+   id="svg5400"
+   version="1.1"
+   viewBox="329 -211.98438 720 133.55149"
+   height="203"
+   width="720">
+  <metadata
+     id="metadata5404">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg5400"
+     inkscape:window-maximized="0"
+     inkscape:window-y="55"
+     inkscape:window-x="188"
+     inkscape:cy="319.11687"
+     inkscape:cx="440.5"
+     inkscape:zoom="0.6"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview5402"
+     inkscape:window-height="610"
+     inkscape:window-width="910"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs4580">
+    <marker
+       orient="auto"
+       markerHeight="10"
+       markerWidth="10"
+       refY="10"
+       refX="11"
+       viewBox="0 0 20 20"
+       id="activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9">
+      <path
+         id="path4577"
+         style="fill:gray;stroke:gray;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         d="M 1,5 11,10 1,15 Z" />
+    </marker>
+    <marker
+       orient="auto"
+       markerHeight="10"
+       markerWidth="10"
+       refY="10"
+       refX="11"
+       viewBox="0 0 20 20"
+       id="activity-black-black-4slfhhwe6hy0vzi47oxz93xz9">
+      <path
+         id="path4577"
+         style="fill:black;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         d="M 1,5 11,10 1,15 Z" />
+    </marker>
+  </defs>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g4628"
+     class="djs-group">
+    <g
+       id="g4626"
+       transform="translate(688,163)"
+       style="display:block"
+       data-element-id="shape_5616"
+       class="djs-element djs-shape">
+      <g
+         id="g4620"
+         class="djs-visual">
+        <svg
+           id="svg4614"
+           version="1.1"
+           height="75"
+           width="75"
+           viewBox="0 0 24 26"
+           fill="gray">
+          <path
+             id="path4610"
+             d="m 12,5.9 c 1.16,0 2.1,0.94 2.1,2.1 0,1.16 -0.94,2.1 -2.1,2.1 C 10.84,10.1 9.9,9.16 9.9,8 9.9,6.84 10.84,5.9 12,5.9 m 0,9 c 2.97,0 6.1,1.46 6.1,2.1 v 1.1 H 5.9 V 17 c 0,-0.64 3.13,-2.1 6.1,-2.1 M 12,4 C 9.79,4 8,5.79 8,8 c 0,2.21 1.79,4 4,4 2.21,0 4,-1.79 4,-4 0,-2.21 -1.79,-4 -4,-4 z m 0,9 c -2.67,0 -8,1.34 -8,4 v 3 h 16 v -3 c 0,-2.66 -5.33,-4 -8,-4 z" />
+          <path
+             id="path4612"
+             fill="none"
+             d="M 0,0 H 24 V 24 H 0 Z" />
+        </svg>
+        <text
+           id="text4618"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan4616"
+             y="75"
+             x="18.070312">cashier</tspan></text>
+      </g>
+      <rect
+         id="rect4622"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect4624"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g4684"
+     class="djs-group">
+    <g
+       id="g4682"
+       style="display:block"
+       data-element-id="connection_3579"
+       class="djs-element djs-connection">
+      <g
+         id="g4676"
+         class="djs-visual">
+        <polyline
+           id="polyline4670"
+           style="fill:none;stroke:gray;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="576,88 670,88 701,163 " />
+        <text
+           id="text4674"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan4672"
+             y="103"
+             x="611.90002">to</tspan></text>
+      </g>
+      <polyline
+         id="polyline4678"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="576,88 670,88 701,163 " />
+      <rect
+         id="rect4680"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="137"
+         y="82"
+         x="570" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g4708"
+     class="djs-group">
+    <g
+       id="g4706"
+       style="display:block"
+       data-element-id="connection_7616"
+       class="djs-element djs-connection">
+      <g
+         id="g4700"
+         class="djs-visual">
+        <polyline
+           id="polyline4686"
+           style="fill:none;stroke:gray;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="769,201 846,201 " />
+        <text
+           id="text4690"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan4688"
+             y="216"
+             x="770.90002">searches for</tspan></text>
+        <text
+           id="text4694"
+           style="font-weight:normal;font-size:150px;font-family:Courier;fill:gray"
+           class="djs-labelNumber"
+           position="absolute"
+           lineHeight="1.2"><tspan
+             id="tspan4692"
+             y="197"
+             x="756.5">.</tspan></text>
+        <text
+           id="text4698"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#ffffff"
+           class="djs-labelNumber"
+           position="absolute"
+           backgroundColor="green"
+           lineHeight="1.2"><tspan
+             id="tspan4696"
+             y="192"
+             x="795.5">03</tspan></text>
+      </g>
+      <polyline
+         id="polyline4702"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="769,201 846,201 " />
+      <rect
+         id="rect4704"
+         style="fill:none"
+         class="djs-outline"
+         height="12"
+         width="89"
+         y="195"
+         x="763" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g4732"
+     class="djs-group">
+    <g
+       id="g4730"
+       style="display:block"
+       data-element-id="connection_1193"
+       class="djs-element djs-connection">
+      <g
+         id="g4724"
+         class="djs-visual">
+        <polyline
+           id="polyline4710"
+           style="fill:none;stroke:black;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-black-black-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="688,201 576,201 " />
+        <text
+           id="text4714"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:black"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan4712"
+             y="216"
+             x="605.59998">suggests</tspan></text>
+        <text
+           id="text4718"
+           style="font-weight:normal;font-size:150px;font-family:Courier;fill:black"
+           class="djs-labelNumber"
+           position="absolute"
+           lineHeight="1.2"><tspan
+             id="tspan4716"
+             y="197"
+             x="581">.</tspan></text>
+        <text
+           id="text4722"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#ffffff"
+           class="djs-labelNumber"
+           position="absolute"
+           backgroundColor="green"
+           lineHeight="1.2"><tspan
+             id="tspan4720"
+             y="192"
+             x="620">04</tspan></text>
+      </g>
+      <polyline
+         id="polyline4726"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="688,201 576,201 " />
+      <rect
+         id="rect4728"
+         style="fill:none"
+         class="djs-outline"
+         height="12"
+         width="124"
+         y="195"
+         x="570" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g4856"
+     class="djs-group">
+    <g
+       id="g4854"
+       style="display:block"
+       data-element-id="connection_3716"
+       class="djs-element djs-connection">
+      <g
+         id="g4848"
+         class="djs-visual">
+        <polyline
+           id="polyline4834"
+           style="fill:none;stroke:gray;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="738,170 770,88 832,88 " />
+        <text
+           id="text4838"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan4836"
+             y="103"
+             x="784.79999">gets</tspan></text>
+        <text
+           id="text4842"
+           style="font-weight:normal;font-size:150px;font-family:Courier;fill:gray"
+           class="djs-labelNumber"
+           position="absolute"
+           lineHeight="1.2"><tspan
+             id="tspan4840"
+             y="84"
+             x="750">.</tspan></text>
+        <text
+           id="text4846"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#ffffff"
+           class="djs-labelNumber"
+           position="absolute"
+           backgroundColor="green"
+           lineHeight="1.2"><tspan
+             id="tspan4844"
+             y="79"
+             x="789">02</tspan></text>
+      </g>
+      <polyline
+         id="polyline4850"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="738,170 770,88 832,88 " />
+      <rect
+         id="rect4852"
+         style="fill:none"
+         class="djs-outline"
+         height="94"
+         width="106"
+         y="82"
+         x="732" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g4888"
+     class="djs-group">
+    <g
+       id="g4886"
+       style="display:block"
+       data-element-id="connection_6288"
+       class="djs-element djs-connection">
+      <g
+         id="g4880"
+         class="djs-visual">
+        <polyline
+           id="polyline4874"
+           style="fill:none;stroke:gray;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="913,88 972,88 " />
+        <text
+           id="text4878"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan4876"
+             y="103"
+             x="928.84998">for</tspan></text>
+      </g>
+      <polyline
+         id="polyline4882"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="913,88 972,88 " />
+      <rect
+         id="rect4884"
+         style="fill:none"
+         class="djs-outline"
+         height="12"
+         width="71"
+         y="82"
+         x="907" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5036"
+     class="djs-group">
+    <g
+       id="g5034"
+       transform="translate(832,50)"
+       style="display:block"
+       data-element-id="shape_4874"
+       class="djs-element djs-shape">
+      <g
+         id="g5028"
+         class="djs-visual">
+        <svg
+           id="svg5022"
+           version="1.1"
+           y="12.5"
+           x="12.5"
+           viewBox="0 0 24 28"
+           height="48.75"
+           width="48.75"
+           fill="gray">
+          <path
+             id="path5018"
+             fill="none"
+             d="M 0,0 H 24 V 24 H 0 Z" />
+          <path
+             id="path5020"
+             d="M 20,2 H 4 C 2.9,2 2,2.9 2,4 v 16 c 0,1.1 0.9,2 2,2 h 16 c 1.1,0 2,-0.9 2,-2 V 4 C 22,2.9 21.1,2 20,2 Z M 8,20 H 4 V 16 H 8 Z M 8,14 H 4 V 10 H 8 Z M 8,8 H 4 V 4 h 4 z m 6,12 h -4 v -4 h 4 z m 0,-6 h -4 v -4 h 4 z M 14,8 H 10 V 4 h 4 z m 6,12 h -4 v -4 h 4 z m 0,-6 h -4 v -4 h 4 z M 20,8 H 16 V 4 h 4 z" />
+        </svg>
+        <text
+           id="text5026"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5024"
+             y="74.75"
+             x="5.140625">seating plan</tspan></text>
+      </g>
+      <rect
+         id="rect5030"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5032"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5056"
+     class="djs-group">
+    <g
+       id="g5054"
+       transform="translate(495,50)"
+       style="display:block"
+       data-element-id="shape_1559"
+       class="djs-element djs-shape">
+      <g
+         id="g5048"
+         class="djs-visual">
+        <svg
+           id="svg5042"
+           version="1.1"
+           y="12.5"
+           x="12.5"
+           width="48.75"
+           viewBox="0 0 24 26"
+           height="48.75"
+           fill="gray">
+          <path
+             id="path5038"
+             fill="none"
+             d="M 0,0 H 24 V 24 H 0 Z" />
+          <path
+             id="path5040"
+             d="M 20,2 H 4 C 2.9,2 2,2.9 2,4 v 18 l 4,-4 h 14 c 1.1,0 2,-0.9 2,-2 V 4 C 22,2.9 21.1,2 20,2 Z m 0,14 H 6 L 4,18 V 4 h 16 z" />
+        </svg>
+        <text
+           id="text5046"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5044"
+             y="74.75"
+             x="23.492188">show</tspan></text>
+      </g>
+      <rect
+         id="rect5050"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5052"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5096"
+     class="djs-group">
+    <g
+       id="g5094"
+       transform="translate(495,163)"
+       style="display:block"
+       data-element-id="shape_4302"
+       class="djs-element djs-shape">
+      <g
+         id="g5088"
+         class="djs-visual">
+        <svg
+           id="svg5082"
+           version="1.1"
+           y="12.5"
+           x="12.5"
+           width="48.75"
+           viewBox="0 0 24 26"
+           height="48.75"
+           fill="black">
+          <path
+             id="path5078"
+             fill="none"
+             d="M 0,0 H 24 V 24 H 0 Z" />
+          <path
+             id="path5080"
+             d="M 20,2 H 4 C 2.9,2 2,2.9 2,4 v 18 l 4,-4 h 14 c 1.1,0 2,-0.9 2,-2 V 4 C 22,2.9 21.1,2 20,2 Z m 0,14 H 6 L 4,18 V 4 h 16 z" />
+        </svg>
+        <text
+           id="text5086"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:black"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5084"
+             y="74.75"
+             x="0">available seats</tspan></text>
+      </g>
+      <rect
+         id="rect5090"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5092"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5158"
+     class="djs-group">
+    <g
+       id="g5156"
+       style="display:block"
+       data-element-id="connection_6507"
+       class="djs-element djs-connection">
+      <g
+         id="g5150"
+         class="djs-visual">
+        <polyline
+           id="polyline5136"
+           style="fill:none;stroke:gray;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="380,163 420,88 495,88 " />
+        <text
+           id="text5140"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan5138"
+             y="103"
+             x="438.75">tells</tspan></text>
+        <text
+           id="text5144"
+           style="font-weight:normal;font-size:150px;font-family:Courier;fill:gray"
+           class="djs-labelNumber"
+           position="absolute"
+           lineHeight="1.2"><tspan
+             id="tspan5142"
+             y="84"
+             x="406.5">.</tspan></text>
+        <text
+           id="text5148"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#ffffff"
+           class="djs-labelNumber"
+           position="absolute"
+           backgroundColor="green"
+           lineHeight="1.2"><tspan
+             id="tspan5146"
+             y="79"
+             x="445.5">01</tspan></text>
+      </g>
+      <polyline
+         id="polyline5152"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="380,163 420,88 495,88 " />
+      <rect
+         id="rect5154"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="127"
+         y="82"
+         x="374" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5210"
+     class="djs-group">
+    <g
+       id="g5208"
+       style="display:block"
+       data-element-id="connection_9433"
+       class="djs-element djs-connection">
+      <g
+         id="g5202"
+         class="djs-visual">
+        <polyline
+           id="polyline5196"
+           style="fill:none;stroke:black;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-black-black-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="495,201 423,201 " />
+        <text
+           id="text5200"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:black"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan5198"
+             y="216"
+             x="447.89999">to</tspan></text>
+      </g>
+      <polyline
+         id="polyline5204"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="495,201 423,201 " />
+      <rect
+         id="rect5206"
+         style="fill:none"
+         class="djs-outline"
+         height="12"
+         width="84"
+         y="195"
+         x="417" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5238"
+     class="djs-group">
+    <g
+       id="g5236"
+       style="display:block"
+       data-element-id="connection_1124"
+       class="djs-element djs-connection">
+      <g
+         id="g5230"
+         class="djs-visual">
+        <polyline
+           id="polyline5228"
+           style="stroke:black;stroke-width:1.5px;stroke-linejoin:round;stroke-dasharray:5, 5"
+           points="409,188 430,156 " />
+      </g>
+      <polyline
+         id="polyline5232"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="409,188 430,156 " />
+      <rect
+         id="rect5234"
+         style="fill:none"
+         class="djs-outline"
+         height="44"
+         width="33"
+         y="150"
+         x="403" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5282"
+     class="djs-group">
+    <g
+       id="g5280"
+       transform="translate(342,163)"
+       style="display:block"
+       data-element-id="shape_5615"
+       class="djs-element djs-shape hover">
+      <g
+         id="g5274"
+         class="djs-visual">
+        <svg
+           id="svg5268"
+           version="1.1"
+           height="75"
+           width="75"
+           viewBox="0 0 24 26"
+           fill="gray">
+          <path
+             id="path5264"
+             d="m 12,5.9 c 1.16,0 2.1,0.94 2.1,2.1 0,1.16 -0.94,2.1 -2.1,2.1 C 10.84,10.1 9.9,9.16 9.9,8 9.9,6.84 10.84,5.9 12,5.9 m 0,9 c 2.97,0 6.1,1.46 6.1,2.1 v 1.1 H 5.9 V 17 c 0,-0.64 3.13,-2.1 6.1,-2.1 M 12,4 C 9.79,4 8,5.79 8,8 c 0,2.21 1.79,4 4,4 2.21,0 4,-1.79 4,-4 0,-2.21 -1.79,-4 -4,-4 z m 0,9 c -2.67,0 -8,1.34 -8,4 v 3 h 16 v -3 c 0,-2.66 -5.33,-4 -8,-4 z" />
+          <path
+             id="path5266"
+             fill="none"
+             d="M 0,0 H 24 V 24 H 0 Z" />
+        </svg>
+        <text
+           id="text5272"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5270"
+             y="75"
+             x="7.40625">moviegoer</tspan></text>
+      </g>
+      <rect
+         id="rect5276"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5278"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5302"
+     class="djs-group">
+    <g
+       id="g5300"
+       transform="translate(972,50)"
+       style="display:block"
+       data-element-id="shape_2778"
+       class="djs-element djs-shape">
+      <g
+         id="g5294"
+         class="djs-visual">
+        <svg
+           id="svg5288"
+           version="1.1"
+           y="12.5"
+           x="12.5"
+           viewBox="0 0 24 26"
+           height="48.75"
+           width="48.75"
+           fill="gray">
+          <path
+             id="path5284"
+             d="M 0,0 H 24 V 24 H 0 Z"
+             fill="none" />
+          <path
+             id="path5286"
+             d="M 18,3 V 5 H 16 V 3 H 8 V 5 H 6 V 3 H 4 v 18 h 2 v -2 h 2 v 2 h 8 v -2 h 2 v 2 h 2 V 3 Z M 8,17 H 6 V 15 H 8 Z M 8,13 H 6 V 11 H 8 Z M 8,9 H 6 V 7 h 2 z m 6,10 H 10 V 5 h 4 z m 4,-2 h -2 v -2 h 2 z m 0,-4 h -2 v -2 h 2 z M 18,9 H 16 V 7 h 2 z" />
+        </svg>
+        <text
+           id="text5292"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5290"
+             y="74.75"
+             x="23.492188">show</tspan></text>
+      </g>
+      <rect
+         id="rect5296"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5298"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5342"
+     class="djs-group">
+    <g
+       id="g5340"
+       transform="translate(846,163)"
+       style="display:block"
+       data-element-id="shape_0141"
+       class="djs-element djs-shape">
+      <g
+         id="g5334"
+         class="djs-visual">
+        <svg
+           id="svg5328"
+           version="1.1"
+           y="12.5"
+           x="12.5"
+           viewBox="0 0 24 26"
+           height="48.75"
+           width="48.75"
+           fill="gray">
+          <path
+             id="path5324"
+             d="M 0,0 H 24 V 24 H 0 Z"
+             fill="none" />
+          <path
+             id="path5326"
+             d="M 21,9 V 7 C 21,5.35 19.65,4 18,4 H 6 C 4.35,4 3,5.35 3,7 V 9 C 1.35,9 0,10.35 0,12 v 5 c 0,1.65 1.35,3 3,3 h 18 c 1.65,0 3,-1.35 3,-3 V 12 C 24,10.35 22.65,9 21,9 Z M 5,7 C 5,6.45 5.45,6 6,6 h 12 c 0.55,0 1,0.45 1,1 v 2.78 c -0.61,0.55 -1,1.34 -1,2.22 v 2 H 6 V 12 C 6,11.12 5.61,10.33 5,9.78 Z m 17,10 c 0,0.55 -0.45,1 -1,1 H 3 C 2.45,18 2,17.55 2,17 v -5 c 0,-0.55 0.45,-1 1,-1 0.55,0 1,0.45 1,1 v 4 h 16 v -4 c 0,-0.55 0.45,-1 1,-1 0.55,0 1,0.45 1,1 z" />
+        </svg>
+        <text
+           id="text5332"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5330"
+             y="74.75"
+             x="0">available seats</tspan></text>
+      </g>
+      <rect
+         id="rect5336"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5338"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5358"
+     class="djs-group">
+    <g
+       id="g5356"
+       style="display:block"
+       data-element-id="connection_4598"
+       class="djs-element djs-connection">
+      <g
+         id="g5350"
+         class="djs-visual">
+        <polyline
+           id="polyline5344"
+           style="fill:none;stroke:gray;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-gray-gray-4slfhhwe6hy0vzi47oxz93xz9)"
+           points="927,201 968,201 " />
+        <text
+           id="text5348"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           hyphens="auto"
+           overflowWrap="break-word"
+           wordWrap="break-word"
+           lineHeight="1.2"><tspan
+             id="tspan5346"
+             y="216"
+             x="936.40002">in</tspan></text>
+      </g>
+      <polyline
+         id="polyline5352"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         class="djs-hit djs-hit-stroke"
+         points="927,201 968,201 " />
+      <rect
+         id="rect5354"
+         style="fill:none"
+         class="djs-outline"
+         height="12"
+         width="53"
+         y="195"
+         x="921" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5378"
+     class="djs-group">
+    <g
+       id="g5376"
+       transform="translate(970,163)"
+       style="display:block"
+       data-element-id="shape_2488"
+       class="djs-element djs-shape">
+      <g
+         id="g5370"
+         class="djs-visual">
+        <svg
+           id="svg5364"
+           version="1.1"
+           y="12.5"
+           x="12.5"
+           viewBox="0 0 24 28"
+           height="48.75"
+           width="48.75"
+           fill="gray">
+          <path
+             id="path5360"
+             fill="none"
+             d="M 0,0 H 24 V 24 H 0 Z" />
+          <path
+             id="path5362"
+             d="M 20,2 H 4 C 2.9,2 2,2.9 2,4 v 16 c 0,1.1 0.9,2 2,2 h 16 c 1.1,0 2,-0.9 2,-2 V 4 C 22,2.9 21.1,2 20,2 Z M 8,20 H 4 V 16 H 8 Z M 8,14 H 4 V 10 H 8 Z M 8,8 H 4 V 4 h 4 z m 6,12 h -4 v -4 h 4 z m 0,-6 h -4 v -4 h 4 z M 14,8 H 10 V 4 h 4 z m 6,12 h -4 v -4 h 4 z m 0,-6 h -4 v -4 h 4 z M 20,8 H 16 V 4 h 4 z" />
+        </svg>
+        <text
+           id="text5368"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5366"
+             y="74.75"
+             x="5.140625">seating plan</tspan></text>
+      </g>
+      <rect
+         id="rect5372"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="75"
+         width="75"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5374"
+         style="fill:none"
+         class="djs-outline"
+         height="87"
+         width="87"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+  <g
+     transform="translate(-5.5,-289.20863)"
+     id="g5398"
+     class="djs-group">
+    <g
+       id="g5396"
+       transform="translate(430,135)"
+       style="display:block"
+       data-element-id="shape_2857"
+       class="djs-element djs-shape">
+      <g
+         id="g5390"
+         class="djs-visual">
+        <rect
+           id="rect5380"
+           style="fill:none;stroke:none;stroke-width:2px"
+           ry="0"
+           rx="0"
+           height="42"
+           width="100"
+           y="0"
+           x="0" />
+        <path
+           id="path5382"
+           style="fill:none;stroke:black;stroke-width:2px"
+           d="M 0,0 M 10,0 H 0 v 42 h 10" />
+        <text
+           id="text5388"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:black"
+           class="djs-label"
+           lineHeight="1.2"><tspan
+             id="tspan5384"
+             y="15.8"
+             x="5">does not have a</tspan><tspan
+             id="tspan5386"
+             y="30.200001"
+             x="5">subscription</tspan></text>
+      </g>
+      <rect
+         id="rect5392"
+         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+         height="42"
+         width="100"
+         y="0"
+         x="0"
+         class="djs-hit djs-hit-all" />
+      <rect
+         id="rect5394"
+         style="fill:none"
+         class="djs-outline"
+         height="54"
+         width="112"
+         y="-6"
+         x="-6" />
+    </g>
+  </g>
+</svg>
