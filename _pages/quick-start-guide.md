@@ -1,13 +1,16 @@
 ---
 permalink: /quick-start-guide
 title: "Quick-Start Guide"
-layout: splash
+excerpt: "What you need to know about Domain Storytelling to get started."
+layout: single
+toc: true
+toc_sticky: true
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/home/sunflower-8.jpeg
 ---
 
-## Your First Domain Story
+# Your First Domain Story
 
 Imagine you are a software developer who was tasked to develop an app for a cinema. The app should have an online reservation feature. Since you have no clue where to start, you decide to interview a cashier. He works at the ticket counter and takes reservations by phone and in person. The picture shows a graphical recording of the cashier's Domain Story. To read the story, just follow the numbers:
 
@@ -17,7 +20,7 @@ Imagine you are a software developer who was tasked to develop an app for a cine
 2. The cashier looks up the screen plan in the ticket system to find available seats.
 3. ... (you get the idea)
 
-## The pictographic language
+# The Pictographic Language
 
 To record Domain Stories, we need a vocabulary and pictograms that represent the vocabulary:
 
@@ -30,7 +33,7 @@ To add a specific meaning to a pictogram, we name it with a term from the domain
 
 In the examples on this website, we use about a dozen of Google's Material icons that represent typical office work. You should compile your own set of pictograms that fits to your domain.
 
-### Now we can build a sentence…
+## Now we can build a sentence…
 
 - Every sentence starts with an *actor* who initiates an *activity*.
 - Next, you need a *work object* or a piece of information that the *actor* does something with. Choose a pictogram that represents the medium of that work object (e.g. a paper icon, an email icon or a bubble for verbal information).
@@ -39,11 +42,11 @@ In the examples on this website, we use about a dozen of Google's Material icons
 
 So the basic syntax is: *subject* – *predicate* – *object*. Keep in mind that anyone should be able to read the graphical Domain Story out loud.
 
-### …and tell a story
+## …and tell a story
 
 By numbering the arrows, we express the sequence of activities. Every actor should appear only once in a Domain Story. However, if you use the same work object in several sentences, you have to draw it several times (maybe with different pictograms).
 
-## Feeling lost?
+# Feeling lost?
 
 Most business process modeling approaches show what can *possibly* happen in a process:
 
@@ -57,7 +60,7 @@ Domain Storytelling helps you to find meaningful examples of what actually happe
 
 Important alternatives and error cases deserve their own Domain Story. Usually, very few Domain Stories are sufficient to understand a business process. After recording Domain Stories for a few processes, you will become fluent in the domain language.
 
-## Domain Storytelling Workshops
+# Domain Storytelling Workshops
 
 Domain Stories are developed in workshops. Participants include domain experts (often from several departments), IT experts and a moderator. The moderator communicates the purpose of the workshop. All participants contribute to the story. The moderator keeps the participant’s story going by asking questions like:
 
@@ -73,7 +76,7 @@ Once the story is finished, the moderator checks if all participants agree upon 
 
 Do not think of Domain Stories as documentation. Use them to dive into [Domain Driven Design](./domain-driven-design), or [to uncover requirements](/requirements) for software development. Inviting the right people to the workshops is important because the primary goal is to learn and communicate. A picture of a Domain Story serves as an aid to memory for those present at the workshop, but it is not a replacement for participating.
 
-## Tools
+# Tools
 
 Often a whiteboard and some sticky notes are all you need.
 
