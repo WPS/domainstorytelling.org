@@ -1,7 +1,7 @@
 ---
 permalink: /requirements
 title: "Requirements"
-layout: splash
+layout: single
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/home/sunflower-2.jpeg

@@ -1,7 +1,7 @@
 ---
 permalink: /contact
 title: "Contact"
-layout: splash
+layout: single
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/home/sunflower-5.jpeg

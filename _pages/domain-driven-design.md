@@ -1,7 +1,7 @@
 ---
 permalink: /domain-driven-design
 title: "Domain-Driven Design with Domain Storytelling"
-layout: splash
+layout: single
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/domain-driven-design/kandinsky.jpg
