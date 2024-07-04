@@ -108,7 +108,7 @@ Within a few minutes, the whiteboard is filled with a story about a moviegoer wh
 
 **Matthew:** “Here.”
 
-Matthew points to the arrow with the number 4. Anna amends the sentence “Cashier suggests available seats to moviegoer” with a comment “and mentions language”.
+Matthew points to the arrow with the number 4. Anna amends the sentence “Cashier suggests available seats to moviegoer” with a comment “and mentions language.”
 
 ![Adding another annotation](/assets/images/quick-start-guide/01fig08-another-annotation-gray.svg)
 
@@ -203,7 +203,7 @@ The moderator helps to record the Domain Stories graphically. The story needs to
 
 Once the story is finished, the moderator checks if all participants agree upon the recorded Domain Story.  Objections, important variations, edge cases and so on are not dismissed but written down and may trigger another Domain Story.
 
-> Modeling is a thinking tool.The act of modeling is more important than the actual model.
+> Modeling is a thinking tool. The act of modeling is more important than the actual model.
 
 Do not think of Domain Stories as documentation. Use them to dive into [Domain Driven Design](./domain-driven-design), or [to uncover requirements](/requirements) for software development. Inviting the right people to the workshops is important because the primary goal is to learn and communicate. A picture of a Domain Story serves as an aid to memory for those present at the workshop, but it is not a replacement for participating.
 
