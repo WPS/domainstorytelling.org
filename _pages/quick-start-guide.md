@@ -211,7 +211,7 @@ Do not think of Domain Stories as documentation. Use them to dive into [Domain D
 
 Often a whiteboard and some sticky notes are all you need.
 
-![Modeling with sticky notes](/assets/images/quick-start-guide/sticky_notes.png)
+![Modeling with sticky notes](/assets/images/quick-start-guide/stickies.jpg)
 
 But since drawing the icons can be tedious, we have developed a *whiteboard kit* to speed up the recording process. You can <a href="/assets/images/quick-start-guide/DST_Whiteboard-Kit.pdf" target="_blank">download this template</a> and make your own kit.
 
