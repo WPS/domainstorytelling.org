@@ -114,35 +114,70 @@ Matthew points to the arrow with the number 4. Anna amends the sentence “Cashi
 
 **Anna:** “It seems we are finished with our little ‘Going to the movies’ story. Of course, we have looked only at the best possible outcome; I call this the ‘happy path.’ I will ask you about other cases later.”
 
-After a few more Metropolis domain stories, Anna has gained a good insight into the cinema domain. She knows terms like “seating plan,” “show,” “cashier,” “to search for available seats,” and “to mark seats.” She has an initial understanding of the most important processes. With this knowledge about the purpose of the app and its context, she can think about how the app will work and how the processes will change.
+> After a few more Metropolis domain stories, Anna has gained a good insight into the cinema domain. She knows terms like “seating plan,” “show,” “cashier,” “to search for available seats,” and “to mark seats.” She has an initial understanding of the most important processes. With this knowledge about the purpose of the app and its context, she can think about how the app will work and how the processes will change.
 
 # The Pictographic Language
 
-To record Domain Stories, we need a vocabulary and pictograms that represent the vocabulary:
+To record domain stories visually, you need a set of building blocks and rules for combining them. The building blocks consist of icons, arrows, and text. In the examples on this website, we use Google's Material icons that represent typical office work. You should compile your own set of pictograms that fits to your domain.
 
-| ![Actor](/assets/images/quick-start-guide/icon_actor.png) | Domain Stories are told from an *actor*'s perspective. Actors may be a person, a group, or a software system. Hence, we use different pictograms.
-| ![Work object](/assets/images/quick-start-guide/icon_work_object.png) | Actors create, work with, and exchange *work objects* and *information about work objects* such as documents and messages. The pictograms represent the work object’s medium.
-| ![Arrows](/assets/images/quick-start-guide/icon_arrows.png) | The actor's *activities* are depicted as arrows.
-| ![Annotations](/assets/images/quick-start-guide/icon_annotation.png) | Textual *annotations* are useful to document assumptions, variations and exceptions.
+## Actors
 
-To add a specific meaning to a pictogram, we name it with a term from the domain language: An actor *cashier*, a work object *screen plan*, an activity *confirms* etc.
+![Typical actors](/assets/images/quick-start-guide/02fig01-buildingblocks-actors.svg)
 
-In the examples on this website, we use about a dozen of Google's Material icons that represent typical office work. You should compile your own set of pictograms that fits to your domain.
+Domain stories are told from an actor's' perspective. An actor can be a *person*, a group of *people*, or a *software system*. We use different icons to represent those different kinds of actors. What actors have in common is that they play an active role in the domain story.
 
-## Now we can build a sentence…
+## Work Objects
 
-- Every sentence starts with an *actor* who initiates an *activity*.
-- Next, you need a *work object* or a piece of information that the *actor* does something with. Choose a pictogram that represents the medium of that work object (e.g. a paper icon, an email icon or a bubble for verbal information).
-- Connect the *actor* and the *work object* with an *arrow*. Name the *arrow* according to the *activity* (e.g. creates, edits, sends).
-- If the *activity* involves another *actor*, draw another *arrow* from the *work object* to that *actor*. Often, a preposition (e.g. to, with) makes a good name for the *arrow*.
+![Typical work objects. Note: “movie ticket” and “price” each appear twice with different icons.](/assets/images/quick-start-guide/02fig02-buildingblocks-workobjects.svg)
 
-So the basic syntax is: *subject* – *predicate* – *object*. Keep in mind that anyone should be able to read the graphical Domain Story out loud.
+Actors create, work with, and exchange work objects such as *documents*, *physical things*, and *digital objects*. They also exchange *information about* work objects. Like actors, the work objects are labeled with a term from the domain language (like “showtimes,” “movie ticket,” etc.). 
 
-## …and tell a story
+Note that a work object can have different icons *within* the same domain story if the medium changes. For example, a moviegoer could receive their movie ticket via email and print it at home—the same ticket is represented with two different icons.
 
-By numbering the arrows, we express the sequence of activities. Every actor should appear only once in a Domain Story. However, if you use the same work object in several sentences, you have to draw it several times (maybe with different pictograms).
+## Activities
 
-# Feeling lost?
+![Typical activities](/assets/images/quick-start-guide/02fig04-buildingblocks-activities.svg)
+
+The actors' activities are shown as *arrows* and labeled with verbs from the domain language (e.g., “offers,” “buys,” “recommends”). Note: Actors and work objects are nouns, and activities are verbs.
+
+## Sequence Numbers
+
+To tell a story, you need more than one sentence. Since stories are told one sentence after the other, the sentences can be brought into an order by numbering them. We usually number the sentences by adding a sequence number to the origin of the arrow that represents an activity (the predicate of a sentence).
+
+## Annotations
+
+![Typical annotations](/assets/images/quick-start-guide/02fig06-buildingblocks-annotations.svg)
+
+The pictographic sentences are complemented by textual annotations. Where necessary, we annotate information about variations (other cases, optional activities, possible errors). We use annotations to explain terms from the domain language, and to document assumptions or anything else that is noteworthy.
+
+## Groups
+
+![A typical group](/assets/images/quick-start-guide/02fig09-buildingblocks-groups-optional.svg)
+
+A group is represented as an outline that clusters parts of a story that somehow belong together. The group can take any form, for example a rectangle, a circle, or a free-form shape. To describe the meaning of a group, label it accordingly. Here are some examples of what can be expressed by groups:
+
+- Activities that are repeated
+- Activities that are optional
+- Parts of the story taking place in different locations
+- Organizational boundaries
+- Subdomains
+
+## Putting It All Together
+
+Activities connect actors and work objects to form *sentences*. Every sentence starts with an actor who initiates an activity:  
+
+> Domain stories visualize *who* (actor) does *what* (activity) with *what* (work objects) with *whom* (other actors).
+
+The basic syntax is: *subject* – *predicate* – *object*. More complex syntax is allowed as well:
+
+![Possible sentence structures](/assets/images/quick-start-guide/02fig15-sentences.svg)
+
+Every actor appears only once in the domain story. But for every activity, we draw a separate work object (even if the same work object already exists in a previous sentence). If you follow that rule, arranging work objects and arrows becomes a lot easier. There is another good reason for this. As the story evolves, a work object may change its status or representation. 
+
+Chapter 2 of the [Domain Storytelling book](/book) covers the pictographic language in more detail, including recommendations for good language style and compiling your own icon sets.
+{: .notice}
+
+# Scenario-based Modeling
 
 Most business process modeling approaches show what can *possibly* happen in a process:
 
@@ -182,6 +217,6 @@ But since drawing the icons can be tedious, we have developed a *whiteboard kit*
 
 ![Modeling with the Whiteboard Kit](/assets/images/quick-start-guide/whiteboard_kit.jpg)
 
-Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like PowerPoint, Visio, yEd or other general purpose drawing tools. However, such tools have limitations. The Domain Storytelling community came up with a modeling tool that is specifically designed for Domain Stories: Egon.io—The Domain Story Modeler, made by [WPS – Workplace Solutions GmbH](https://www.wps.de/en). It is open source and runs in your browser. <a href="https://egon.io" target="_blank">Try it online!</a> Or download <a href="https://github.com/WPS/egon.io/releases" target="_blank">the latest release from GitHub</a>. Read the documentation and give feedback <a href="https://github.com/WPS/egon.io" target="_blank">on Github</a>.
+Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like PowerPoint, Visio, yEd or other general purpose drawing tools. However, such tools have limitations. The Domain Storytelling community came up with a modeling tool that is specifically designed for Domain Stories: Egon.io—The Domain Story Modeler, made by [WPS – Workplace Solutions GmbH](https://www.wps.de/en). It is open source and runs in your browser. <a href="https://egon.io" target="_blank">Try it online!</a>
 
-![Modeling with Egon.io](/assets/images/quick-start-guide/cinema_06.png)
+![Modeling with Egon.io](/assets/images/quick-start-guide/egon-2.0.0.png)
