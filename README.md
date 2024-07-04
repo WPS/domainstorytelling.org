@@ -26,6 +26,12 @@ To run a server locally:
 \$ docker compose up
 ```
 
+Or open the project as a dev container and directly start the server:
+
+```fish
+\$ bundle exec jekyll serve
+```
+
 ### Configuration
 
 The Minimal Mistakes skin was [customized](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/) by copying the original `main.scss` file to `assets\css`. Any changes to the theme's Sass variables must be made before the any `@import`lines.
