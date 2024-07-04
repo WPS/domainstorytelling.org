@@ -175,7 +175,7 @@ The basic syntax is: *subject* – *predicate* – *object*. More complex syntax
 Every actor appears only once in the domain story. But for every activity, we draw a separate work object (even if the same work object already exists in a previous sentence). If you follow that rule, arranging work objects and arrows becomes a lot easier. There is another good reason for this. As the story evolves, a work object may change its status or representation. 
 
 Chapter 2 of the [Domain Storytelling book](/book) covers the pictographic language in more detail, including recommendations for good language style and compiling your own icon sets.
-{: .notice}
+{: .notice--primary}
 
 # Scenario-based Modeling
 
