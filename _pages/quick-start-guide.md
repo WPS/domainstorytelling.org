@@ -171,17 +171,36 @@ Chapter 2 of the [Domain Storytelling book](/book) covers the pictographic langu
 
 # Scenario-based Modeling
 
+## Avoid Premature Abstracions
+
 Most business process modeling approaches show what can *possibly* happen in a process:
 
-![BPMN diagram](/assets/images/quick-start-guide/control_flow.png)
+![A BPMN diagram](/assets/images/quick-start-guide/control_flow.png)
 
-While there is value in such "algorithmic" descriptions, for many purposes you would be better suited with some examples of what *actually* happens. To paraphrase requirements engineering expert Peter Hruschka:
+Of course, there is value in “algorithmic” descriptions of business processes, and one cannot develop software without thinking about conditionals. But premature abstractions are often wrong and not useful for understanding a domain.
 
-> “Sometimes three good examples are more helpful to understand the requirements than a bad abstraction.”
+> First establish a sound understanding of *typical* cases—tell stories. Only then discuss *what else* could happen—collect rules.
 
-Domain Storytelling helps you to find meaningful examples of what actually happens in a business process. Maybe you noticed that the visual language does not contain any symbols for cases, exceptions and parallelism. Instead, the context of a Domain Story is defined with assumptions: *“Let’s assume the customer calls. How do you take her reservation?”* While you record the story, additional assumptions might be necessary: *“Assuming that there are enough seats available, what do you do next?”*
+![A scenario is one instance of a business process](/assets/images/quick-start-guide/03fig01-scenario-based.svg)
 
-Important alternatives and error cases deserve their own Domain Story. Usually, very few Domain Stories are sufficient to understand a business process. After recording Domain Stories for a few processes, you will become fluent in the domain language.
+## Scenarios in Domain Storytelling
+
+A domain story is a concrete, meaningful examples of a business process. The pictographic language gets by without symbols for conditionals, variations, or alternatives. With Domain Storytelling, you model just the most important alternatives—each one as an individual domain story.
+
+When we model a business process, every possible instance could be described in the form a domain story. How do we narrow down the vast number of instances? 
+
+> We recommend you start with modeling the default case—the “80% case”—and the “happy path” first.
+
+We will take another look at the cinema example to illustrate our approach:
+
+The movie theater Metropolis sells (a) tickets for single shows and (b) yearly subscriptions. This means app developer Anna cannot simply ask movie theater manager Matthew to tell her a story about a moviegoer who approaches the cashier. Instead, she asks him which case is more common, and he tells her that selling tickets for single shows makes up 75% of his revenue. Therefore, Anna asks Matthew to tell her about this case. 
+While she is recording the story additional assumptions are made, to avoid drifting off to different story lines: “Assuming that there are still seats available, what do you do next?” Anna writes all these assumptions down as annotations.
+
+Usually, a few domain stories are sufficient to understand a business process. Small variations in a business process such as optional activities are simply not worth the effort of modeling them separately. Instead, you should use annotations.
+
+Chapter 3 of the [Domain Storytelling book](/book) gives you more guidance on which scenarios to explore and how to keep an overview.
+{: .notice--primary}
+
 
 # Domain Storytelling Workshops
 

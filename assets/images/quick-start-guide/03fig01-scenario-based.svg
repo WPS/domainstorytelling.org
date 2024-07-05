@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="956"
+   height="462"
+   viewBox="150 74 956 462"
+   version="1.1"
+   id="svg393"
+   sodipodi:docname="03fig01-scenario-based.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+  <metadata
+     id="metadata397">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1163"
+     inkscape:window-height="677"
+     id="namedview395"
+     showgrid="false"
+     inkscape:zoom="0.38290752"
+     inkscape:cx="328.6081"
+     inkscape:cy="71.360715"
+     inkscape:window-x="45"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg393" />
+  <defs
+     id="defs13">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect1256"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1.0684194"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect1252"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1.4441508"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect1248"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect1244"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect1240"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <marker
+       id="sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         d="M 1 5 L 11 10 L 1 15 Z"
+         style="fill: black; stroke-width: 1px; stroke-linecap: round; stroke-dasharray: 10000, 1; stroke: black;"
+         id="path10" />
+    </marker>
+  </defs>
+  <g
+     class="djs-group"
+     id="g391">
+    <g
+       class="djs-element djs-shape"
+       data-element-id="Participant_0idl40s"
+       style="display: block;"
+       transform="matrix(1 0 0 1 156 80)"
+       id="g31">
+      <g
+         class="djs-visual"
+         id="g23">
+        <rect
+           x="0"
+           y="0"
+           width="944"
+           height="450"
+           rx="0"
+           ry="0"
+           style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+           id="rect15" />
+        <polyline
+           points="30,0 30,450 "
+           style="fill: none; stroke: black; stroke-width: 2px;"
+           id="polyline17" />
+        <text
+           lineHeight="1.2"
+           class="djs-label"
+           style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+           transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 450)"
+           id="text21"><tspan
+             x="225"
+             y="18.6"
+             id="tspan19" /></text>
+      </g>
+      <rect
+         class="djs-hit djs-hit-click-stroke"
+         x="0"
+         y="0"
+         width="944"
+         height="450"
+         style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+         id="rect25" />
+      <rect
+         class="djs-hit djs-hit-all"
+         x="0"
+         y="0"
+         width="30"
+         height="450"
+         style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+         id="rect27" />
+      <rect
+         x="-6"
+         y="-6"
+         width="956"
+         height="462"
+         class="djs-outline"
+         style="fill: none;"
+         id="rect29" />
+    </g>
+    <g
+       class="djs-children"
+       id="g389">
+      <g
+         class="djs-group"
+         id="g43">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_0zzm632"
+           style="display: block;"
+           id="g41">
+          <g
+             class="djs-visual"
+             id="g35">
+            <path
+               d="m  950,250L950,205 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path33" />
+          </g>
+          <polyline
+             points="950,250 950,205 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline37" />
+          <rect
+             x="944"
+             y="199"
+             width="12"
+             height="57"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect39" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g55">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_0tbh4gt"
+           style="display: block;"
+           id="g53">
+          <g
+             class="djs-visual"
+             id="g47">
+            <path
+               d="m  975,180L1040,180 L1040,272 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path45" />
+          </g>
+          <polyline
+             points="975,180 1040,180 1040,272 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline49" />
+          <rect
+             x="969"
+             y="174"
+             width="77"
+             height="104"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect51" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g67">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_1o1fhgz"
+           style="display: block;"
+           id="g65">
+          <g
+             class="djs-visual"
+             id="g59">
+            <path
+               d="m  850,180L925,180 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path57" />
+          </g>
+          <polyline
+             points="850,180 925,180 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline61" />
+          <rect
+             x="844"
+             y="174"
+             width="87"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect63" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g79">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_1ni6ish"
+           style="display: block;"
+           id="g77">
+          <g
+             class="djs-visual"
+             id="g71">
+            <path
+               d="m  800,265L800,220 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path69" />
+          </g>
+          <polyline
+             points="800,265 800,220 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline73" />
+          <rect
+             x="794"
+             y="214"
+             width="12"
+             height="57"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect75" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g91">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_19m2fin"
+           style="display: block;"
+           id="g89">
+          <g
+             class="djs-visual"
+             id="g83">
+            <path
+               d="m  680,180L750,180 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path81" />
+          </g>
+          <polyline
+             points="680,180 750,180 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline85" />
+          <rect
+             x="674"
+             y="174"
+             width="82"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect87" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g103">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_0s8sh7l"
+           style="display: block;"
+           id="g101">
+          <g
+             class="djs-visual"
+             id="g95">
+            <path
+               d="m  490,265L490,180 L580,180 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path93" />
+          </g>
+          <polyline
+             points="490,265 490,180 580,180 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline97" />
+          <rect
+             x="484"
+             y="174"
+             width="102"
+             height="97"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect99" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g115">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_16g4k3a"
+           style="display: block;"
+           id="g113">
+          <g
+             class="djs-visual"
+             id="g107">
+            <path
+               d="m  825,400L1040,400 L1040,308 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path105" />
+          </g>
+          <polyline
+             points="825,400 1040,400 1040,308 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline109" />
+          <rect
+             x="819"
+             y="302"
+             width="227"
+             height="104"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect111" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g127">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_03tc3c3"
+           style="display: block;"
+           id="g125">
+          <g
+             class="djs-visual"
+             id="g119">
+            <path
+               d="m  800,425L800,460 L340,460 L340,330 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path117" />
+          </g>
+          <polyline
+             points="800,425 800,460 340,460 340,330 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline121" />
+          <rect
+             x="334"
+             y="324"
+             width="472"
+             height="142"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect123" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g139">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_0t79gd8"
+           style="display: block;"
+           id="g137">
+          <g
+             class="djs-visual"
+             id="g131">
+            <path
+               d="m  680,400L775,400 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path129" />
+          </g>
+          <polyline
+             points="680,400 775,400 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline133" />
+          <rect
+             x="674"
+             y="394"
+             width="107"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect135" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g151">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_0k3005e"
+           style="display: block;"
+           id="g149">
+          <g
+             class="djs-visual"
+             id="g143">
+            <path
+               d="m  490,315L490,400 L580,400 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path141" />
+          </g>
+          <polyline
+             points="490,315 490,400 580,400 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline145" />
+          <rect
+             x="484"
+             y="309"
+             width="102"
+             height="97"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect147" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g163">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_06jpqun"
+           style="display: block;"
+           id="g161">
+          <g
+             class="djs-visual"
+             id="g155">
+            <path
+               d="m  825,290L900,290 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path153" />
+          </g>
+          <polyline
+             points="825,290 900,290 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline157" />
+          <rect
+             x="819"
+             y="284"
+             width="87"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect159" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g175">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_16z1mxx"
+           style="display: block;"
+           id="g173">
+          <g
+             class="djs-visual"
+             id="g167">
+            <path
+               d="m  680,290L775,290 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path165" />
+          </g>
+          <polyline
+             points="680,290 775,290 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline169" />
+          <rect
+             x="674"
+             y="284"
+             width="107"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect171" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g187">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_1jlc396"
+           style="display: block;"
+           id="g185">
+          <g
+             class="djs-visual"
+             id="g179">
+            <path
+               d="m  515,290L580,290 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path177" />
+          </g>
+          <polyline
+             points="515,290 580,290 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline181" />
+          <rect
+             x="509"
+             y="284"
+             width="77"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect183" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g199">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_06wwo28"
+           style="display: block;"
+           id="g197">
+          <g
+             class="djs-visual"
+             id="g191">
+            <path
+               d="m  400,290L465,290 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path189" />
+          </g>
+          <polyline
+             points="400,290 465,290 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline193" />
+          <rect
+             x="394"
+             y="284"
+             width="77"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect195" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g211">
+        <g
+           class="djs-element djs-connection"
+           data-element-id="SequenceFlow_0ef725f"
+           style="display: block;"
+           id="g209">
+          <g
+             class="djs-visual"
+             id="g203">
+            <path
+               d="m  242,290L300,290 "
+               style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-685fblinmbkgq2zc8xx0jwyd1');"
+               id="path201" />
+          </g>
+          <polyline
+             points="242,290 300,290 "
+             class="djs-hit djs-hit-stroke"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="polyline205" />
+          <rect
+             x="236"
+             y="284"
+             width="70"
+             height="12"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect207" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g223">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="StartEvent_09h9x32"
+           style="display: block;"
+           transform="matrix(1 0 0 1 206 272)"
+           id="g221">
+          <g
+             class="djs-visual"
+             id="g215">
+            <circle
+               cx="18"
+               cy="18"
+               r="18"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="circle213" />
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="36"
+             height="36"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect217" />
+          <rect
+             x="-6"
+             y="-6"
+             width="48"
+             height="48"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect219" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g239">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="Task_1a06tkx"
+           style="display: block;"
+           transform="matrix(1 0 0 1 300 250)"
+           id="g237">
+          <g
+             class="djs-visual"
+             id="g231">
+            <rect
+               x="0"
+               y="0"
+               width="100"
+               height="80"
+               rx="10"
+               ry="10"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="rect225" />
+            <text
+               lineHeight="1.2"
+               class="djs-label"
+               style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+               id="text229"><tspan
+                 x="50"
+                 y="43.599999999999994"
+                 id="tspan227" /></text>
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="100"
+             height="80"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect233" />
+          <rect
+             x="-6"
+             y="-6"
+             width="112"
+             height="92"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect235" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g253">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="ExclusiveGateway_1vr7281"
+           style="display: block;"
+           transform="matrix(1 0 0 1 465 265)"
+           id="g251">
+          <g
+             class="djs-visual"
+             id="g245">
+            <polygon
+               points="25,0 50,25 25,50 0,25"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="polygon241" />
+            <path
+               d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z"
+               style="fill: black; stroke-width: 1px; stroke: black;"
+               id="path243" />
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="50"
+             height="50"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect247" />
+          <rect
+             x="-6"
+             y="-6"
+             width="62"
+             height="62"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect249" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g269">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="Task_1spwobo"
+           style="display: block;"
+           transform="matrix(1 0 0 1 580 250)"
+           id="g267">
+          <g
+             class="djs-visual"
+             id="g261">
+            <rect
+               x="0"
+               y="0"
+               width="100"
+               height="80"
+               rx="10"
+               ry="10"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="rect255" />
+            <text
+               lineHeight="1.2"
+               class="djs-label"
+               style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+               id="text259"><tspan
+                 x="50"
+                 y="43.599999999999994"
+                 id="tspan257" /></text>
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="100"
+             height="80"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect263" />
+          <rect
+             x="-6"
+             y="-6"
+             width="112"
+             height="92"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect265" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g285">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="Task_0xq5efc"
+           style="display: block;"
+           transform="matrix(1 0 0 1 580 360)"
+           id="g283">
+          <g
+             class="djs-visual"
+             id="g277">
+            <rect
+               x="0"
+               y="0"
+               width="100"
+               height="80"
+               rx="10"
+               ry="10"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="rect271" />
+            <text
+               lineHeight="1.2"
+               class="djs-label"
+               style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+               id="text275"><tspan
+                 x="50"
+                 y="43.599999999999994"
+                 id="tspan273" /></text>
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="100"
+             height="80"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect279" />
+          <rect
+             x="-6"
+             y="-6"
+             width="112"
+             height="92"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect281" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g297">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="EndEvent_10l5rfp"
+           style="display: block;"
+           transform="matrix(1 0 0 1 1022 272)"
+           id="g295">
+          <g
+             class="djs-visual"
+             id="g289">
+            <circle
+               cx="18"
+               cy="18"
+               r="18"
+               style="stroke: black; stroke-width: 4px; fill: white; fill-opacity: 0.95;"
+               id="circle287" />
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="36"
+             height="36"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect291" />
+          <rect
+             x="-6"
+             y="-6"
+             width="48"
+             height="48"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect293" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g313">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="Task_18nj6uv"
+           style="display: block;"
+           transform="matrix(1 0 0 1 580 140)"
+           id="g311">
+          <g
+             class="djs-visual"
+             id="g305">
+            <rect
+               x="0"
+               y="0"
+               width="100"
+               height="80"
+               rx="10"
+               ry="10"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="rect299" />
+            <text
+               lineHeight="1.2"
+               class="djs-label"
+               style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+               id="text303"><tspan
+                 x="50"
+                 y="43.599999999999994"
+                 id="tspan301" /></text>
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="100"
+             height="80"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect307" />
+          <rect
+             x="-6"
+             y="-6"
+             width="112"
+             height="92"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect309" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g329">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="Task_0uw729j"
+           style="display: block;"
+           transform="matrix(1 0 0 1 750 140)"
+           id="g327">
+          <g
+             class="djs-visual"
+             id="g321">
+            <rect
+               x="0"
+               y="0"
+               width="100"
+               height="80"
+               rx="10"
+               ry="10"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="rect315" />
+            <text
+               lineHeight="1.2"
+               class="djs-label"
+               style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+               id="text319"><tspan
+                 x="50"
+                 y="43.599999999999994"
+                 id="tspan317" /></text>
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="100"
+             height="80"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect323" />
+          <rect
+             x="-6"
+             y="-6"
+             width="112"
+             height="92"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect325" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g343">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="ExclusiveGateway_02nbvoc"
+           style="display: block;"
+           transform="matrix(1 0 0 1 925 155)"
+           id="g341">
+          <g
+             class="djs-visual"
+             id="g335">
+            <polygon
+               points="25,0 50,25 25,50 0,25"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="polygon331" />
+            <path
+               d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z"
+               style="fill: black; stroke-width: 1px; stroke: black;"
+               id="path333" />
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="50"
+             height="50"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect337" />
+          <rect
+             x="-6"
+             y="-6"
+             width="62"
+             height="62"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect339" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g357">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="ExclusiveGateway_0r6h7et"
+           style="display: block;"
+           transform="matrix(1 0 0 1 775 265)"
+           id="g355">
+          <g
+             class="djs-visual"
+             id="g349">
+            <polygon
+               points="25,0 50,25 25,50 0,25"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="polygon345" />
+            <path
+               d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z"
+               style="fill: black; stroke-width: 1px; stroke: black;"
+               id="path347" />
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="50"
+             height="50"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect351" />
+          <rect
+             x="-6"
+             y="-6"
+             width="62"
+             height="62"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect353" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g373">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="Task_0zrep84"
+           style="display: block;"
+           transform="matrix(1 0 0 1 900 250)"
+           id="g371">
+          <g
+             class="djs-visual"
+             id="g365">
+            <rect
+               x="0"
+               y="0"
+               width="100"
+               height="80"
+               rx="10"
+               ry="10"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="rect359" />
+            <text
+               lineHeight="1.2"
+               class="djs-label"
+               style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: normal; fill: black;"
+               id="text363"><tspan
+                 x="50"
+                 y="43.599999999999994"
+                 id="tspan361" /></text>
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="100"
+             height="80"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect367" />
+          <rect
+             x="-6"
+             y="-6"
+             width="112"
+             height="92"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect369" />
+        </g>
+      </g>
+      <g
+         class="djs-group"
+         id="g387">
+        <g
+           class="djs-element djs-shape"
+           data-element-id="ExclusiveGateway_11hrvs7"
+           style="display: block;"
+           transform="matrix(1 0 0 1 775 375)"
+           id="g385">
+          <g
+             class="djs-visual"
+             id="g379">
+            <polygon
+               points="25,0 50,25 25,50 0,25"
+               style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"
+               id="polygon375" />
+            <path
+               d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z"
+               style="fill: black; stroke-width: 1px; stroke: black;"
+               id="path377" />
+          </g>
+          <rect
+             class="djs-hit djs-hit-all"
+             x="0"
+             y="0"
+             width="50"
+             height="50"
+             style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"
+             id="rect381" />
+          <rect
+             x="-6"
+             y="-6"
+             width="62"
+             height="62"
+             class="djs-outline"
+             style="fill: none;"
+             id="rect383" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#808080;fill-opacity:0.7;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 217.391,288.35784 c 0.0131,-0.0444 0.0557,-0.0782 0.12822,-0.10504 0,0 0,0 0,0 0.0689,-0.0254 0.16538,-0.0437 0.28826,-0.0559 0,0 0,0 0,0 0.23789,-0.0239 0.58887,-0.0261 1.03395,-0.0165 l 0,0 c 0.87203,0.0189 2.13024,0.079 3.77605,0.0828 l 0,0 c 3.17707,0.008 7.63833,-0.1906 13.35945,-1.47643 l 0,0 c 4.74362,-1.04199 9.71779,-1.35352 15.89077,-1.32443 h 0 c 3.62128,0.005 8.4093,0.33112 12.07809,-0.0845 l 0,0 c 6.7506,-0.70846 14.63567,-1.30331 22.89003,-1.22977 l 0,0 c 0,0 2e-5,0 2e-5,0 h 0 c 5.45018,0.0518 11.12677,0.42961 17.0599,1.15378 l 0,0 c 5.1739,0.63148 10.45649,1.4785 15.85092,2.23299 l 0,0 c 6.27485,0.87699 12.87087,1.62877 19.66182,2.13129 l 0,0 c 12.94516,0.97267 26.15944,0.15279 41.0752,-1.39294 l 0,0 c 12.61179,-1.32378 27.85328,-3.31635 42.25323,-3.92413 l 0,0 c 10.44394,-0.40928 20.11312,0.50894 30.38633,1.06143 l 0,0 c 9.45593,0.45743 19.12962,0.71467 28.00774,-1.20208 2.34307,-0.27158 3.67983,-0.16581 3.96164,-0.0179 0,0 2e-5,10e-6 2e-5,10e-6 1.0443,-0.26943 0.54534,0.0675 -1.64066,0.53106 -2.93188,2.68333 -3.99553,3.90198 -3.14354,3.71385 -0.11156,0.46493 -0.16236,0.66675 -0.1362,0.60959 0.0121,-0.0521 0.008,-0.27955 0.0225,-0.67955 l 0,0 c 0.0202,-1.07679 -0.0159,-2.23994 -0.0554,-3.49844 l 0,0 c -0.0417,-1.25935 -0.0982,-2.53527 -0.15945,-3.83411 -0.0332,-0.57742 -0.0917,-1.37897 -0.10073,-2.40253 l 0,0 c -0.0209,-2.84887 -0.0652,-5.76019 -0.0676,-8.73641 0,0 0,0 0,0 -0.002,-0.12867 -0.001,-0.36774 0.0111,-0.71713 -5e-5,6e-5 -9e-5,1.2e-4 -9e-5,1.2e-4 -1.43237,2.06506 -0.49555,0.31462 2.88971,-5.20665 l 0,0 c -4e-4,4.7e-4 -8e-4,9.3e-4 -0.001,0.001 -0.18652,0.2155 -0.36408,0.43297 -0.53524,0.63931 0,0 -0.001,0.001 -0.001,0.001 -0.32821,0.39566 -0.62666,0.76028 -0.89346,1.09272 -0.48005,0.59819 -0.85249,1.09942 -1.12507,1.46474 -0.76164,1.02078 -0.78576,1.19829 -0.015,0.58681 0,0 3e-4,-2.4e-4 3e-4,-2.4e-4 -0.0584,0.3009 -0.0808,0.364 -0.0479,0.18944 0.0798,-0.64812 0.11923,-1.44328 0.18044,-2.38623 l 0,0 c 0.34211,-5.62507 0.51169,-11.27683 0.71225,-17.17044 0.35736,-10.36167 -0.27183,-21.26926 -0.0584,-32.74789 l 0,0 c 0.15951,-11.10704 1.33924,-22.95618 5.33741,-34.48724 l 0,0 c 1.28042,-2.74794 3.29395,-4.38404 5.95695,-4.85532 1.91018,-0.0984 2.99878,-0.009 3.25322,0.18596 l 0,0 c 1.38884,0.0838 1.01785,0.27251 -1.22052,0.1555 0,0 -1.8e-4,-1e-5 -1.8e-4,-1e-5 26.09873,-4.39686 52.87758,-3.4267 79.06278,-5.87213 l 0,0 c 9.48844,-0.89464 19.31792,-1.53999 29.32888,-1.24675 9.82033,0.3123 19.48565,1.05879 29.01366,1.39729 h 0 c 0.21998,0.0409 0.67367,0.0604 1.35265,0.11303 0.68313,0.0333 1.42466,0.0409 2.22419,0.0429 1.93111,0.003 3.90897,-0.0506 5.93816,-0.12073 0.0362,-0.001 0.89446,-0.0318 0.93065,-0.0331 6.36565,-0.23352 12.79506,-0.60192 19.20034,-0.96272 6.79707,-0.38343 13.51027,-0.78057 20.31011,-1.1054 0,0 5e-5,0 5e-5,0 2.785,-0.13323 5.58755,-0.25488 8.4184,-0.33341 1.97942,-0.0583 4.08259,-0.10459 6.31256,-0.0341 8.04303,0.26426 15.68875,0.64505 23.17306,0.40315 1.12147,-0.0595 1.87667,-0.0514 2.24287,-0.14648 -0.34563,0.10974 -0.17082,0.0205 0.54581,-0.1732 1.66962,-0.39499 2.86011,-0.50989 3.53674,-0.47797 2.07783,-0.0603 3.97602,0.0103 5.6842,0.0786 10.62942,0.39147 21.2745,1.12973 31.4832,1.78268 16.20136,1.03722 31.83986,2.86298 47.02131,4.1021 29.57482,2.44588 58.77796,0.43093 86.79522,1.44156 12.12016,0.45398 24.81831,-0.30886 36.7129,-0.8678 13.03485,-0.63127 25.39063,-1.06867 37.96017,-0.11026 10.57876,0.85383 22.09724,0.0337 32.54794,-0.39938 11.8242,-0.5277 22.6527,-1.09191 33.9585,0.25291 1.7418,0.19296 3.3232,1.02435 4.5955,2.43058 0,0 0,6e-5 0,6e-5 1.0664,1.41892 1.6096,2.68329 1.7543,3.66845 0.5006,2.45166 0.4693,4.49519 0.4111,6.0301 0.029,1.78421 -0.089,3.0811 0.1478,3.89513 0,0 0,1e-5 0,1e-5 0.1384,0.2547 0.014,0.21676 -0.2241,-0.18991 0,0 0,-2e-5 0,-2e-5 -0.3546,0.97676 -0.6281,2.19899 -0.974,3.60106 -0.04,0.25432 -0.055,0.49585 -0.1059,0.77138 -0.042,0.2279 -0.1224,0.43473 -0.1815,0.64293 -0.3285,1.1571 -0.5167,2.23372 -0.5573,3.25644 l 0,0 c -0,0.63227 -1.5906,0.25675 -4.5043,-1.4262 0,0 -2e-4,-3.7e-4 -2e-4,-3.7e-4 -1.6498,-4.00414 -1.8442,-5.81035 -1.025,-5.26538 0,0 0,-6e-5 0,-6e-5 0.034,-0.30792 0.013,-0.0313 -0.1114,0.81921 0.1723,2.18471 1.5866,3.63168 4.2768,4.41856 -3.7792,-1.48527 -5.1905,-2.55151 -4.3278,-2.95722 -0.2901,-0.70987 -0.4458,-1.24641 -0.5054,-1.59513 -0.171,-0.74367 -0.2939,-1.52854 -0.3561,-2.3492 1.3645,-0.35216 2.7294,-0.89179 4.1037,-1.61778 0.2904,0.0898 0.5722,0.16226 0.8548,0.22097 0.1334,0.0277 0.2692,0.0649 0.3995,0.0969 1.2492,0.30692 2.339,0.28836 3.2951,-0.0645 0.051,0.25276 0.086,0.45874 0.1102,0.61703 0.2941,1.94982 0.4809,3.83447 0.6591,5.57755 -0.1043,5.97181 -0.2116,11.7099 -0.3218,17.20659 -0.1157,5.45116 -0.2336,10.66776 -0.3537,15.64053 -0.4416,18.35442 -2.5491,35.35274 -4.0761,45.82706 -0.3538,2.45039 -0.6144,4.48903 -1.1764,6.70189 0,0 0,0 0,0 l 0,0 c -0.3643,0.0723 -0.9627,0.65663 -1.9471,1.55433 0,0 -10e-5,-5e-5 -10e-5,-5e-5 -0.3157,-0.16085 -0.6182,-0.29938 -0.873,-0.43398 -0.4109,-0.21709 -0.7191,-0.35178 -0.9508,-0.38858 0,0 0,-2e-5 0,-2e-5 -0.071,-0.32518 -0.095,-0.56721 -0.098,-0.72493 0.5559,-0.0762 1.1095,-0.13519 1.659,-0.1773 0.1079,-0.0509 0.2156,-0.0969 0.3211,-0.13778 0.034,-0.0134 0.068,-0.0214 0.1026,-0.0246 0.4132,-0.0383 0.827,-0.003 1.2289,0.10277 0,0 0,2e-5 0,2e-5 -0.01,0.1407 -0.016,0.28676 -0.024,0.43396 -0.5891,0.78869 -1.1184,1.54123 -1.5919,2.2584 0,0 0,0 0,0 -0.076,0.0156 -0.1392,0.0561 -0.2414,0.0446 0,0 -10e-5,0 -10e-5,0 -0.099,-0.0111 -0.1735,-0.0602 -0.253,-0.0921 -0.4276,-0.17194 -0.8039,-0.31144 -1.1546,-0.41578 0,0 0,-10e-6 0,-10e-6 -0.028,-0.24367 -0.029,-0.54448 0.013,-0.89217 0,0 0,-2e-5 0,-2e-5 -0.1374,-0.24028 0.1615,-0.76764 0.9215,-1.44047 0.1652,0.12633 0.3386,-0.36056 0.5349,-0.8389 0.208,-0.77127 0.2318,-1.82944 0.2825,-2.62696 0.062,-1.19807 0.1372,-2.06936 0.4208,-2.95096 0.4595,-1.66786 1.7533,-1.78456 1.8333,-1.57709 0.08,0.20747 -0.4696,0.6606 -0.5364,1.81866 -0.02,0.8265 0.1039,1.34268 0.2709,2.62961 0.1142,0.77035 0.2836,1.88711 0.1928,3.08404 -0.014,0.89659 -0.4205,2.05789 -1.6545,2.94814 0.5273,-0.54739 0.7643,-0.76473 0.599,-0.73662 0,0 0,0 0,0 0,0.007 0.028,0.069 0.049,0.18815 0,0 0,0 0,0 -0.3121,0.17729 -0.6436,0.32269 -0.9756,0.42418 -0.062,0.0189 -0.1314,0.0522 -0.1769,0.0449 0,0 0,0 0,0 -0.047,-0.007 -0.1337,-0.0696 -0.2101,-0.10978 0,0 0,0 0,0 -0.4735,-0.56649 -1.0056,-1.14849 -1.6008,-1.7453 -0.01,-0.14347 -0.019,-0.29378 -0.027,-0.44824 0,0 10e-5,0 10e-5,0 0.4019,-0.003 0.8088,-0.0777 1.2337,-0.22477 0.036,-0.0124 0.073,-0.021 0.1097,-0.0254 0.111,-0.0132 0.2211,-0.031 0.3321,-0.0538 0.5624,0.0742 1.127,0.13206 1.6957,0.17283 0.031,0.15049 0.042,0.22176 0.053,0.20062 0,0 0,0 0,0 -0.2042,0.0646 -0.4867,0.0382 -0.8264,-0.10085 -0.2107,-0.0863 -0.435,-0.24343 -0.7088,-0.45477 0,0 0,-7e-5 0,-7e-5 -0.6437,0.48893 -1.2187,0.47609 -1.4779,0.0118 l 0,0 c 0,0 0,-2e-5 0,-2e-5 0.2938,-2.02078 0.3273,-3.84662 0.4745,-6.41522 0.5489,-10.09018 1.5684,-27.89555 1.1375,-45.4094 -0.1201,-4.97277 -0.238,-10.18937 -0.3537,-15.64053 -0.1102,-5.34197 -0.2175,-10.90531 -0.3218,-16.68129 -0.2387,-1.60282 -0.4591,-3.17246 -0.7539,-4.61767 -0.026,-0.1312 -0.043,-0.21501 -0.054,-0.24974 0.9299,-0.47431 2.0037,-0.61944 3.1973,-0.42359 0.1245,0.0204 0.2465,0.0429 0.3739,0.0821 0.2701,0.0831 0.5546,0.18503 0.8442,0.30224 1.3707,-0.58936 2.7486,-0.99239 4.1249,-1.20828 0.038,0.32745 0.1134,0.68492 0.2117,1.0701 0.072,0.20357 0.062,0.21908 0,0.0291 0.9944,-0.11278 -0.2581,-0.7841 -3.7153,-2.26923 2.8553,0.78687 4.3907,2.38948 4.5569,4.73914 -0.1343,1.10923 -0.2503,1.63296 -0.2961,1.57155 0,0 0,-1e-5 0,-1e-5 0.6563,1.05643 0.1487,-0.10945 -1.1205,-3.73163 0,0 -10e-5,-3.3e-4 -10e-5,-3.3e-4 -2.4631,-1.23159 -3.2801,-1.73465 -2.6461,-1.16632 l 0,0 c 0.2267,0.99647 0.3086,2.04371 0.2354,3.11612 -0.013,0.19299 -0.014,0.39098 -0.064,0.57113 -0.06,0.21782 -0.1691,0.47456 -0.2675,0.72362 -1.492,1.30047 -2.8784,1.99462 -3.995,2.10127 0,0 0,-6e-5 0,-6e-5 -1.0632,-1.35499 -1.6293,-2.58995 -1.7945,-3.56387 0,0 0,-4e-5 0,-4e-5 -0.5491,-2.38936 -0.5799,-4.41354 -0.5743,-5.98671 -0.082,-1.74015 -0.023,-3.09529 -0.3082,-3.88165 -0.1538,-0.24016 -0.054,-0.19666 0.1875,0.25704 0,0 0,2e-5 0,2e-5 0.5207,0.52726 0.9947,0.80857 1.5795,0.87844 -10.278,-0.95082 -20.4385,-0.0623 -32.3717,0.73427 -10.26002,0.72132 -22.118,1.82472 -33.87796,1.18978 -11.75288,-0.66293 -23.56696,0.0242 -36.53189,0.86795 -11.80305,0.78547 -24.79099,1.7697 -37.75342,1.50721 -27.21437,-0.56741 -56.45694,1.79708 -87.48427,-0.41874 -15.50766,-1.12158 -31.10533,-2.82097 -46.82191,-3.71816 -10.26361,-0.58781 -20.80451,-1.26154 -31.12171,-1.58999 -1.74585,-0.0504 -3.32033,-0.11292 -4.70797,-0.0547 -0.56669,0.0749 -0.62236,0.0161 -0.15158,-0.0413 -0.0858,0.0326 -0.69933,0.2252 -1.86582,0.48419 -1.79336,0.29764 -3.24266,0.36867 -4.31939,0.3825 -8.24262,0.28257 -16.21134,-0.0707 -24.11222,-0.32076 -1.68081,-0.0557 -3.49018,-0.004 -5.43447,0.0513 -2.67972,0.0806 -5.38632,0.20486 -8.13175,0.34143 0,0 -4e-5,0 -4e-5,0 -6.69681,0.3336 -13.36204,0.73873 -20.19166,1.13093 -6.4004,0.36809 -12.92382,0.74446 -19.48931,0.98682 -0.31887,0.0119 -0.63893,0.0235 -0.96016,0.0347 -2.10809,0.0737 -4.25886,0.12957 -6.45613,0.12784 -0.90588,9e-5 -1.86846,-0.0131 -2.8869,-0.0599 -0.48061,-0.002 -1.18791,-0.0507 -2.11211,-0.20052 -9.62582,-0.32966 -18.95507,-1.05613 -28.02793,-1.33812 -9.08146,-0.30731 -18.33092,0.2935 -27.56855,1.11542 -27.51117,2.47674 -53.82281,1.29815 -78.08908,5.29547 0,0 -2.5e-4,1e-5 -2.5e-4,1e-5 -3.24032,0.0534 -4.65275,-0.19892 -4.25086,-0.35115 -0.19273,0.0893 0.43463,0.076 1.89012,0.0424 2.2973,-0.41925 3.98073,-1.80494 5.13694,-4.2051 l 0,0 c -3.45018,9.32458 -4.48102,19.76133 -4.83267,30.14998 l 0,0 c -0.31594,10.77977 0.18777,21.8014 -0.31538,32.95273 -0.26957,5.85965 -0.51965,11.63563 -0.95485,17.51717 -0.0634,0.90165 -0.13944,1.94483 -0.28954,3.12501 -0.01,0.16348 -0.0738,0.56365 -0.2109,1.19551 -2.8e-4,2.5e-4 10e-6,6e-5 10e-6,6e-5 0.74529,-0.50458 0.7179,-0.19004 -0.13781,0.88751 -0.30623,0.38563 -0.71314,0.84105 -1.21289,1.40519 -0.27776,0.31353 -0.58579,0.65842 -0.92597,1.03578 0,0 -0.001,0.001 -0.001,0.001 -0.17741,0.19678 -0.36524,0.3997 -0.56095,0.62185 -4.2e-4,4.8e-4 -8.4e-4,9.5e-4 -0.001,0.001 l 0,0 c 3.31496,-5.46965 4.29178,-7.1027 2.85542,-4.95053 0,0 -4e-5,6e-5 -4e-5,6e-5 -0.002,-0.0389 -7.2e-4,0.033 -0.005,0.21491 0,0 0,10e-6 0,10e-6 -0.0375,2.85326 -0.0341,5.74069 -0.055,8.65892 -0.009,0.4107 0.0357,1.0433 0.0594,1.89508 0.0433,1.32649 0.0825,2.66406 0.10744,4.018 0.0257,1.29753 0.0426,2.67757 -0.002,4.144 l 0,0 c -0.007,0.45789 -0.0393,1.08856 -0.131,1.88682 -0.005,0.19995 -0.0918,0.65952 -0.27551,1.37312 0.81529,-0.0614 -0.28124,1.31025 -3.33115,4.05259 -3.32635,1.03164 -5.16915,1.10112 -5.38788,0.69398 l 0,0 -5e-5,0 h 0 c -1.10808,-0.003 -1.08646,-0.17643 -0.11135,-0.18076 -10.81722,2.0221 -21.49598,1.65179 -31.21394,0.92079 l 0,0 c -10.61406,-0.74204 -19.84068,-1.84067 -29.2831,-1.62872 l 0,0 c -13.65092,0.26964 -28.85945,1.89939 -41.65706,2.90011 l 0,0 c -15.2079,1.20968 -29.12827,1.62309 -42.86662,0.17038 l 0,0 c -7.01344,-0.75245 -13.7714,-1.76248 -20.16731,-2.90143 l 0,0 c -5.48806,-0.97691 -10.67173,-2.02075 -15.62653,-2.83443 h 0 c -5.63632,-0.92659 -11.01012,-1.52827 -16.17536,-1.82266 0,0 -2e-5,0 -2e-5,0 l 0,0 c -7.84683,-0.45103 -15.56826,-0.28045 -22.21254,0.0105 l 0,0 c -4.4972,0.19068 -9.32826,-0.45488 -12.71733,-0.71621 -6.06341,-0.43685 -10.56844,-0.56581 -15.03869,-0.0205 l 0,0 c -6.14398,0.76456 -10.98967,0.33736 -14.22112,-0.30021 l 0,0 c -1.69999,-0.33559 -2.95249,-0.72893 -3.79315,-1.08118 l 0,0 c -0.43133,-0.18074 -0.74597,-0.34764 -0.95151,-0.49263 0,0 0,0 0,0 -0.10349,-0.0732 -0.17793,-0.1399 -0.22421,-0.19946 0,0 0,0 0,0 -0.0484,-0.0624 -0.0656,-0.11511 -0.0525,-0.15975 z"
+     id="path1250"
+     inkscape:path-effect="#path-effect1252"
+     inkscape:original-d="m 217.3909,288.35781 c 0,0 7.30216,2.33513 18.9143,0.33113 10.05478,-1.73523 21.89701,0.10872 27.86245,-0.33613 36.27072,-2.70475 43.23899,3.04696 74.82221,5.91817 28.71615,2.61056 55.23087,-3.29706 83.92608,-4.19378 19.36814,-0.60526 40.37585,4.09758 59.44553,0.28364 1.08615,-0.21723 3.04122,0.43446 3.91014,0 0.56935,-0.28468 0,-10.88663 0,-11.7304 0,-21.95614 -0.18971,7.3494 1.30338,-29.9777 0.86546,-21.63674 -2.26071,-44.24111 5.21351,-65.16892 0.29225,-0.8183 1.74966,0.14285 2.60676,0 25.22252,-4.20376 53.11225,-3.24963 78.57593,-5.5838 26.82751,-2.45919 30.0459,-0.75258 56.96951,0.18662 6.84959,1.1416 53.49294,-2.79993 65.17482,-2.42309 53.94239,1.74008 -1.08756,-2.79116 66.47229,1.30338 15.66601,0.94945 31.2731,2.7064 46.92162,3.91013 29.54979,2.27306 57.54181,0.0845 87.13973,0.93015 24.41369,0.69753 50.04834,-3.30534 74.47918,-1.67661 18.76598,1.25106 47.67596,-3.02485 66.37806,-1.03526 5.2022,0.55343 0.098,14.34186 5.3078,14.81551 0.4326,0.0393 -0.9962,0.3072 -1.3034,0 -0.3072,-0.30721 0.4344,-1.30338 0,-1.30338 -0.8689,0 -1.385,-8.511 0,2.60675 v 16.94392 15.64054 c 0,15.21177 -1.0958,30.50826 -2.6068,45.61824 -1.4738,14.73788 -1.3034,1.41124 -1.3034,9.12365 0,0.43446 -0.3821,-1.09677 0,-1.30338 2.6396,-1.42688 -0.4004,-8.15814 2.3994,-9.23719"
+     sodipodi:nodetypes="cssssssssssscsssssssssccssscc" />
+  <path
+     style="fill:#808080;fill-opacity:0.7;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1012.2518,261.31475 c 1.5799,-1.56247 10.5711,4.37729 21.2448,15.37431 2.7588,3.05608 4.1448,6.22626 5.5506,7.68719 0,0 0,-2e-5 0,-2e-5 -1.2071,-1.53155 -3.2218,-1.77444 -6.2942,-0.84152 0,0 0,10e-6 0,10e-6 -0.9759,0.93827 -1.351,1.19519 -0.9843,0.90205 0,0 0,0 0,0 0.2055,-0.37424 0.3939,-0.78298 0.5994,-1.15722 -0.3056,-0.17749 0.584,-1.21231 2.847,-2.90299 0.7683,-0.38915 1.5362,-0.75269 2.3027,-1.09715 4.6301,-2.08074 8.7255,-3.3289 11.8567,-5.00664 2.0382,-0.83521 4.4465,-3.66119 7.8653,-5.75691 0,0 0,0 0,0 2.059,-1.20859 4.0379,-1.95814 5.6341,-2.49116 1.7884,-0.62934 3.2358,-0.99047 4.4184,-1.37776 0.4991,-0.31464 0.563,-0.10038 0.2758,0.23591 0,0 0,0 0,0 -0.3877,0.16202 -0.4229,0.98528 -0.2216,2.41746 0.8242,1.10485 1.2261,1.5101 1.3503,1.2862 0.1773,-0.18178 -0.292,-0.27625 -0.9169,-0.48618 C 1065.493,267.36698 1064.0567,266.869 1064,266 c -0.048,-0.73 1.2237,-1.73932 3.8424,-2.37634 0.4713,-0.18537 1.3302,-0.36427 2.7367,-0.0833 0.3501,-0.13888 1.0051,0.38036 1.9213,1.71673 0.2759,1.62012 0.1468,2.65824 -0.3638,2.98708 0,0 0,10e-6 0,10e-6 -0.7894,1.01636 -1.4804,1.61045 -1.7762,1.7516 -1.4113,1.12713 -2.6585,1.88153 -4.152,2.87345 -1.3539,0.90173 -2.8675,1.86931 -3.932,2.84187 0,0 0,0 0,0 -1.6872,1.47842 -3.5114,4.40502 -7.7753,7.27689 -4.3765,2.74807 -8.4182,4.18422 -12.6227,6.05022 -0.656,0.29118 -1.2863,0.58181 -1.8923,0.87977 1.687,-1.40187 2.2878,-1.79888 1.6671,-1.41946 -0.1042,0.17008 -0.3023,0.57274 -0.6437,1.17073 0,0 0,1e-5 0,1e-5 0,0.3476 -0.7387,1.27963 -2.3192,2.62763 0,0 0,1e-5 0,1e-5 -3.5368,1.24746 -6.1863,0.7941 -7.7497,-1.16509 0,0 0,-2e-5 0,-2e-5 -2.7949,-3.5799 -3.7177,-6.52249 -4.8764,-7.95335 -9.0739,-11.62001 -15.3923,-20.30126 -13.8124,-21.86373 z"
+     id="path1254"
+     inkscape:path-effect="#path-effect1256"
+     inkscape:original-d="m 1012.2518,261.31475 c 4.5935,4.64459 13.2322,13.69832 17.5286,18.61902 2.0605,2.35997 3.2078,5.41349 5.2135,7.82027 1.0169,1.22027 1.8347,-2.22071 2.6067,-2.60675 4.6954,-2.34769 9.8124,-3.85524 14.3372,-6.51689 2.9248,-1.72044 5.0404,-4.571 7.8203,-6.5169 5.3867,-3.77072 17.3814,-6.97044 4.2419,-6.1135"
+     sodipodi:nodetypes="csscssc" />
+</svg>
