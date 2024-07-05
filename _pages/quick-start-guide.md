@@ -202,6 +202,18 @@ Usually, a few domain stories are sufficient to understand a business process. S
 Chapter 3 of the [Domain Storytelling book](/book) gives you more guidance on which scenarios to explore and how to keep an overview.
 {: .notice--primary}
 
+# Scope
+
+Domain Storytelling is not a “one-size-fits-all” approach. Depending on the purpose, the modeler chooses a fitting *scope* for the domain story:
+
+- The *granularity* determines the level of detail: Are you interested in the overview or the details? Domain stories can be *coarse-grainer*, *fine-grained*, and everything in between.
+- Domain Stories take playe at a *point in time*. They either describe a process as it currently is (*as-is*) or how it will (possibly) look in the future (*to-be*).
+- When modeling domain stories, you either include or omit (existing or yet to be built) software. This scope factor is called *domain purity*. We call domain stories without software systems *pure*, and those with software systems *digitalized*.
+
+As an example, the above [»selling tickets at the box office«](/quick-start-guide#your-first-domain-story) domain story is *fine-grained*, *as-is*, and *pure*.
+
+Chapter 4 of the [Domain Storytelling book](/book) describes the scope factors in more detail. A short case study describes typical scopes of domain stories and how you can "travel" from one scope to the next.
+{: .notice--primary}
 
 # The Workshop Format
 
@@ -241,6 +253,13 @@ But since drawing the icons can be tedious, we have developed a *whiteboard kit*
 
 ![Modeling with the Whiteboard Kit](/assets/images/quick-start-guide/whiteboard_kit.jpg)
 
-Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like PowerPoint, Visio, yEd or other general purpose drawing tools. However, such tools have limitations. The Domain Storytelling community came up with a modeling tool that is specifically designed for Domain Stories: Egon.io—The Domain Story Modeler, made by [WPS – Workplace Solutions GmbH](https://www.wps.de/en). It is open source and runs in your browser. <a href="https://egon.io" target="_blank">Try it online!</a>
+Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like Miro or diagrams.net. However, such general-purpose tools have limitations. 
 
+With *Egon.io—The Domain Story Modeler*, [we at WPS – Workplace Solutions](https://www.wps.de/en) built a modeling tool that is specifically designed for Domain Stories. 
+
+> Egon.io is open source and runs in your browser. No set-up and no registration required. <a href="https://egon.io" target="_blank">Try it online!</a>
+ 
 ![Modeling with Egon.io](/assets/images/quick-start-guide/egon-2.0.0.png)
+
+Chapter 5 of the [Domain Storytelling book](/book) explains the pros and cons of several analog and digital tools, including tips for choosing a tool.
+{: .notice--primary}
