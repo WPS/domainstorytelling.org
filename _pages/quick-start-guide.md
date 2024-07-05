@@ -5,6 +5,7 @@ excerpt: "What you need to know about Domain Storytelling to get started."
 layout: single
 toc: true
 toc_sticky: true
+toc_label: "Quick-Start Guide"
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/home/sunflower-8.jpeg
@@ -202,21 +203,33 @@ Chapter 3 of the [Domain Storytelling book](/book) gives you more guidance on wh
 {: .notice--primary}
 
 
-# Domain Storytelling Workshops
+# The Workshop Format
 
-Domain Stories are developed in workshops. Participants include domain experts (often from several departments), IT experts and a moderator. The moderator communicates the purpose of the workshop. All participants contribute to the story. The moderator keeps the participant’s story going by asking questions like:
+You can use Domain Storytelling just as a graphical notation. But it is much more than that. It is a method for having meaningful conversations about business processes. 
 
-- What happens next?
-- Where do you get this information from?
-- How do you determine what to do next?
+> Domain Storytelling is a conversation technique.
 
-The moderator helps to record the Domain Stories graphically. The story needs to be visible for all participants (e.g. on a whiteboard or projected on a screen). The participants see what gets recorded and give feedback immediately.
+Workshop participants include domain experts (often from several departments), IT experts and a moderator. All participants contribute to the story. The moderator needs to steer the storytellers in the right direction to ensure that their contributions serve the overall purpose.The moderator keeps the participants' story going by asking questions like these:
 
-Once the story is finished, the moderator checks if all participants agree upon the recorded Domain Story.  Objections, important variations, edge cases and so on are not dismissed but written down and may trigger another Domain Story.
+- “What happens next?”
+- “Where do you get this information?”
+- “How do you determine what to do next?”
+- “How do you do that?”
 
-> Modeling is a thinking tool. The act of modeling is more important than the actual model.
+Engage the participants without imposing your opinion on them. Use the language of the participants, not your own!
 
-Do not think of Domain Stories as documentation. Use them to dive into [Domain Driven Design](./domain-driven-design), or [to uncover requirements](/requirements) for software development. Inviting the right people to the workshops is important because the primary goal is to learn and communicate. A picture of a Domain Story serves as an aid to memory for those present at the workshop, but it is not a replacement for participating.
+As the participants tell their story, the moderator records it graphically—step-by-step, thus determining the pace of the storytelling. The story needs to be visible for all participants (e.g. on a whiteboard or projected on a screen). The participants see what gets recorded and give feedback immediately. Note, however, that the visualization of a domain story was not intended to be a stand-alone document. First and foremost, the picture is for the people who are telling the story while they are telling it. Later, it will serve as a memory aid for those who participated in the workshop and for telling the story to other people.
+
+When the story seems to be finished, tell the story from the beginning and try to get agreement: Did we miss something? Is something obviously wrong? Do all domain experts agree with the story? Revisit the annotations for possible alternative stories. Let the participants decide which ones are minor variations and which deserve their own domain story.
+
+Other artifacts of the software development process will crystallize and grow around the domain stories as well, for example [context maps](/domain-driven-design) and [requirements](/requirements). You can also continue the conversation about the domain with the help of other modeling techniques, such as Example Mapping and EventStorming.
+
+Chapter 6 of the [Domain Storytelling book](/book) explains in much more depth what happens before, during, and after a workshop. It also covers remote workshops, sizing of domain stories, and how to deal with difficult situations.
+{: .notice--primary}
+
+Chapter 7 of the [Domain Storytelling book](/book) covers the relationshops between Domain Storytelling an other collaborative modeling techniques, including when to use which method and how to combine them.
+{: .notice--primary}
+
 
 # Tools
 
