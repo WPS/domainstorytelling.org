@@ -12,7 +12,7 @@ header:
 
 # Your First Domain Story
 
-Matthew runs a small movie theater for arthouse films—called Metropolis—that enjoys an excellent reputation among cineastes. Local craft beer and organic snacks round off the cinema experience. One day Matthew meets his school friend Anna. When he learns that Anna has been developing apps for almost ten years, he gets an idea.
+Matthew runs a small movie theater for arthouse films—called Metropolis—that enjoys an excellent reputation among cineastes. One day Matthew meets his school friend Anna. When he learns that Anna has been developing apps for almost ten years, he gets an idea.
 
 **Movie theater manager Matthew:** “My customers like the old-fashioned charm of my cinema. But they do not like my old-fashioned box office. Today's moviegoers are not used to buying tickets in person at the box office anymore. Customers have been asking me to sell tickets online. Can you develop an app for me?”
 
@@ -34,11 +34,7 @@ The next day they meet again in Matthew's office. They are standing in front of 
 
 **Anna:** “Wait a minute. Who sells the tickets?”
 
-**Matthew:** “I have two students working for me. But sometimes I do it myself.”
-
-**Anna:** “Okay, but what role do you or the students have then?”
-
-**Matthew:** “Cashier.”
+**Matthew:** “A cashier.”
 
 Anna draws a stick figure on the whiteboard and writes “cashier” underneath.
 
@@ -90,10 +86,6 @@ Matthew nods in agreement.
 
 **Matthew:** “Exactly.”
 
-**Anna:** “I will move the annotation ‘does not have a subscription’ up a bit to get enough space for that fourth sentence.”
-
-![The fourth activity](/assets/images/quick-start-guide/01fig06-fourth-activity-gray.svg)
-
 Within a few minutes, the whiteboard is filled with a story about a moviegoer who buys tickets from a cashier at the box office. Icons and arrows are rearranged during the session. Finally, Anna retells the story from the beginning.
 
 ![The whole story](/assets/images/quick-start-guide/01fig07-whole-story.svg)
@@ -102,13 +94,13 @@ Within a few minutes, the whiteboard is filled with a story about a moviegoer wh
 
 **Anna:** “You mean the shows in a foreign language? I thought you sell special tickets for those.”
 
-**Matthew:** “No, no! We usually show the movies in English. When it is a foreign movie, we also show it in its original language. We don't sell extra tickets; you only have to point out to the moviegoers which language the movie will be shown in.”
+**Matthew:** “No, you only have to point out to the moviegoers which language the movie will be shown in.”
 
 **Anna:** “When does the cashier do that?”
 
 **Matthew:** “Here.”
 
-Matthew points to the arrow with the number 4. Anna amends the sentence “Cashier suggests available seats to moviegoer” with a comment “and mentions language.”
+Matthew points to the arrow with the number 4. Anna adds a comment “and mentions language.”
 
 ![Adding another annotation](/assets/images/quick-start-guide/01fig08-another-annotation-gray.svg)
 
