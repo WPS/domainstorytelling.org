@@ -2,30 +2,48 @@
 permalink: /domain-driven-design
 title: "Domain-Driven Design with Domain Storytelling"
 layout: single
+toc: true
+toc_sticky: true
+toc_label: "Domain-driven Design"
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/domain-driven-design/kandinsky.jpg
 ---
 
-Since Eric Evans coined the term *Domain-Driven Design (DDD)*, an ever growing DDD community builds software that reflects its domain. If you are new to DDD, we recommend <a href="https://leanpub.com/theanatomyofdomain-drivendesign" target="_blank">this concise introduction</a> by Scott Millett.
 
-> “Domain-Driven Design is a language and domain-centric approach to software design for complex problem domains.” – Scott Millet
+*Domain-Driven Design* (*DDD*) is an approach that deals with the development of business software. DDD does not describe a single modeling method, but it emphasizes collaborative modeling by domain experts and development teams as the essential part of software development. 
 
-DDD consists of patterns, principles and practices. For some of them Domain Storytelling is of particular use.
+> Domain Storytelling is a useful and versatile tool in a DDD practitioner's tool box.
 
-## Get familiar with your domain
-
-Domain Storytelling is a *knowledge crunching* technique. The people who participate in a Domain Storytelling workshop will get new insights into the domain. The resulting Domain Stories express their shared understanding.
-
-When you approach a domain, we recommend to start coarse-grained. Invite people from several departments to create coarse-grained Domain Stories. Do not limit yourself by existing organizational boundaries (or perceived bounded contexts, if you already familiar with DDD) and visualize Domain Stories that span over several departments.
+In particular, you can use it for:
 
 ## Strategic Design
 
-If you want to develop software, you need more than just an understanding of a domain. You need rich domain models that express deep knowledge. But the more details you add, the more ambiguous and complex your models will get. In DDD, we make our models manageable by partitioning the domain into bounded contexts. Every bounded context has its own set of models and ultimately its own, unambiguous ubiquitous language.
+The more details you learn and model about a domain, the more complex and confusing the models become. To avoid that, DDD suggests to subdivide the domain into bounded contexts. Each bounded context has its own model of the domain and its own domain language. A bounded context is a stable foundation on which to build software. 
 
-Finding good context boundaries is hard. Domain Stories can help because they show how people work together within and across subdomains – and how unsuitable boundaries prevent people from working together.
+Domain Storytelling helps with finding boundaries between bounded contexts and modeling the details within them.
 
-## Putting it all together
+In chapter 10 of the [Domain Storytelling book](/book), we elaborate an important step in strategic design: finding the boundaries between subdomains.
+{: .notice--primary}
+
+## Tactical Design
+
+Domain experts and development teams work hard to design domain models in their heads and in diagrams. But why stop before the code level? DDD provides technical guidance (so-called *building blocks*) on how to represent different concepts of a domain in code. 
+
+Teams use Domain Storytelling to figure out which concepts of the domain can best be implemented with which building blocks.
+
+Chapter 12 of the [Domain Storytelling book](/book) shows how to turn an domain story into an object-oriented or functional domain model.
+{: .notice--primary}
+
+## Ubiquitous Language
+
+This language is derived from the domain language and is consistent within a bounded context. This language should be used everywhere (ubiquitously)—from the spoken words of the domain expert to the whiteboard to the code. Keep in mind that there are usually several ubiquitous languages in a company (one per bounded context). It is not a uniform, company-wide language. 
+
+Chapter 09 of the [Domain Storytelling book](/book) shows how Domain Storytelling can help you to build up domain knowledge which is a prerequisit for establishing ubiquitous languages..
+{: .notice--primary}
+
+
+## Putting it all Together
 
 Watch this talk to see how Domain Storytelling helps you to practice DDD:
 
