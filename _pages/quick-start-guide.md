@@ -23,6 +23,8 @@ Matthew runs a small movie theater for arthouse films—called Metropolis—that
 
 **Anna:** “Subscriptions? Online and offline sales? Shows in foreign languages? That's more complicated than I thought….”
 
+## The Workshop Begins
+
 The next day they meet again in Matthew's office. They are standing in front of a whiteboard, and Anna is holding a marker in her hand.
 
 **App developer Anna:** “Yesterday you said that the app essentially has three use cases: One: selling standard tickets; two: selling special tickets for foreign-language movies; and three: signing up for a yearly subscription.”
@@ -59,6 +61,8 @@ Anna continues drawing and numbers the arrow.
 
 ![The first activity](/assets/images/quick-start-guide/01fig03-first-activity-gray.svg)
 
+## One Sentence After the Other
+
 **Anna:** “And then?”
 
 **Matthew:** “Usually the cashier suggests the best seat available.”
@@ -86,6 +90,8 @@ Matthew nods in agreement.
 **Anna:** “And now the cashier suggests the available seats to the moviegoer?”
 
 **Matthew:** “Exactly.”
+
+## Retelling and Finishing the Story
 
 Within a few minutes, the whiteboard is filled with a story about a moviegoer who buys tickets from a cashier at the box office. Icons and arrows are rearranged during the session. Finally, Anna retells the story from the beginning.
 
