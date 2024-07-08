@@ -14,7 +14,7 @@ header:
 <i class="fa-brands fa-mastodon" title="Mastodon"></i>
 [@hofstef@social.wps.de](https://social.wps.de/@hofstef)  
 <i class="fa-brands fa-linkedin" title="LinkedIn"></i>
-[hofstef](https://www.linkedin.com/in/hofstef/)  
+[in/hofstef](https://www.linkedin.com/in/hofstef/)  
 <i class="fas fa-envelope" title="Email"></i>
 [stefan@domainstorytelling.org](mailto:stefan@domainstorytelling.org)
 
@@ -24,9 +24,11 @@ header:
 
 <i class="fas fa-home" title="Homepage"></i>
 [hschwentner.io](https://hschwentner.io)  
-<i class="fab fa-fw fa-twitter" title="Twitter"></i>
-[@hschwentner](https://twitter.com/hschwentner)  
+<i class="fa-brands fa-linkedin" title="LinkedIn"></i>
+[in/henningschwentner](https://www.linkedin.com/in/henningschwentner/)  
 <i class="fa-brands fa-mastodon" title="Mastodon"></i>
 [@hschwentner@social.wps.de](https://social.wps.de/@hschwentner)  
+<i class="fab fa-fw fa-x-twitter" title="Twitter"></i>
+[@hschwentner](https://x.com/hschwentner)  
 <i class="fas fa-envelope" title="Email"></i>
 [henning@domainstorytelling.org](mailto:henning@domainstorytelling.org)
