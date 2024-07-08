@@ -123,7 +123,7 @@ Domain stories are told from an actor's' perspective. An actor can be a *person*
 
 ![Typical work objects. Note: “movie ticket” and “price” each appear twice with different icons.](/assets/images/quick-start-guide/02fig02-buildingblocks-workobjects.svg)
 
-Actors create, work with, and exchange work objects such as *documents*, *physical things*, and *digital objects*. They also exchange *information about* work objects. Like actors, the work objects are labeled with a term from the domain language (like “showtimes,” “movie ticket,” etc.). 
+Actors create, work with, and exchange work objects such as *documents*, *physical things*, and *digital objects*. They also exchange *information about* work objects. Like actors, the work objects are labeled with a term from the domain language (like “showtimes,” “movie ticket,” etc.).
 
 Note that a work object can have different icons *within* the same domain story if the medium changes. For example, a moviegoer could receive their movie ticket via email and print it at home—the same ticket is represented with two different icons.
 
@@ -165,7 +165,7 @@ The basic syntax is: *subject* – *predicate* – *object*. More complex syntax
 
 ![Possible sentence structures](/assets/images/quick-start-guide/02fig15-sentences.svg)
 
-Every actor appears only once in the domain story. But for every activity, we draw a separate work object (even if the same work object already exists in a previous sentence). If you follow that rule, arranging work objects and arrows becomes a lot easier. There is another good reason for this. As the story evolves, a work object may change its status or representation. 
+Every actor appears only once in the domain story. But for every activity, we draw a separate work object (even if the same work object already exists in a previous sentence). If you follow that rule, arranging work objects and arrows becomes a lot easier. There is another good reason for this. As the story evolves, a work object may change its status or representation.
 
 Chapter 2 of the [Domain Storytelling book](/book) covers the pictographic language in more detail, including recommendations for good language style and compiling your own icon sets.
 {: .notice--primary}
@@ -188,13 +188,14 @@ Of course, there is value in “algorithmic” descriptions of business processe
 
 A domain story is a concrete, meaningful examples of a business process. The pictographic language gets by without symbols for conditionals, variations, or alternatives. With Domain Storytelling, you model just the most important alternatives—each one as an individual domain story.
 
-When we model a business process, every possible instance could be described in the form a domain story. How do we narrow down the vast number of instances? 
+When we model a business process, every possible instance could be described in the form a domain story. How do we narrow down the vast number of instances?
 
 > We recommend you start with modeling the default case—the “80% case”—and the “happy path” first.
 
 We will take another look at the cinema example to illustrate our approach:
 
-The movie theater Metropolis sells (a) tickets for single shows and (b) yearly subscriptions. This means app developer Anna cannot simply ask movie theater manager Matthew to tell her a story about a moviegoer who approaches the cashier. Instead, she asks him which case is more common, and he tells her that selling tickets for single shows makes up 75% of his revenue. Therefore, Anna asks Matthew to tell her about this case. 
+The movie theater Metropolis sells (a) tickets for single shows and (b) yearly subscriptions. This means app developer Anna cannot simply ask movie theater manager Matthew to tell her a story about a moviegoer who approaches the cashier. Instead, she asks him which case is more common, and he tells her that selling tickets for single shows makes up 75% of his revenue. Therefore, Anna asks Matthew to tell her about this case.
+
 While she is recording the story additional assumptions are made, to avoid drifting off to different story lines: “Assuming that there are still seats available, what do you do next?” Anna writes all these assumptions down as annotations.
 
 Usually, a few domain stories are sufficient to understand a business process. Small variations in a business process such as optional activities are simply not worth the effort of modeling them separately. Instead, you should use annotations.
@@ -207,17 +208,17 @@ Chapter 3 of the [Domain Storytelling book](/book) gives you more guidance on wh
 Domain Storytelling is not a “one-size-fits-all” approach. Depending on the purpose, the modeler chooses a fitting *scope* for the domain story:
 
 - The *granularity* determines the level of detail: Are you interested in the overview or the details? Domain stories can be *coarse-grainer*, *fine-grained*, and everything in between.
-- Domain Stories take playe at a *point in time*. They either describe a process as it currently is (*as-is*) or how it will (possibly) look in the future (*to-be*).
+- Domain Stories take place at a *point in time*. They either describe a process as it currently is (*as-is*) or how it will (possibly) look in the future (*to-be*).
 - When modeling domain stories, you either include or omit (existing or yet to be built) software. This scope factor is called *domain purity*. We call domain stories without software systems *pure*, and those with software systems *digitalized*.
 
 As an example, the above [»selling tickets at the box office«](/quick-start-guide#your-first-domain-story) domain story is *fine-grained*, *as-is*, and *pure*.
 
-Chapter 4 of the [Domain Storytelling book](/book) describes the scope factors in more detail. A short case study describes typical scopes of domain stories and how you can "travel" from one scope to the next.
+Chapter 4 of the [Domain Storytelling book](/book) describes the scope factors in more detail. A short case study describes typical scopes of domain stories and how you can “travel” from one scope to the next.
 {: .notice--primary}
 
 # The Workshop Format
 
-You can use Domain Storytelling just as a graphical notation. But it is much more than that. It is a method for having meaningful conversations about business processes. 
+You can use Domain Storytelling just as a graphical notation. But it is much more than that. It is a method for having meaningful conversations about business processes.
 
 > Domain Storytelling is a conversation technique.
 
@@ -242,7 +243,6 @@ Chapter 6 of the [Domain Storytelling book](/book) explains in much more depth w
 Chapter 7 of the [Domain Storytelling book](/book) covers the relationshops between Domain Storytelling an other collaborative modeling techniques, including when to use which method and how to combine them.
 {: .notice--primary}
 
-
 # Tools
 
 Often a whiteboard and some sticky notes are all you need.
@@ -253,12 +253,12 @@ But since drawing the icons can be tedious, we have developed a *whiteboard kit*
 
 ![Modeling with the Whiteboard Kit](/assets/images/quick-start-guide/whiteboard_kit.jpg)
 
-Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like Miro or diagrams.net. However, such general-purpose tools have limitations. 
+Often, you want to model several Domain Stories in one workshop. But modeling space on whiteboards, flip charts and walls is limited. Digital modeling tools are an alternative. Use a projector to share the computer screen so that everyone can see how the Domain Story evolves. You can visualize Domain Stories with tools like Miro or diagrams.net. However, such general-purpose tools have limitations.
 
-With *Egon.io—The Domain Story Modeler*, [we at WPS – Workplace Solutions](https://www.wps.de/en) built a modeling tool that is specifically designed for Domain Stories. 
+With *Egon.io—The Domain Story Modeler*, [we at WPS – Workplace Solutions](https://www.wps.de/en) built a modeling tool that is specifically designed for Domain Stories.
 
 > Egon.io is open source and runs in your browser. No set-up and no registration required. <a href="https://egon.io" target="_blank">Try it online!</a>
- 
+
 ![Modeling with Egon.io](/assets/images/quick-start-guide/egon-2.0.0.png)
 
 Chapter 5 of the [Domain Storytelling book](/book) explains the pros and cons of several analog and digital tools, including tips for choosing a tool.
