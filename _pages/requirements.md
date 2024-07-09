@@ -11,11 +11,15 @@ The people involved in requirements elicitation have to learn and to communicate
 
 > You can derive requirements from domain stories so that you can discuss priorities and viable products.
 
+# From Domain Story to User Story
+
 In our [movie theater example](/quick-start-guide), Matthew and Anna discuss how the sales process at the box office will work in the future. They realize that the cashiers need a digital seating plan that also shows the seats sold via the app. If a moviegoer wants to buy tickets at the box office, the cashier searches for the seating plan for the show and offers the available seats. This activity must by supported by a new system:
 
-![From Domain Story to User Story](assets/images/requirements/05-01-domain-story-to-user-story.drawio.svg)
+![From Domain Story to User Story](/assets/images/requirements/05-01-domain-story-to-user-story.drawio.svg)
 
 > “As a cashier, I want to search for available seats for a show so that I can offer them to a moviegoer.”
+
+# A Tool for Many Different Roles
 
 Domain Storytelling is a helpful tool for anyone who works with requirements, whether as a product owner, product manager, business analyst, requirements engineer or cross-functional team that does its own requirements elicitation. They can all use it to...
 

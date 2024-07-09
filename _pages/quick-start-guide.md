@@ -217,7 +217,7 @@ Domain Storytelling is not a “one-size-fits-all” approach. Depending on the 
 - Domain Stories take place at a *point in time*. They either describe a process as it currently is (*as-is*) or how it will (possibly) look in the future (*to-be*).
 - When modeling domain stories, you either include or omit (existing or yet to be built) software. This scope factor is called *domain purity*. We call domain stories without software systems *pure*, and those with software systems *digitalized*.
 
-As an example, the above [»selling tickets at the box office«](/quick-start-guide#your-first-domain-story) domain story is *fine-grained*, *as-is*, and *pure*.
+As an example, the above [“selling tickets at the box office”](/quick-start-guide#your-first-domain-story) domain story is *fine-grained*, *as-is*, and *pure*.
 
 Chapter 4 of the [Domain Storytelling book](/book) describes the scope factors in more detail. A short case study describes typical scopes of domain stories and how you can “travel” from one scope to the next.
 {: .notice--primary}
