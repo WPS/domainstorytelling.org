@@ -9,5 +9,7 @@ main:
     url: /training
   - title: "Book"
     url: /book
+  - title: "Articles"
+    url: /articles
   - title: "Contact"
     url: /contact
