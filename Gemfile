@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "jemoji", "~> 0.13.0", group: :jekyll_plugins
-gem "minimal-mistakes-jekyll", "~> 4.26.1"
+gem "minimal-mistakes-jekyll", "~> 4.26.2"
