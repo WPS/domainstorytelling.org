@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/home/sunflower-5.jpeg
 ---
 
-![Profile photo of Stefan](/assets/images/contact/StefanHofer_571.jpg){: .align-right width="20%"}
+![Profile photo of Stefan](/assets/images/contact/StefanHofer.png){: .align-right width="20%"}
 
 **Stefan Hofer** is bad at drawing. However, he thinks he can build up domain knowledge by drawing domain stories. Stefan studied software engineering in Austria and earned a PhD in computer science. Since 2005, he has been working for [WPS – Workplace Solutions](https://www.wps.de) in Hamburg, Germany. His job there is to help teams develop software that does the right job the right way.
 
