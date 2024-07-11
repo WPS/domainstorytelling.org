@@ -1,0 +1,7 @@
+hofstef:
+  name        : "Stefan Hofer"
+  avatar      : "/assets/images/contact/StefanHofer.png"
+  links:
+    - label: "Contact"
+      icon: "fas fa-fw fa-link"
+      url: "/contact"
