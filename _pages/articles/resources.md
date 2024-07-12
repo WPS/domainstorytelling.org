@@ -4,7 +4,6 @@ layout: single
 title: External Resources
 toc: true
 toc_sticky: true
-toc_label: "Language"
 header:
   overlay_image: /assets/images/home/sunflower-3.jpeg
 ---
