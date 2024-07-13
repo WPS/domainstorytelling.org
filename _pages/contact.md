@@ -32,3 +32,8 @@ header:
 [@hschwentner](https://x.com/hschwentner)  
 <i class="fas fa-envelope" title="Email"></i>
 [henning@domainstorytelling.org](mailto:henning@domainstorytelling.org)
+
+**The community** meets at Domain-driven Design meetups and conferences around the world. The [DDD Discord](https://discord.gg/8uBekCeUHg) has a channeld dedicated to Domain Storytelling. 
+<!-->The discord link does not expire but can only be used 50 times.<-->
+
+Please use *#DomainStorytelling* on social media when discussing the topic.
