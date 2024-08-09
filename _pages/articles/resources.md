@@ -33,6 +33,7 @@ Do you want to propose a resource? [Please create a pull request.](https://githu
 
 | Level     | Type     | Year | Author            | Link |
 |---------- |--------- | ---- | ----------------- | ---- |
+| Advanced  | Article  | 2022 | Lill              | [Mit Domain Storytelling ein Minimum Viable Product entwickeln](https://www.informatik-aktuell.de/entwicklung/methoden/mit-domain-storytelling-ein-minimum-viable-product-entwickeln.html) |
 | Beginner  | Video    | 2021 | Hofer             | [Demo at DDD Meetup Cologne](https://www.youtube.com/watch?v=FxPalV9a8fE)|
 | Beginner  | Video    | 2021 | Hofer, Schwentner, Wolff | [Software-Architektur TV](https://software-architektur.tv/2020/10/09/folge021.html) |
 | Advanced  | Podcast  | 2021 | Breitling, Kornstädt, Hofer, Schwentner | [Rechenzeit Folge 4 "Domain Storytelling" (54min)](https://www.wps.de/wps/rechenzeit/domain-storytelling/event:2021-08-10T10-12) |
