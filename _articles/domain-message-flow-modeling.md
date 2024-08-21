@@ -35,14 +35,14 @@ In Domain Storytelling, *actors* and *work objects* are expressed with icons and
 
 | concept | modeled as | icon* |
 | ------- | ---------- | ----- |
-| user (or persona or role) | actor | ![](/assets/images/articles/domain-message-flow/user.png) |
-| bounded context | actor | ![](/assets/images/articles/domain-message-flow/bounded-context.png) |
-| system | actor | ![](/assets/images/articles/domain-message-flow/system.png) |
-| command | work object | ![](/assets/images/articles/domain-message-flow/command.png) |
-| event | work object | ![](/assets/images/articles/domain-message-flow/event.png) |
-| query | work object | ![](/assets/images/articles/domain-message-flow/query.png) |
+| user (or persona or role) | actor | ![](/assets/images/articles/domain-message-flow/user.svg) |
+| bounded context | actor | ![](/assets/images/articles/domain-message-flow/bounded-context.svg) |
+| system | actor | ![](/assets/images/articles/domain-message-flow/system.svg) |
+| command | work object | ![](/assets/images/articles/domain-message-flow/command.svg) |
+| event | work object | ![](/assets/images/articles/domain-message-flow/event.svg) |
+| view (query) | work object | ![](/assets/images/articles/domain-message-flow/view.svg) |
 
-*) Which icons you use is up to you. I chose some Google Material icons that resemble Nick Tune’s example. 
+*) Which icons you use is up to you. I chose some Google Material icons that resemble Nick Tune’s example (user, bounded context, system) and [Vaughn Vernon's suggestions](https://kalele.io/symbolsicons-for-event-storming/) (command, event, view/query). 
 
 ## Example
 
@@ -70,5 +70,5 @@ The goal of scenario-based modeling is not to cover all possible variations but 
 
 Domain Storytelling combines a pictographic language with a workshop format. How much of the workshop’s collaborative potential can be applied to Domain Message Flow Modeling depends on the situation. Collaborating in workshops makes sense particularly if you want to design *to-be* architectures (with candidate bounded contexts). Documenting existing architecture (*as-is* modeling) could also work with less collaboration.
 
-Acknowledgement: I thank Nick Tune for reviewing a draft of this article.
+Acknowledgement: I thank Nick Tune for reviewing a draft of this article and Vaughn Vernon for suggesting icons.
 {: .notice--primary}
