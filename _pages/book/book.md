@@ -2,6 +2,8 @@
 permalink: /book
 layout: single
 title: The First Book About Domain Storytelling
+toc: true
+toc_sticky: true
 header:
   overlay_image: /assets/images/home/sunflower-7.jpeg
 ---
@@ -40,3 +42,9 @@ The full [bibliography](/book/bibliography) of the book, with clickable links.
 ## Errata
 
 Errata found after printing: [in English edition](/book/errata), [in German edition](/book/errata-de).
+
+## Other Languages
+- [Korean](https://wikibook.co.kr/domain-storytelling/)
+- [Traditional Chinese](https://www.tenlong.com.tw/products/9786263339330?list_name=b-r7-zh_tw)
+- Simplified Chinese (tba)
+
