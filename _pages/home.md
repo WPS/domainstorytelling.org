@@ -40,7 +40,7 @@ external_links:
 
 ## Build Better Business Software by Telling and Visualizing Stories
 
-![A domain story showing the process of going to the movies](/assets/images/home/metropolis-1-animated.gif){: .align-right width="50%"}
+![A domain story showing the process of going to the movies](/assets/images/home/metropolis-1-animated.egn.svg){: .align-right width="50%"}
 
 Storytelling is at the heart of human communication—why not use it to overcome costly misunderstandings when designing software? By telling and visualizing stories, domain experts and team members make business processes and domain knowledge tangible. Domain Storytelling enables everyone to understand the relevant people, activities, and work items.
 
