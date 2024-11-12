@@ -10,11 +10,19 @@ header:
 
 [![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}](#buy-now)
 
-With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Boston: Addison-Wesley, 2022), [Stefan Hofer](https://twitter.com/hofstef) and [Henning Schwentner](https://hschwentner.io) have written the first book about this modeling method. It features a foreword by [Nick Tune](https://ntcoding.co.uk) and is part of the Addison-Wesley Signature Series of [Vaughn Vernon](https://vaughnvernon.com). Stefan and Henning also have translated the book into a German edition.
+With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Boston: Addison-Wesley, 2022), [Stefan Hofer](https://twitter.com/hofstef) and [Henning Schwentner](https://hschwentner.io) have written the first book about this modeling method. It features a foreword by [Nick Tune](https://ntcoding.co.uk) and is part of the Addison-Wesley Signature Series of [Vaughn Vernon](https://vaughnvernon.com).
 
 [![German Cover of book *Domain Storytelling*](https://dpunkt.de/wp-content/uploads/2023/02/13983.jpg){: .align-right width="20%"}](#buy-now)
 
 We introduce you to the method’s easy pictographic language, scenario-based modeling techniques, workshop format, and relationship to other modeling methods. Using step-by-step case studies, we guide you through solving many common problems.
+
+[![Simplified Chinese Cover of book *Domain Storytelling*](https://img1.doubanio.com/view/subject/l/public/s34941660.jpg){: .align-right width="20%"}](#buy-now)
+
+test
+
+[![Traditional Chinese Cover of book *Domain Storytelling*](https://cf-assets2.tenlong.com.tw/products/images/000/218/188/webp/9786263339330_bc.webp){: .align-right width="20%"}](#buy-now)
+
+The book has been translated into several languages. Into German by the authors themselves. Into Simplified Chinese by [Qin Yu](https://www.douban.com/personage/36967430/). Into Traditional Chinese by [Kim Kao](https://www.linkedin.com/in/kimkao/) and [Michael Chen](https://www.linkedin.com/in/mien-hsiu-michael-chen-38935b13/). Into Korean.
 
 ## Buy now[^disclaimer]
 
@@ -31,6 +39,15 @@ We introduce you to the method’s easy pictographic language, scenario-based mo
 [<i class="fas fa-book"></i> dpunkt](https://dpunkt.de/produkt/domain-storytelling/?ref=10024){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon DE](https://amzn.to/3p6ZNRn){: .btn .btn--primary .btn--large}
 
+### Simplified Chinese Edition
+
+[<i class="fas fa-book"></i> Douban](https://book.douban.com/subject/36937772/){: .btn .btn--primary .btn--large}
+[<i class="fas fa-book"></i> Tenlong](https://www.tenlong.com.tw/products/9787111754268){: .btn .btn--primary .btn--large}
+
+### Traditional Chinese Edition
+
+[<i class="fas fa-book"></i> Tenlong](https://www.tenlong.com.tw/products/9786263339330){: .btn .btn--primary .btn--large}
+
 ## Examples from the Book
 
 The *Alphorn Auto Leasing* and *Metropolis Movie Theater* examples are available as files for [*Egon.io - The Domain Story Modeler*](https://egon.io/), an open source modeling tool. You can find the files and instructions on [https://github.com/WPS/egon.io-examples](https://github.com/WPS/egon.io-examples) and import them into Egon.io.
@@ -44,7 +61,5 @@ The full [bibliography](/book/bibliography) of the book, with clickable links.
 Errata found after printing: [in English edition](/book/errata), [in German edition](/book/errata-de).
 
 ## Other Languages
-- [Korean](https://wikibook.co.kr/domain-storytelling/)
-- [Traditional Chinese](https://www.tenlong.com.tw/products/9786263339330?list_name=b-r7-zh_tw)
-- Simplified Chinese (tba)
 
+- [Korean](https://wikibook.co.kr/domain-storytelling/)
