@@ -20,7 +20,7 @@ We introduce you to the method’s easy pictographic language, scenario-based mo
 
 [![Traditional Chinese Cover of book *Domain Storytelling*](https://cf-assets2.tenlong.com.tw/products/images/000/218/188/webp/9786263339330_bc.webp){: .align-right width="20%"}](#buy-now)
 
-The book has been translated into several languages. Into German by the authors themselves. Into Simplified Chinese by [Qin Yu](https://www.douban.com/personage/36967430/). Into Traditional Chinese by [Kim Kao](https://www.linkedin.com/in/kimkao/) and [Michael Chen](https://www.linkedin.com/in/mien-hsiu-michael-chen-38935b13/). Into Korean.
+The book has been translated into several languages. Into German by the authors themselves. Into Simplified Chinese by [Qin Yu 覃宇](https://www.douban.com/personage/36967430/). Into Traditional Chinese by [Kim Kao 高翊凱](https://www.linkedin.com/in/kimkao/) and [Michael Chen 陳勉修](https://www.linkedin.com/in/mien-hsiu-michael-chen-38935b13/). Into Korean.
 
 ## Buy now[^disclaimer]
 
@@ -45,6 +45,7 @@ The book has been translated into several languages. Into German by the authors 
 ### Traditional Chinese Edition
 
 [<i class="fas fa-book"></i> Tenlong](https://www.tenlong.com.tw/products/9786263339330){: .btn .btn--primary .btn--large}
+[<i class="fas fa-book"></i> Books.com.tw](https://www.books.com.tw/products/0010998534){: .btn .btn--primary .btn--large}
 
 ## Examples from the Book
 
