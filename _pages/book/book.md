@@ -18,8 +18,6 @@ We introduce you to the method’s easy pictographic language, scenario-based mo
 
 [![Simplified Chinese Cover of book *Domain Storytelling*](https://img1.doubanio.com/view/subject/l/public/s34941660.jpg){: .align-right width="20%"}](#buy-now)
 
-test
-
 [![Traditional Chinese Cover of book *Domain Storytelling*](https://cf-assets2.tenlong.com.tw/products/images/000/218/188/webp/9786263339330_bc.webp){: .align-right width="20%"}](#buy-now)
 
 The book has been translated into several languages. Into German by the authors themselves. Into Simplified Chinese by [Qin Yu](https://www.douban.com/personage/36967430/). Into Traditional Chinese by [Kim Kao](https://www.linkedin.com/in/kimkao/) and [Michael Chen](https://www.linkedin.com/in/mien-hsiu-michael-chen-38935b13/). Into Korean.
