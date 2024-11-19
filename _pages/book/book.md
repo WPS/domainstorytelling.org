@@ -8,19 +8,9 @@ header:
   overlay_image: /assets/images/home/sunflower-7.jpeg
 ---
 
-[![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}](#buy-now)
-
 With *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software* (Boston: Addison-Wesley, 2022), [Stefan Hofer](https://twitter.com/hofstef) and [Henning Schwentner](https://hschwentner.io) have written the first book about this modeling method. It features a foreword by [Nick Tune](https://ntcoding.co.uk) and is part of the Addison-Wesley Signature Series of [Vaughn Vernon](https://vaughnvernon.com).
 
-[![German Cover of book *Domain Storytelling*](https://dpunkt.de/wp-content/uploads/2023/02/13983.jpg){: .align-right width="20%"}](#buy-now)
-
 We introduce you to the method’s easy pictographic language, scenario-based modeling techniques, workshop format, and relationship to other modeling methods. Using step-by-step case studies, we guide you through solving many common problems.
-
-[![Simplified Chinese Cover of book *Domain Storytelling*](https://img1.doubanio.com/view/subject/l/public/s34941660.jpg){: .align-right width="20%"}](#buy-now)
-
-[![Traditional Chinese Cover of book *Domain Storytelling*](https://cf-assets2.tenlong.com.tw/products/images/000/218/188/webp/9786263339330_bc.webp){: .align-right width="20%"}](#buy-now)
-
-[![Portuguese Cover of book *Domain Storytelling*](https://altabooks.com.br/wp-content/uploads/2024/07/CAPA_1000px_STORYTELLING_DE_DOMINIO.webp){: .align-right width="20%"}](#buy-now)
 
 The book has been translated into several languages. Into German by the authors themselves. Into Simplified Chinese by [Qin Yu 覃宇](https://www.douban.com/personage/36967430/). Into Traditional Chinese by [Kim Kao 高翊凱](https://www.linkedin.com/in/kimkao/) and [Michael Chen 陳勉修](https://www.linkedin.com/in/mien-hsiu-michael-chen-38935b13/). Into Portuguese. Into Korean.
 
@@ -30,26 +20,36 @@ The book has been translated into several languages. Into German by the authors 
 
 ### English Edition
 
+[![Cover of book *Domain Storytelling*](https://www.informit.com/ShowCover.aspx?isbn=9780137458912&type=f){: .align-right}](#buy-now)
+
 [<i class="fas fa-book"></i> Informit](https://click.linksynergy.com/deeplink?id=Lbec0D6YaKE&mid=24808&murl=https%3A%2F%2Fwww.informit.com%2Fstore%2Fdomain-storytelling-a-collaborative-visual-and-agile-9780137458912){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon US](https://www.amazon.com/gp/product/0137458916/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0137458916&linkCode=as2&tag=hschwentner-20&linkId=729e88a7bfb67a51b739a78e9fa02c2e){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon DE](https://www.amazon.de/gp/product/0137458916/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0137458916&linkCode=as2&tag=hschwentner-21&linkId=5c4e31b4c04bf7817d05e996f0022b4c){: .btn .btn--primary .btn--large}
 
 ### German Edition
 
+[![German Cover of book *Domain Storytelling*](https://dpunkt.de/wp-content/uploads/2023/02/13983.jpg){: .align-right width="20%"}](#buy-now)
+
 [<i class="fas fa-book"></i> dpunkt](https://dpunkt.de/produkt/domain-storytelling/?ref=10024){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon DE](https://amzn.to/3p6ZNRn){: .btn .btn--primary .btn--large}
 
 ### Simplified Chinese Edition
+
+[![Simplified Chinese Cover of book *Domain Storytelling*](https://img1.doubanio.com/view/subject/l/public/s34941660.jpg){: .align-right width="20%"}](#buy-now)
 
 [<i class="fas fa-book"></i> Douban](https://book.douban.com/subject/36937772/){: .btn .btn--primary .btn--large}
 [<i class="fas fa-book"></i> Tenlong](https://www.tenlong.com.tw/products/9787111754268){: .btn .btn--primary .btn--large}
 
 ### Traditional Chinese Edition
 
+[![Traditional Chinese Cover of book *Domain Storytelling*](https://cf-assets2.tenlong.com.tw/products/images/000/218/188/webp/9786263339330_bc.webp){: .align-right width="20%"}](#buy-now)
+
 [<i class="fas fa-book"></i> Tenlong](https://www.tenlong.com.tw/products/9786263339330){: .btn .btn--primary .btn--large}
 [<i class="fas fa-book"></i> Books.com.tw](https://www.books.com.tw/products/0010998534){: .btn .btn--primary .btn--large}
 
 ### Portuguese Edition
+
+[![Portuguese Cover of book *Domain Storytelling*](https://altabooks.com.br/wp-content/uploads/2024/07/CAPA_1000px_STORYTELLING_DE_DOMINIO.webp){: .align-right width="20%"}](#buy-now)
 
 [<i class="fas fa-book"></i> Alta Books](https://altabooks.com.br/produto/storytelling-de-dominio/){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon BR](https://www.amazon.com.br/Storytelling-Domínio-Colaborativo-Softwares-Baseados/dp/8550821195){: .btn .btn--primary .btn--large}
