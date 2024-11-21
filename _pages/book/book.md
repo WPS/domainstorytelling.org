@@ -32,7 +32,7 @@ Published by Pearson.
 
 ![German Cover of book *Domain Storytelling*](https://dpunkt.de/wp-content/uploads/2023/02/13983.jpg){: .align-left width="18%"}
 
-Published by dpunkt. Translated by the authors. Also available as a [short booklet](https://www.assets.dpunkt.de/openbooks/Schwentner_Domain%20Storytelling_Broschuere_2A_Web.pdf).
+Published by dpunkt. Translated by the authors. Also available is a [short booklet](https://www.assets.dpunkt.de/openbooks/Schwentner_Domain%20Storytelling_Broschuere_2A_Web.pdf).
 
 [<i class="fas fa-book"></i> dpunkt](https://dpunkt.de/produkt/domain-storytelling/?ref=10024){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon DE](https://amzn.to/3p6ZNRn){: .btn .btn--primary .btn--large}
