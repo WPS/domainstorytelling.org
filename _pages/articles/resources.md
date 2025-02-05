@@ -37,7 +37,7 @@ Do you want to propose a resource? [Please create a pull request.](https://githu
 | Beginner  | Video    | 2021 | Hofer             | [Demo at DDD Meetup Cologne](https://www.youtube.com/watch?v=FxPalV9a8fE)|
 | Beginner  | Video    | 2021 | Hofer, Schwentner, Wolff | [Software-Architektur TV](https://software-architektur.tv/2020/10/09/folge021.html) |
 | Advanced  | Podcast  | 2021 | Breitling, Kornstädt, Hofer, Schwentner | [Rechenzeit Folge 4 "Domain Storytelling" (54min)](https://www.wps.de/wps/rechenzeit/domain-storytelling/event:2021-08-10T10-12) |
-| Advanced  | Podcast  | 2019 | Lilienthatl, Starke, Wolff | [Heise SoftwareArchitekTOUR-Podcast, Episode 64: "Domain-Driven Design"](https://www.heise.de/developer/artikel/Episode-64-Domain-Driven-Design-DDD-Episode-3-4491758.html) |
+| Advanced  | Podcast  | 2019 | Lilienthal, Starke, Wolff | [Heise SoftwareArchitekTOUR-Podcast, Episode 64: "Domain-Driven Design"](https://www.heise.de/developer/artikel/Episode-64-Domain-Driven-Design-DDD-Episode-3-4491758.html) |
 | Beginner  | Article  | 2018 | Hofer, Schwentner | [DOMAIN-DRIVEN DESIGN: WIE DOMAIN STORYTELLING FACHEXPERTEN UND ENTWICKLER ZUSAMMENBRINGT](https://jax.de/blog/microservices/domain-driven-design-wie-domain-storytelling-fachexperten-und-entwickler-zusammenbringt/) |
 
 
@@ -59,6 +59,7 @@ Do you want to propose a resource? [Please create a pull request.](https://githu
 # Tools
 
 - [Egon.io - The Domain Story Modeler](https://egon.io)
+- [Miro Template](https://miro.com/miroverse/domain-storytelling/) by Stefan Hofer
 - [Plant UML Macro](https://github.com/johthor/DomainStory-PlantUML) by Johannes Thorn
 - [Using draw.io to capture Domain Stories](https://medium.com/domain-driven-stories/using-draw-io-to-capture-domain-stories-3ca828f732a0?) by Darko Kantic
 
