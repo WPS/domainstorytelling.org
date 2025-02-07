@@ -6,7 +6,7 @@ toc_sticky: true
 header: 
   overlay_color: "#f59542"
   overlay_image: /assets/images/home/sunflower-9.jpeg
-  teaser: /assets/images/articles/how-to-model-loops/01-warehouse-bpmn.svg
+  teaser: /assets/images/articles/how-to-model-loops/teaser.png
 author: hofstef
 # perma-link is generated from file name
 # see https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-collection for more layout options
