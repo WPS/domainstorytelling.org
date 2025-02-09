@@ -56,34 +56,72 @@ Egon was specifically built for modeling domain stories. Hence, it comes with a 
 
 Egon runs in your browser, is open source, does not require an account, does not track you, and does not process or store your data. If you don't want to use the version we provide at [https://egon.io](https://egon.io), you can run it locally as a Docker container or host it on your own webserver.
 
-# PlantUML Macros
+# PlantUML Library
 
-PlantUML is a popular modeling tool. As the name suggests, it was originally developed for modeling UML diagrams. It is extensible and custumizable.
+PlantUML is a popular UML modeling tool. Thanks to its extensibility, it also supports a number of non-UML diagram types.
 
-set of macros by johannes thorn
+In contrast to the other two tools, the visual representation of the model is not created by hand. Instead, it is generated from a textual description. This approach is called "diagrams as code". Here's the code for the risk management example and the corresponding diagram:
+
+````
+@startuml
+'v0.3.1
+!include <domainstory/Domainstory>
+
+Person(riskmanager, risk manager)
+Person(salesperson, sales person)
+System(rating, rating agency website)
+System(risk, risk management system)
+
+Document(risk_assessment, $label=risk assessment, $note=needs to be present in the\nsystem because only then the \nvoting result can be entered)
+Document(credit_rating_form, $label=credit rating form)
+Document(contract, $label=contract)
+Document(report, $label=credit rating report (PDF))
+
+activity(_, riskmanager, fills out, credit_rating_form)
+activity(., credit_rating_form, with information from, Document: contract, on, rating)
+
+activity(_<, rating, generates, Document: credit rating report (PDF), for, riskmanager)
+
+activity(_, riskmanager, creates, risk_assessment)
+activity(., risk_assessment, for, contract, with, report)
+activity(., report, in, risk)
+
+activity(_, riskmanager, decides on, Info: voting result, in, risk)
+
+activity(_, riskmanager, passes on, Document: voted contract, to, salesperson)
+
+activity(_, salesperson, signs, Document: contract)
+
+@enduml
+````
 
 ![A domain story modeled with PlantUML](/assets/images/articles/best-tool/05-PlantUML-example.svg)
 
-source code
+The source code contains terms like "activity", "person" and "system". This means that a diagram is specified with a *modeling langinge* (rather than defining mere visual elements rectangles, lines etc.). This modeling language is defined by a set of PlantuML macros developed by Johannes Thorn. His public [GitHub repository](https://github.com/johthor/DomainStory-PlantUML) contains excellent documentation of his library.
 
-link github
-very different from other tools. no live modelling => diagrams as code
-included in standard library (not newest version)
-v0.3 fully supports DST syntax
-modeling language
-auto numbering: _
-shorthands
-layout is generadted
-uses material icons like egon => extensible
-lots of work went into this
-personally, I would not use it for live modeling in workshops (too slow, distracting). It was intended for documentation
-different tools implement plantUML, different library versions
+Beginning with version 0.3, PlantUML fully supports the syntax of Domain Storytelling. It even provides auto-numbering of activities, parallel activities, an extensible icon set, and sentences with multiple work objects. 
+
+The look of the diagrams was inspired by Egon, e.g. the same icon family is used. Since PlantUML is themeable, you can change that.
+
+Since the story is generated from code, you have limited control over the layout. There are, however, a few parameters that influence the layout algorithm. Again, I refer you to the documentation on GitHub for the details. In my experience with other diagrams-as-code tools, these layout optimizations should be used scarcely and only as the last step of modeling (because every new sentence will change the layout anyway).
+
+> The small print: PlantUML is not just *one* tool. There are many editors that support PlantUML (e.g. plugins for your favorite IDE). To use them for Domain Storytelling, you need to include the Domain Storytelling library. 
 
 # Comparison
 
-best tools is the one that works best for you; e.g. if you have everything in Miro or PlantUML, ...
-tools are conceptually different: ![Conceptual differences]()
-open source vs. vendor licking
-replay still killer feature
+The three tools are conceptually different: 
 
+![Conceptual differences](/assets/images/articles/best-tool/teaser.jpg)
 
+- Egon and the Miro template were designed for visual diagramming during workshops. The conceptual difference is that Miro is just a general purpose drawing tool whereas Egon is a specialized modeling tool.
+- PlantUml generates diagrams from code. It was designed as a documentation tool, i.e. to digitalize domain stories that were modeled on whiteboards with pen and sticky notes. 
+
+Egon and PlantUML are open-source software. They use text-based formats for describing domain stories that could be converted to input formats for other tools. Hence, there is no vendor lock-in. Miro is a commercial tool and your diagrams can only be exported as images.
+
+Similarly, Egon and PlantUML can be run locally. Miro is software-as-a-service and requires an internet connection and Miro services to be up and running. 
+
+Despite these differences, the best tool for Domain Storytelling is the one that works best for *you*:
+
+- If you already use Miro and want to model a domain story every once in a while, the Miro template might be the best tool for you.
+- If your focus is on documentation and you already use PlantUML to document software architecture and design, the PlantUML library enables you to generate everything with your favorite tool. Personally, I would not use it for live modeling in workshops as the sudden changes in layout after every sentence would be distracting. Also, I have limited experience with the modeling language which slows down modeling.
+- Egon supports you best during modeling workshops with unique features like "replay". 
