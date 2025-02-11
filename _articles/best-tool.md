@@ -1,6 +1,6 @@
 ---
-title: "What's the Best Tool"
-excerpt: "For Domain Storytelling"
+title: "What's the Best Tool?"
+excerpt: "A Comparison."
 toc: true
 toc_sticky: true
 header: 
@@ -10,27 +10,39 @@ header:
 author: hofstef
 # perma-link is generated from file name
 # see https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-collection for more layout options
+galleryPlantUML:
+  - url: /assets/images/articles/best-tool/05-PlantUML-example.svg
+    image_path: /assets/images/articles/best-tool/05-PlantUML-example.svg
+    alt: "A domain story modeled with PlantUML"
+    title: "A domain story modeled with PlantUML"
 ---
 
 This article compares three digital tools for Domain Storytelling:
 - A [template for Miro](https://miro.com/miroverse/domain-storytelling/)
-- [Egon](https://egon.io), an open-source modeling tool that runs in your browser
-- A set of [PlantUML macros](https://github.com/johthor/DomainStory-PlantUML)
+- [Egon](https://egon.io), an open-source modeling tool
+- A [PlantUML library](https://github.com/johthor/DomainStory-PlantUML)
 
-To compare the tools, I modeled the same Domain Story with each of them: A fine-grained, digitalized, as-is story about risk management at the fictional auto leasing company Alphorn – a case study from out [book](/book). It is not necessary to understand the background of the case study. I simply chose this example because despite being small it illustrates the notation and grammar of Domain Storytelling very well.
+To compare the tools, I modeled the same Domain Story with each of them: A fine-grained, digitalized, as-is story about risk management at the fictional auto leasing company Alphorn – a case study from our [book](/book). It is not necessary to understand the background of the case study. I chose this example because it is small yet it illustrates the notation and grammar of Domain Storytelling very well.
 
-> Disclaimer: I am responsible for two out of these three tools: Egon and the Miro template.
+> Disclaimer: I created two out of these three tools: Egon and the Miro template.
 
 # The Miro Template
 
 [Miro](https://miro.com) is a collaborative online whiteboard. It is a commercial tool but a free plan is available. The [Domain Storytelling template](https://miro.com/miroverse/domain-storytelling/) is part of the [Miroverse](https://miro.com/miroverse/), a community platform where any Miro user can publish a template. 
 
-I created the template because in my online trainings, some participants wanted to use Miro and I saw them struggle: Should actors and work objects be modeled with sticky notes? Is it a good idea to write the sequence number into the arrows label? Where do annotations go? The template provides answers to these (and more) questions. Of course, you could arrive at different (maybe even better) conclusions. Here's my solution:
+I created the template because in my online trainings, some participants wanted to use Miro and I saw them struggle: 
+
+- Should actors and work objects be modeled with sticky notes?
+- Is it a good idea to write the sequence number into the arrows label?
+- Where do annotations go?
+ 
+The template provides answers to these (and more) questions. Of course, you could arrive at different (maybe even better) conclusions. Here's my solution:
 
 ![A domain story modeled with Miro](/assets/images/articles/best-tool/01-miro-example.jpg)
 
-- Actors and work objects are modeled with icons and a label that are grouped together. Actors are larger than work objects, with actors taking up the space of a size S sticky note.
-- Sequence numbers are separate elements. Activities are modeled with arrows that start at sequence numbers.I recommend to snap the arrow to the sequence number so that they can be moved easily together. 
+- Actors and work objects are modeled with icons and labels that are grouped together. Actors are larger than work objects, with actors taking up the space of a size S sticky note.
+- Sequence numbers are separate elements. 
+- Activities are modeled with arrows. Every activity starts at a sequence number. I recommend to snap the arrow to the sequence number so that they can be easily moved together. 
 - Annotations are collected in the top right corner. The activities that they refer to are referenced by number.
 
 The template comes with a palette and a default icons set:
@@ -39,22 +51,21 @@ The template comes with a palette and a default icons set:
 
 The icon set should be adapted to the domain that is modeled. The template contains some suggestions for that.
 
-I would be interested to get your feedback on the template, e.i. leave a *comment* or a like:
-
+> I am interested in your feedback. Please leave a comment or a like on Miroverse:
 ![Miroverse](/assets/images/articles/best-tool/03-miroverse.png)
 
 # Egon – The Domain Story Modeler
 
-Egon was specifically built for modeling domain stories. Hence, it comes with a lot of features that help you to model quickly:
+Egon was specifically built for modeling domain stories. Hence, it comes with a lot of useful features (see [User Guide](https://egon.io/howto) for a full list of features):
 
 ![A domain story modeled with Egon](/assets/images/articles/best-tool/04-egon-example.egn.svg)
 
-- Activities are automatically numbered
-- Stories can be replayed sentence by sentence
-- Stories can be exported as (animated) SVG images and documented in other systems, e.g. Confluence.
-- Custom icon set
+- Activities are automatically numbered (speeds up modeling)
+- Stories can be replayed sentence by sentence (good for reviewing the story)
+- Stories can be exported as (animated) SVG images (for documentation in other systems, e.g. Confluence)
+- Customizable icon set (to make your stories more tangible)
 
-Egon runs in your browser, is open source, does not require an account, does not track you, and does not process or store your data. If you don't want to use the version we provide at [https://egon.io](https://egon.io), you can run it locally as a Docker container or host it on your own webserver.
+Egon is open source software (see our [GitHub Repository](https://github.com/WPS/egon.io). It runs in your browser, does not require an account, does not track you, and does not process or store your data. If you don't want to use the version we provide at [https://egon.io](https://egon.io), you can run it locally as a Docker container or host it on your own webserver.
 
 # PlantUML Library
 
@@ -62,7 +73,7 @@ PlantUML is a popular UML modeling tool. Thanks to its extensibility, it also su
 
 In contrast to the other two tools, the visual representation of the model is not created by hand. Instead, it is generated from a textual description. This approach is called "diagrams as code". Here's the code for the risk management example and the corresponding diagram:
 
-````
+```
 @startuml
 'v0.3.1
 !include <domainstory/Domainstory>
@@ -93,11 +104,12 @@ activity(_, riskmanager, passes on, Document: voted contract, to, salesperson)
 activity(_, salesperson, signs, Document: contract)
 
 @enduml
-````
+```
+
 
 ![A domain story modeled with PlantUML](/assets/images/articles/best-tool/05-PlantUML-example.svg)
 
-The source code contains terms like "activity", "person" and "system". This means that a diagram is specified with a *modeling langinge* (rather than defining mere visual elements rectangles, lines etc.). This modeling language is defined by a set of PlantuML macros developed by Johannes Thorn. His public [GitHub repository](https://github.com/johthor/DomainStory-PlantUML) contains excellent documentation of his library.
+The source code contains terms like "activity", "person" and "system". This means that a diagram is specified with a *modeling language* (rather than mere visual elements like rectangles and lines). This modeling language is defined by a set of PlantuML macros developed by Johannes Thorn. His public [GitHub repository](https://github.com/johthor/DomainStory-PlantUML) contains excellent documentation of his library.
 
 Beginning with version 0.3, PlantUML fully supports the syntax of Domain Storytelling. It even provides auto-numbering of activities, parallel activities, an extensible icon set, and sentences with multiple work objects. 
 
