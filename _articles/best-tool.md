@@ -10,6 +10,16 @@ header:
 author: hofstef
 # perma-link is generated from file name
 # see https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-collection for more layout options
+gallery01:
+  - url: /assets/images/articles/best-tool/01-miro-example.jpg
+    image_path: /assets/images/articles/best-tool/01-miro-example-small.jpg
+    alt: "Miro Example"
+    title: "Miro Example"
+gallery02:
+  - url: /assets/images/articles/best-tool/02-palette.jpg
+    image_path: /assets/images/articles/best-tool/02-palette-small.jpg
+    alt: "Miro Template - Palette"
+    title: "Miro Template - Palette"
 galleryPlantUML:
   - url: /assets/images/articles/best-tool/05-PlantUML-example.svg
     image_path: /assets/images/articles/best-tool/05-PlantUML-example.svg
@@ -38,7 +48,7 @@ I created the template because in my online trainings, some participants wanted 
  
 The template provides answers to these (and more) questions. Of course, you could arrive at different (maybe even better) conclusions. Here's my solution:
 
-![A domain story modeled with Miro](/assets/images/articles/best-tool/01-miro-example.jpg)
+{% include gallery id="gallery01" caption="A domain story modeled with Miro." %}
 
 - Actors and work objects are modeled with icons and labels that are grouped together. Actors are larger than work objects, with actors taking up the space of a size S sticky note.
 - Sequence numbers are separate elements. 
@@ -47,7 +57,7 @@ The template provides answers to these (and more) questions. Of course, you coul
 
 The template comes with a palette and a default icons set:
 
-![The pallette](/assets/images/articles/best-tool/02-palette.jpg)
+{% include gallery id="gallery02" caption="The palette." %}
 
 The icon set should be adapted to the domain that is modeled. The template contains some suggestions for that.
 
@@ -106,8 +116,7 @@ activity(_, salesperson, signs, Document: contract)
 @enduml
 ```
 
-
-![A domain story modeled with PlantUML](/assets/images/articles/best-tool/05-PlantUML-example.svg)
+{% include gallery id="galleryPlantUML" caption="A domain story modeled with PlantUML." %}
 
 The source code contains terms like "activity", "person" and "system". This means that a diagram is specified with a *modeling language* (rather than mere visual elements like rectangles and lines). This modeling language is defined by a set of PlantuML macros developed by Johannes Thorn. His public [GitHub repository](https://github.com/johthor/DomainStory-PlantUML) contains excellent documentation of his library.
 
