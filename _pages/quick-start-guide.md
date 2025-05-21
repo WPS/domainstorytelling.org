@@ -151,7 +151,7 @@ The pictographic sentences are complemented by textual annotations. Where necess
 
 ## Groups
 
-![A typical group](/assets/images/quick-start-guide/02fig09-buildingblocks-groups-optional.svg)
+![A typical group](/assets/images/quick-start-guide/02fig09-buildingblocks-groups-optional.egn.svg)
 
 A group is represented as an outline that clusters parts of a story that somehow belong together. The group can take any form, for example a rectangle, a circle, or a free-form shape. To describe the meaning of a group, label it accordingly. Here are some examples of what can be expressed by groups:
 
@@ -169,7 +169,7 @@ Activities connect actors and work objects to form *sentences*. Every sentence s
 
 The basic syntax is: *subject* – *predicate* – *object*. More complex syntax is allowed as well:
 
-![Possible sentence structures](/assets/images/quick-start-guide/02fig15-sentences.svg)
+![Possible sentence structures](/assets/images/quick-start-guide/02fig15-sentences.egn.svg)
 
 Every actor appears only once in the domain story. But for every activity, we draw a separate work object (even if the same work object already exists in a previous sentence). If you follow that rule, arranging work objects and arrows becomes a lot easier. There is another good reason for this. As the story evolves, a work object may change its status or representation.
 
