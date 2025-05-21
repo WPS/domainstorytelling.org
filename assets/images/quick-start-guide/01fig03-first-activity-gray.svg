@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   sodipodi:docname="03.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="01fig03-first-activity-gray.svg"
    id="svg819"
    version="1.1"
    viewBox="284 -131.98438 720 175.05009"
    height="203"
-   width="720">
+   width="720"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata823">
     <rdf:RDF>
@@ -22,18 +22,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
      inkscape:current-layer="svg819"
      inkscape:window-maximized="0"
-     inkscape:window-y="23"
+     inkscape:window-y="25"
      inkscape:window-x="0"
-     inkscape:cy="186.48329"
-     inkscape:cx="411.60793"
-     inkscape:zoom="0.62577526"
+     inkscape:cy="120.17009"
+     inkscape:cx="225.70017"
+     inkscape:zoom="0.81967152"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -41,7 +41,7 @@
      showgrid="false"
      id="namedview821"
      inkscape:window-height="620"
-     inkscape:window-width="821"
+     inkscape:window-width="824"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -49,7 +49,10 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     pagecolor="#ffffff"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs13">
     <marker
@@ -122,12 +125,13 @@
         </svg>
         <text
            id="text37"
-           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:#808080"
            class="djs-label"
-           lineHeight="1.2"><tspan
+           lineHeight="1.2"
+           x="-6"><tspan
              id="tspan35"
              y="75"
-             x="18.070312">cashier</tspan></text>
+             x="12.070312">cashier</tspan></text>
       </g>
       <rect
          id="rect41"
@@ -165,7 +169,7 @@
            points="576,88 670,88 701,163 " />
         <text
            id="text93"
-           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:black"
+           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#000000"
            class="djs-label"
            hyphens="auto"
            overflowWrap="break-word"
@@ -222,12 +226,13 @@
         </svg>
         <text
            id="text521"
-           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:black"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:#000000"
            class="djs-label"
-           lineHeight="1.2"><tspan
+           lineHeight="1.2"
+           x="-14"><tspan
              id="tspan519"
              y="74.75"
-             x="23.492188">show</tspan></text>
+             x="9.4921885">show</tspan></text>
       </g>
       <rect
          id="rect525"
@@ -247,68 +252,38 @@
          x="-6" />
     </g>
   </g>
-  <g
-     transform="translate(-50.5,-188.45933)"
-     id="g633"
-     class="djs-group">
-    <g
-       id="g631"
-       style="display:block"
-       data-element-id="connection_6507"
-       class="djs-element djs-connection">
-      <g
-         id="g625"
-         class="djs-visual">
-        <polyline
-           id="polyline611"
-           style="fill:none;stroke:black;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-black-black-4slfhhwe6hy0vzi47oxz93xz9)"
-           points="380,163 420,88 495,88 " />
-        <text
-           id="text615"
-           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:black"
-           class="djs-label"
-           hyphens="auto"
-           overflowWrap="break-word"
-           wordWrap="break-word"
-           lineHeight="1.2"><tspan
-             id="tspan613"
-             y="103"
-             x="438.75">tells</tspan></text>
-        <text
-           id="text619"
-           style="font-weight:normal;font-size:150px;font-family:Courier;fill:black"
-           class="djs-labelNumber"
-           position="absolute"
-           lineHeight="1.2"><tspan
-             id="tspan617"
-             y="84"
-             x="406.5">.</tspan></text>
-        <text
-           id="text623"
-           style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#ffffff"
-           class="djs-labelNumber"
-           position="absolute"
-           backgroundColor="green"
-           lineHeight="1.2"><tspan
-             id="tspan621"
-             y="79"
-             x="445.5">01</tspan></text>
-      </g>
-      <polyline
-         id="polyline627"
-         style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
-         class="djs-hit djs-hit-stroke"
-         points="380,163 420,88 495,88 " />
-      <rect
-         id="rect629"
-         style="fill:none"
-         class="djs-outline"
-         height="87"
-         width="127"
-         y="82"
-         x="374" />
-    </g>
-  </g>
+  <polyline
+     id="polyline611"
+     style="fill:none;stroke:#000000;stroke-width:1.5px;stroke-linejoin:round;marker-end:url(#activity-black-black-4slfhhwe6hy0vzi47oxz93xz9)"
+     points="380,163 420,88 495,88 "
+     transform="translate(-50.5,-188.45933)" />
+  <text
+     id="text615"
+     style="font-weight:normal;font-size:11px;font-family:Helvetica, sans-serif;fill:#000000"
+     class="djs-label"
+     hyphens="auto"
+     overflowWrap="break-word"
+     wordWrap="break-word"
+     lineHeight="1.2"
+     x="-50.5"
+     y="-188.45934"><tspan
+       id="tspan613"
+       y="-85.459328"
+       x="388.25">tells</tspan></text>
+  <polyline
+     id="polyline627"
+     style="fill:none;stroke:#ffffff;stroke-width:15px;stroke-opacity:0"
+     class="djs-hit djs-hit-stroke"
+     points="380,163 420,88 495,88 "
+     transform="translate(-50.5,-188.45933)" />
+  <rect
+     id="rect629"
+     style="fill:none"
+     class="djs-outline"
+     height="87"
+     width="127"
+     y="-106.45933"
+     x="323.5" />
   <g
      transform="rotate(-29.17872,72.902794,13.154125)"
      id="g713"
@@ -371,7 +346,7 @@
         </svg>
         <text
            id="text747"
-           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:#808080"
            class="djs-label"
            lineHeight="1.2"><tspan
              id="tspan745"
@@ -424,7 +399,7 @@
            d="M 0,0 M 10,0 H 0 v 42 h 10" />
         <text
            id="text767"
-           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:gray"
+           style="font-weight:normal;font-size:12px;font-family:Helvetica, sans-serif;fill:#808080"
            class="djs-label"
            lineHeight="1.2"><tspan
              id="tspan763"
@@ -452,4 +427,40 @@
          x="-6" />
     </g>
   </g>
+  <text
+     lineHeight="1.2"
+     position="absolute"
+     class="djs-labelNumber"
+     style="font-weight:normal;font-size:144.889px;font-family:Courier;fill:#ffffff;stroke-width:0.965928"
+     id="text69"
+     x="-23.32851"
+     y="-176.78951"><tspan
+       x="295.42789"
+       y="-35.763954"
+       id="tspan69"
+       style="stroke-width:0.965928">.</tspan></text>
+  <text
+     lineHeight="1.2"
+     position="absolute"
+     class="djs-labelNumber"
+     style="font-weight:normal;font-size:48.2964px;font-family:'Courier New';fill:#000000;stroke-width:0.965928"
+     id="text70-7"
+     x="-23.32851"
+     y="-176.78951"><tspan
+       x="324.40573"
+       y="-32.866173"
+       id="tspan70-9"
+       style="stroke-width:0.965928">o</tspan></text>
+  <text
+     lineHeight="1.2"
+     position="absolute"
+     class="djs-labelNumber"
+     style="font-weight:normal;font-size:10.6252px;font-family:Helvetica, sans-serif;fill:#000000;stroke-width:0.965928"
+     id="text71"
+     x="-23.32851"
+     y="-176.78951"><tspan
+       x="335.99689"
+       y="-39.62767"
+       id="tspan71"
+       style="stroke-width:0.965928">1</tspan></text>
 </svg>

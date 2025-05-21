@@ -95,7 +95,7 @@ Matthew nods in agreement.
 
 Within a few minutes, the whiteboard is filled with a story about a moviegoer who buys tickets from a cashier at the box office. Icons and arrows are rearranged during the session. Finally, Anna retells the story from the beginning.
 
-![The whole story](/assets/images/quick-start-guide/01fig07-whole-story.svg)
+![The whole story](/assets/images/quick-start-guide/01fig07-whole-story.egn.svg)
 
 **Matthew:** “Yes, that's right. But I forgot about the international movies.”
 
@@ -178,7 +178,7 @@ Chapter 2 of the [Domain Storytelling book](/book) covers the pictographic langu
 
 # Scenario-based Modeling
 
-## Avoid Premature Abstracions
+## Avoid Premature Abstractions
 
 Most business process modeling approaches show what can *possibly* happen in a process:
 
@@ -246,7 +246,7 @@ Other artifacts of the software development process will crystallize and grow ar
 Chapter 6 of the [Domain Storytelling book](/book) explains in much more depth what happens before, during, and after a workshop. It also covers remote workshops, sizing of domain stories, and how to deal with difficult situations.
 {: .notice--primary}
 
-Chapter 7 of the [Domain Storytelling book](/book) covers the relationshops between Domain Storytelling an other collaborative modeling techniques, including when to use which method and how to combine them.
+Chapter 7 of the [Domain Storytelling book](/book) covers the relationships between Domain Storytelling an other collaborative modeling techniques, including when to use which method and how to combine them.
 {: .notice--primary}
 
 # Tools
