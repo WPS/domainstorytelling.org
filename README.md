@@ -6,16 +6,16 @@ The website for Domain Storytelling [![CC BY 4.0][cc-by-shield]][cc-by]
 
 ### Setup environment
 
-Install Docker Desktop on Windows:
+Install Rancher Desktop on Windows:
 
 ```pwsh
-\$ winget install -e --id Docker.DockerDesktop
+\$ winget install -e --id suse.RancherDesktop
 ```
 
-Install Docker Desktop on macOS:
+Install Rancher Desktop on macOS:
 
 ```fish
-\$ brew install --cask docker
+\$ brew install --cask rancher
 ```
 
 ### Day-to-day Development
