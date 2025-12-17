@@ -12,6 +12,10 @@ header:
 
 <!-- ### Vor dem 2. Druck -->
 
+#### Kapitel 2: »Die Bildsprache«
+
+Seite 31: Im ersten Absatz heißt es »Dos and Dont's«, es muss aber heißen »Dos and Don'ts«
+
 #### Kapitel 11: »Mit Anforderungen arbeiten«
 
 Seite 150: Die Domain Story Alphorn 6 (Abb. 11-5) beschreibt als vierte Aktivität "Kunde lehnt Vertrag ab und gibt ihn zurück an Verkäufer". In dieser Aktivität soll der Kunde jedoch den Vertrag unterschreiben und an den Verkäufer zurückgeben.
