@@ -41,7 +41,7 @@ Published by dpunkt. Translated by the authors. Also available is a [short bookl
 
 ![Portuguese Cover of book *Domain Storytelling*](https://altabooks.com.br/wp-content/uploads/2024/07/CAPA_1000px_STORYTELLING_DE_DOMINIO.webp){: .align-left width="18%"}
 
-Published by Alta Books.
+Published by Alta Books. Translated by Eveline Machado.
 
 [<i class="fas fa-book"></i> Alta Books](https://altabooks.com.br/produto/storytelling-de-dominio/){: .btn .btn--primary .btn--large}
 [<i class="fab fa-amazon"></i> Amazon BR](https://www.amazon.com.br/Storytelling-Domínio-Colaborativo-Softwares-Baseados/dp/8550821195){: .btn .btn--primary .btn--large}
