@@ -34,6 +34,10 @@ Page 109. In Figure 8.2 “risk assesment” should be “risk assessment” i
 
 Page 112. In Figure 8.5 “risk assesment” should be “risk assessment” in both sentence 03 and sentence 04.
 
+#### Chapter 12, “Modeling in Code”
+
+Page 165. In sidebar “Back to the Leasing Example” the text “[…] domain story with bounded contexts Alphorn 1a […] context ‘offering’ now […]” should be “[…] domain story with subdomains Alphorn 1a […] subdomain ‘offering’ now […]”. So instead of “bounded context” we mean “subdomain” here.
+
 #### Chapter 13, “Supporting Organizational Change”
 
 Page 189. In Figure 13.6 “risk assesment” should be “risk assessment” in both sentence 03 and sentence 04.
